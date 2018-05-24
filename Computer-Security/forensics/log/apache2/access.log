@@ -1,0 +1,8 @@
+128.138.244.110 - - [26/Apr/2017:16:47:16 -0400] "GET / HTTP/1.1" 200 153 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+128.138.244.110 - - [26/Apr/2017:16:47:16 -0400] "GET /favicon.ico HTTP/1.1" 404 300 "http://54.237.178.0/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36"
+58.225.75.151 - - [26/Apr/2017:20:12:03 -0400] "GET /muieblackcat HTTP/1.1" 404 303 "-" "-"
+58.225.75.151 - - [26/Apr/2017:20:12:04 -0400] "GET //phpMyAdmin/scripts/setup.php HTTP/1.1" 404 313 "-" "-"
+58.225.75.151 - - [26/Apr/2017:20:12:04 -0400] "GET //phpmyadmin/scripts/setup.php HTTP/1.1" 404 313 "-" "-"
+58.225.75.151 - - [26/Apr/2017:20:12:05 -0400] "GET //pma/scripts/setup.php HTTP/1.1" 404 307 "-" "-"
+58.225.75.151 - - [26/Apr/2017:20:12:05 -0400] "GET //myadmin/scripts/setup.php HTTP/1.1" 404 310 "-" "-"
+58.225.75.151 - - [26/Apr/2017:20:12:05 -0400] "GET //MyAdmin/scripts/setup.php HTTP/1.1" 404 310 "-" "-"

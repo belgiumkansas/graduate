@@ -1,0 +1,16 @@
+# Problem 1:
+key=BOULDER
+
+show work here..
+
+# Problem 2
+part_a_var_english=0.0000000
+part_b_var_plaintext=0.0000000
+part_c_var_ciphertexts=[0.0000000, 0.0000000, 0.0000000, 0.0000000, 0.0000000]
+part_c_explain="briefly_describe_and_explain_trend ..."
+part_d_means=[0.0000000, 0.0000000, 0.0000000, 0.0000000, 0.0000000]
+part_d_explain="briefly_compare_and_explain_results ..."
+part_e_means=[0.0000000, 0.0000000, 0.0000000, 0.0000000]
+part_e_explain="briefly_explain_attack_variant ..."
+
+show_your_work_here ...

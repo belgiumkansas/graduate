@@ -1,0 +1,272 @@
+Nov 24 21:20:03 debian kernel: [    0.000000] Entering add_active_range(0, 0, 65520) 0 entries of 256 used
+Nov 24 21:20:03 debian kernel: [    0.000000] On node 0 totalpages: 65520
+Nov 24 21:20:03 debian kernel: [    0.000000]   DMA zone: 32 pages used for memmap
+Nov 24 21:20:03 debian kernel: [    0.000000]   DMA zone: 0 pages reserved
+Nov 24 21:20:03 debian kernel: [    0.000000]   DMA zone: 4064 pages, LIFO batch:0
+Nov 24 21:20:03 debian kernel: [    0.000000]   Normal zone: 480 pages used for memmap
+Nov 24 21:20:03 debian kernel: [    0.000000]   Normal zone: 60944 pages, LIFO batch:15
+Nov 24 21:20:03 debian kernel: [    0.000000]   HighMem zone: 0 pages used for memmap
+Nov 24 21:20:03 debian kernel: [    0.000000]   Movable zone: 0 pages used for memmap
+Nov 24 21:20:03 debian kernel: [    0.000000] NR_CPUS: 8, nr_cpu_ids: 1
+Nov 24 21:20:03 debian kernel: [    0.000000] mapped APIC to ffffb000 (fee00000)
+Nov 24 21:20:03 debian kernel: [    0.004000] CPA: page pool initialized 1 of 1 pages preallocated
+Nov 24 21:20:03 debian kernel: [    0.630073] CPU0 attaching sched-domain:
+Nov 24 21:20:03 debian kernel: [    0.630086]  domain 0: span 0
+Nov 24 21:20:03 debian kernel: [    0.630093]   groups: 0
+Nov 24 21:20:03 debian kernel: [    0.658589] ACPI: EC: Look up EC in DSDT
+Nov 24 21:20:03 debian kernel: [    0.710244] ACPI: PCI Interrupt Routing Table [\_SB_.PCI0._PRT]
+Nov 24 21:20:03 debian kernel: [    1.240161] pci 0000:00:02.0: Boot video device
+Nov 24 21:20:03 debian kernel: [    1.313849] Switched to high resolution mode on CPU 0
+Nov 24 21:20:03 debian kernel: [    2.960649] PCI: setting IRQ 11 as level-triggered
+Nov 24 21:20:03 debian kernel: [    2.973071] libata version 3.00 loaded.
+Nov 24 21:20:03 debian kernel: [    2.990242] ohci_hcd: 2006 August 04 USB 1.1 'Open' Host Controller (OHCI) Driver
+Nov 24 21:20:03 debian kernel: [    2.990801] PCI: setting IRQ 5 as level-triggered
+Nov 24 21:20:03 debian kernel: [    3.304624] Probing IDE interface ide0...
+Nov 24 21:20:03 debian kernel: [    4.265377] hda: host max PIO4 wanted PIO255(auto-tune) selected PIO4
+Nov 24 21:20:03 debian kernel: [    4.268842] Probing IDE interface ide1...
+Nov 24 21:20:03 debian kernel: [    5.677682] hdc: host max PIO4 wanted PIO255(auto-tune) selected PIO4
+Nov 24 21:20:03 debian kernel: [    9.295982] PCI: setting IRQ 9 as level-triggered
+Nov 24 21:20:03 debian kernel: [    9.296247] PCI: Setting latency timer of device 0000:00:05.0 to 64
+Nov 24 21:20:57 debian kernel: [   68.000315] eth0: no IPv6 routers present
+Nov 24 22:24:14 debian kernel: [    0.000000] Entering add_active_range(0, 0, 65520) 0 entries of 256 used
+Nov 24 22:24:14 debian kernel: [    0.000000] On node 0 totalpages: 65520
+Nov 24 22:24:14 debian kernel: [    0.000000]   DMA zone: 32 pages used for memmap
+Nov 24 22:24:14 debian kernel: [    0.000000]   DMA zone: 0 pages reserved
+Nov 24 22:24:14 debian kernel: [    0.000000]   DMA zone: 4064 pages, LIFO batch:0
+Nov 24 22:24:14 debian kernel: [    0.000000]   Normal zone: 480 pages used for memmap
+Nov 24 22:24:14 debian kernel: [    0.000000]   Normal zone: 60944 pages, LIFO batch:15
+Nov 24 22:24:14 debian kernel: [    0.000000]   HighMem zone: 0 pages used for memmap
+Nov 24 22:24:14 debian kernel: [    0.000000]   Movable zone: 0 pages used for memmap
+Nov 24 22:24:14 debian kernel: [    0.000000] NR_CPUS: 8, nr_cpu_ids: 1
+Nov 24 22:24:14 debian kernel: [    0.000000] mapped APIC to ffffb000 (fee00000)
+Nov 24 22:24:14 debian kernel: [    0.004000] CPA: page pool initialized 1 of 1 pages preallocated
+Nov 24 22:24:14 debian kernel: [    0.903128] CPU0 attaching sched-domain:
+Nov 24 22:24:14 debian kernel: [    0.903152]  domain 0: span 0
+Nov 24 22:24:14 debian kernel: [    0.903168]   groups: 0
+Nov 24 22:24:14 debian kernel: [    0.948371] ACPI: EC: Look up EC in DSDT
+Nov 24 22:24:14 debian kernel: [    1.119784] ACPI: PCI Interrupt Routing Table [\_SB_.PCI0._PRT]
+Nov 24 22:24:14 debian kernel: [    2.055281] Switched to high resolution mode on CPU 0
+Nov 24 22:24:14 debian kernel: [    2.317138] pci 0000:00:02.0: Boot video device
+Nov 24 22:24:14 debian kernel: [    4.504638] libata version 3.00 loaded.
+Nov 24 22:24:14 debian kernel: [    4.574444] Probing IDE interface ide0...
+Nov 24 22:24:14 debian kernel: [    5.005635] ohci_hcd: 2006 August 04 USB 1.1 'Open' Host Controller (OHCI) Driver
+Nov 24 22:24:14 debian kernel: [    5.546521] hda: host max PIO4 wanted PIO255(auto-tune) selected PIO4
+Nov 24 22:24:14 debian kernel: [    5.548050] Probing IDE interface ide1...
+Nov 24 22:24:14 debian kernel: [    7.021380] hdc: host max PIO4 wanted PIO255(auto-tune) selected PIO4
+Nov 24 22:24:14 debian kernel: [    7.035849] PCI: setting IRQ 11 as level-triggered
+Nov 24 22:24:14 debian kernel: [    7.035930] PCI: Setting latency timer of device 0000:00:03.0 to 64
+Nov 24 22:24:14 debian kernel: [    7.045149] PCI: setting IRQ 5 as level-triggered
+Nov 24 22:24:14 debian kernel: [    7.045241] PCI: Setting latency timer of device 0000:00:06.0 to 64
+Nov 24 22:24:14 debian kernel: [    7.228679] PCI: Setting latency timer of device 0000:00:0b.0 to 64
+Nov 24 22:24:14 debian kernel: [   13.059535] PCI: setting IRQ 9 as level-triggered
+Nov 24 22:24:14 debian kernel: [   13.059609] PCI: Setting latency timer of device 0000:00:05.0 to 64
+Nov 24 22:26:37 debian kernel: [    0.000000] Entering add_active_range(0, 0, 65520) 0 entries of 256 used
+Nov 24 22:26:37 debian kernel: [    0.000000] On node 0 totalpages: 65520
+Nov 24 22:26:37 debian kernel: [    0.000000]   DMA zone: 32 pages used for memmap
+Nov 24 22:26:37 debian kernel: [    0.000000]   DMA zone: 0 pages reserved
+Nov 24 22:26:37 debian kernel: [    0.000000]   DMA zone: 4064 pages, LIFO batch:0
+Nov 24 22:26:37 debian kernel: [    0.000000]   Normal zone: 480 pages used for memmap
+Nov 24 22:26:37 debian kernel: [    0.000000]   Normal zone: 60944 pages, LIFO batch:15
+Nov 24 22:26:37 debian kernel: [    0.000000]   HighMem zone: 0 pages used for memmap
+Nov 24 22:26:37 debian kernel: [    0.000000]   Movable zone: 0 pages used for memmap
+Nov 24 22:26:37 debian kernel: [    0.000000] NR_CPUS: 8, nr_cpu_ids: 1
+Nov 24 22:26:37 debian kernel: [    0.000000] mapped APIC to ffffb000 (fee00000)
+Nov 24 22:26:37 debian kernel: [    0.004000] CPA: page pool initialized 1 of 1 pages preallocated
+Nov 24 22:26:37 debian kernel: [    0.919660] CPU0 attaching sched-domain:
+Nov 24 22:26:37 debian kernel: [    0.919684]  domain 0: span 0
+Nov 24 22:26:37 debian kernel: [    0.919698]   groups: 0
+Nov 24 22:26:37 debian kernel: [    0.964473] ACPI: EC: Look up EC in DSDT
+Nov 24 22:26:37 debian kernel: [    1.137139] ACPI: PCI Interrupt Routing Table [\_SB_.PCI0._PRT]
+Nov 24 22:26:37 debian kernel: [    2.062729] Switched to high resolution mode on CPU 0
+Nov 24 22:26:37 debian kernel: [    2.331192] pci 0000:00:02.0: Boot video device
+Nov 24 22:26:37 debian kernel: [    4.562222] libata version 3.00 loaded.
+Nov 24 22:26:37 debian kernel: [    4.641622] Probing IDE interface ide0...
+Nov 24 22:26:37 debian kernel: [    5.056077] ohci_hcd: 2006 August 04 USB 1.1 'Open' Host Controller (OHCI) Driver
+Nov 24 22:26:37 debian kernel: [    5.642911] hda: host max PIO4 wanted PIO255(auto-tune) selected PIO4
+Nov 24 22:26:37 debian kernel: [    5.648064] Probing IDE interface ide1...
+Nov 24 22:26:37 debian kernel: [    7.155502] hdc: host max PIO4 wanted PIO255(auto-tune) selected PIO4
+Nov 24 22:26:37 debian kernel: [    7.176224] PCI: setting IRQ 11 as level-triggered
+Nov 24 22:26:37 debian kernel: [    7.176305] PCI: Setting latency timer of device 0000:00:03.0 to 64
+Nov 24 22:26:37 debian kernel: [    7.182032] PCI: setting IRQ 5 as level-triggered
+Nov 24 22:26:37 debian kernel: [    7.182124] PCI: Setting latency timer of device 0000:00:06.0 to 64
+Nov 24 22:26:37 debian kernel: [    7.368073] PCI: Setting latency timer of device 0000:00:0b.0 to 64
+Nov 24 22:26:37 debian kernel: [   12.682370] PCI: setting IRQ 9 as level-triggered
+Nov 24 22:26:37 debian kernel: [   12.682451] PCI: Setting latency timer of device 0000:00:05.0 to 64
+Nov 24 22:27:05 debian kernel: [   48.494192] eth1: no IPv6 routers present
+Nov 24 22:29:48 debian kernel: [    0.000000] Entering add_active_range(0, 0, 65520) 0 entries of 256 used
+Nov 24 22:29:48 debian kernel: [    0.000000] On node 0 totalpages: 65520
+Nov 24 22:29:48 debian kernel: [    0.000000]   DMA zone: 32 pages used for memmap
+Nov 24 22:29:48 debian kernel: [    0.000000]   DMA zone: 0 pages reserved
+Nov 24 22:29:48 debian kernel: [    0.000000]   DMA zone: 4064 pages, LIFO batch:0
+Nov 24 22:29:48 debian kernel: [    0.000000]   Normal zone: 480 pages used for memmap
+Nov 24 22:29:48 debian kernel: [    0.000000]   Normal zone: 60944 pages, LIFO batch:15
+Nov 24 22:29:48 debian kernel: [    0.000000]   HighMem zone: 0 pages used for memmap
+Nov 24 22:29:48 debian kernel: [    0.000000]   Movable zone: 0 pages used for memmap
+Nov 24 22:29:48 debian kernel: [    0.000000] NR_CPUS: 8, nr_cpu_ids: 1
+Nov 24 22:29:48 debian kernel: [    0.000000] mapped APIC to ffffb000 (fee00000)
+Nov 24 22:29:48 debian kernel: [    0.004000] CPA: page pool initialized 1 of 1 pages preallocated
+Nov 24 22:29:48 debian kernel: [    0.915694] CPU0 attaching sched-domain:
+Nov 24 22:29:48 debian kernel: [    0.915719]  domain 0: span 0
+Nov 24 22:29:48 debian kernel: [    0.915735]   groups: 0
+Nov 24 22:29:48 debian kernel: [    0.964031] ACPI: EC: Look up EC in DSDT
+Nov 24 22:29:48 debian kernel: [    1.132956] ACPI: PCI Interrupt Routing Table [\_SB_.PCI0._PRT]
+Nov 24 22:29:48 debian kernel: [    2.280272] Switched to high resolution mode on CPU 0
+Nov 24 22:29:48 debian kernel: [    2.641477] pci 0000:00:02.0: Boot video device
+Nov 24 22:29:48 debian kernel: [    5.207629] libata version 3.00 loaded.
+Nov 24 22:29:48 debian kernel: [    5.372213] Probing IDE interface ide0...
+Nov 24 22:29:48 debian kernel: [    5.770657] ohci_hcd: 2006 August 04 USB 1.1 'Open' Host Controller (OHCI) Driver
+Nov 24 22:29:48 debian kernel: [    6.365140] hda: host max PIO4 wanted PIO255(auto-tune) selected PIO4
+Nov 24 22:29:48 debian kernel: [    6.367678] Probing IDE interface ide1...
+Nov 24 22:29:48 debian kernel: [    7.799082] hdc: host max PIO4 wanted PIO255(auto-tune) selected PIO4
+Nov 24 22:29:48 debian kernel: [    7.806679] PCI: setting IRQ 11 as level-triggered
+Nov 24 22:29:48 debian kernel: [    7.806787] PCI: Setting latency timer of device 0000:00:03.0 to 64
+Nov 24 22:29:48 debian kernel: [    7.815374] PCI: setting IRQ 5 as level-triggered
+Nov 24 22:29:48 debian kernel: [    7.815480] PCI: Setting latency timer of device 0000:00:06.0 to 64
+Nov 24 22:29:48 debian kernel: [    8.005209] PCI: Setting latency timer of device 0000:00:0b.0 to 64
+Nov 24 22:29:48 debian kernel: [   14.707550] PCI: setting IRQ 9 as level-triggered
+Nov 24 22:29:48 debian kernel: [   14.707649] PCI: Setting latency timer of device 0000:00:05.0 to 64
+Nov 24 22:29:59 debian kernel: [   36.265235] eth1: no IPv6 routers present
+Nov 24 23:08:41 debian kernel: [    0.000000] Entering add_active_range(0, 0, 65520) 0 entries of 256 used
+Nov 24 23:08:41 debian kernel: [    0.000000] On node 0 totalpages: 65520
+Nov 24 23:08:41 debian kernel: [    0.000000]   DMA zone: 32 pages used for memmap
+Nov 24 23:08:41 debian kernel: [    0.000000]   DMA zone: 0 pages reserved
+Nov 24 23:08:41 debian kernel: [    0.000000]   DMA zone: 4064 pages, LIFO batch:0
+Nov 24 23:08:41 debian kernel: [    0.000000]   Normal zone: 480 pages used for memmap
+Nov 24 23:08:41 debian kernel: [    0.000000]   Normal zone: 60944 pages, LIFO batch:15
+Nov 24 23:08:41 debian kernel: [    0.000000]   HighMem zone: 0 pages used for memmap
+Nov 24 23:08:41 debian kernel: [    0.000000]   Movable zone: 0 pages used for memmap
+Nov 24 23:08:41 debian kernel: [    0.000000] NR_CPUS: 8, nr_cpu_ids: 1
+Nov 24 23:08:41 debian kernel: [    0.000000] mapped APIC to ffffb000 (fee00000)
+Nov 24 23:08:41 debian kernel: [    0.004000] CPA: page pool initialized 1 of 1 pages preallocated
+Nov 24 23:08:41 debian kernel: [    0.609972] CPU0 attaching sched-domain:
+Nov 24 23:08:41 debian kernel: [    0.609984]  domain 0: span 0
+Nov 24 23:08:41 debian kernel: [    0.609991]   groups: 0
+Nov 24 23:08:41 debian kernel: [    0.640652] ACPI: EC: Look up EC in DSDT
+Nov 24 23:08:41 debian kernel: [    0.804741] ACPI: PCI Interrupt Routing Table [\_SB_.PCI0._PRT]
+Nov 24 23:08:41 debian kernel: [    1.774065] pci 0000:00:02.0: Boot video device
+Nov 24 23:08:41 debian kernel: [    1.785119] Switched to high resolution mode on CPU 0
+Nov 24 23:08:41 debian kernel: [    3.505857] libata version 3.00 loaded.
+Nov 24 23:08:41 debian kernel: [    3.567739] Probing IDE interface ide0...
+Nov 24 23:08:41 debian kernel: [    3.722176] ohci_hcd: 2006 August 04 USB 1.1 'Open' Host Controller (OHCI) Driver
+Nov 24 23:08:41 debian kernel: [    4.547277] hda: host max PIO4 wanted PIO255(auto-tune) selected PIO4
+Nov 24 23:08:41 debian kernel: [    4.550441] Probing IDE interface ide1...
+Nov 24 23:08:41 debian kernel: [    5.964441] hdc: host max PIO4 wanted PIO255(auto-tune) selected PIO4
+Nov 24 23:08:41 debian kernel: [    5.968386] PCI: setting IRQ 11 as level-triggered
+Nov 24 23:08:41 debian kernel: [    5.968439] PCI: Setting latency timer of device 0000:00:03.0 to 64
+Nov 24 23:08:41 debian kernel: [    5.971732] PCI: setting IRQ 5 as level-triggered
+Nov 24 23:08:41 debian kernel: [    5.971950] PCI: Setting latency timer of device 0000:00:06.0 to 64
+Nov 24 23:08:41 debian kernel: [    6.180071] PCI: Setting latency timer of device 0000:00:0b.0 to 64
+Nov 24 23:08:41 debian kernel: [   10.406336] PCI: setting IRQ 9 as level-triggered
+Nov 24 23:08:41 debian kernel: [   10.406473] PCI: Setting latency timer of device 0000:00:05.0 to 64
+Nov 24 23:08:52 debian kernel: [   27.901628] eth1: no IPv6 routers present
+Nov 24 23:36:23 debian kernel: [    0.000000] Entering add_active_range(0, 0, 65520) 0 entries of 256 used
+Nov 24 23:36:23 debian kernel: [    0.000000] On node 0 totalpages: 65520
+Nov 24 23:36:23 debian kernel: [    0.000000]   DMA zone: 32 pages used for memmap
+Nov 24 23:36:23 debian kernel: [    0.000000]   DMA zone: 0 pages reserved
+Nov 24 23:36:23 debian kernel: [    0.000000]   DMA zone: 4064 pages, LIFO batch:0
+Nov 24 23:36:23 debian kernel: [    0.000000]   Normal zone: 480 pages used for memmap
+Nov 24 23:36:23 debian kernel: [    0.000000]   Normal zone: 60944 pages, LIFO batch:15
+Nov 24 23:36:23 debian kernel: [    0.000000]   HighMem zone: 0 pages used for memmap
+Nov 24 23:36:23 debian kernel: [    0.000000]   Movable zone: 0 pages used for memmap
+Nov 24 23:36:23 debian kernel: [    0.000000] NR_CPUS: 8, nr_cpu_ids: 1
+Nov 24 23:36:23 debian kernel: [    0.000000] mapped APIC to ffffb000 (fee00000)
+Nov 24 23:36:23 debian kernel: [    0.004000] CPA: page pool initialized 1 of 1 pages preallocated
+Nov 24 23:36:23 debian kernel: [    0.630225] CPU0 attaching sched-domain:
+Nov 24 23:36:23 debian kernel: [    0.630238]  domain 0: span 0
+Nov 24 23:36:23 debian kernel: [    0.630245]   groups: 0
+Nov 24 23:36:23 debian kernel: [    0.666535] ACPI: EC: Look up EC in DSDT
+Nov 24 23:36:23 debian kernel: [    1.576310] ACPI: PCI Interrupt Routing Table [\_SB_.PCI0._PRT]
+Nov 24 23:36:23 debian kernel: [    6.181658] Switched to high resolution mode on CPU 0
+Nov 24 23:36:23 debian kernel: [    6.696563] pci 0000:00:02.0: Boot video device
+Nov 24 23:36:23 debian kernel: [    8.545174] libata version 3.00 loaded.
+Nov 24 23:36:23 debian kernel: [    8.613403] Probing IDE interface ide0...
+Nov 24 23:36:23 debian kernel: [    8.740562] ohci_hcd: 2006 August 04 USB 1.1 'Open' Host Controller (OHCI) Driver
+Nov 24 23:36:23 debian kernel: [    9.581772] hda: host max PIO4 wanted PIO255(auto-tune) selected PIO4
+Nov 24 23:36:23 debian kernel: [    9.585108] Probing IDE interface ide1...
+Nov 24 23:36:23 debian kernel: [   11.000980] hdc: host max PIO4 wanted PIO255(auto-tune) selected PIO4
+Nov 24 23:36:23 debian kernel: [   11.005420] PCI: setting IRQ 11 as level-triggered
+Nov 24 23:36:23 debian kernel: [   11.005474] PCI: Setting latency timer of device 0000:00:03.0 to 64
+Nov 24 23:36:23 debian kernel: [   11.008853] PCI: setting IRQ 5 as level-triggered
+Nov 24 23:36:23 debian kernel: [   11.008919] PCI: Setting latency timer of device 0000:00:06.0 to 64
+Nov 24 23:36:23 debian kernel: [   11.198953] PCI: Setting latency timer of device 0000:00:0b.0 to 64
+Nov 24 23:36:23 debian kernel: [   16.540965] PCI: setting IRQ 9 as level-triggered
+Nov 24 23:36:23 debian kernel: [   16.540965] PCI: Setting latency timer of device 0000:00:05.0 to 64
+Nov 24 23:36:34 debian kernel: [   33.454842] eth1: no IPv6 routers present
+Nov 25 08:52:35 debian kernel: [    0.000000] Entering add_active_range(0, 0, 65520) 0 entries of 256 used
+Nov 25 08:52:35 debian kernel: [    0.000000] On node 0 totalpages: 65520
+Nov 25 08:52:35 debian kernel: [    0.000000]   DMA zone: 32 pages used for memmap
+Nov 25 08:52:35 debian kernel: [    0.000000]   DMA zone: 0 pages reserved
+Nov 25 08:52:35 debian kernel: [    0.000000]   DMA zone: 4064 pages, LIFO batch:0
+Nov 25 08:52:35 debian kernel: [    0.000000]   Normal zone: 480 pages used for memmap
+Nov 25 08:52:35 debian kernel: [    0.000000]   Normal zone: 60944 pages, LIFO batch:15
+Nov 25 08:52:35 debian kernel: [    0.000000]   HighMem zone: 0 pages used for memmap
+Nov 25 08:52:35 debian kernel: [    0.000000]   Movable zone: 0 pages used for memmap
+Nov 25 08:52:35 debian kernel: [    0.000000] NR_CPUS: 8, nr_cpu_ids: 1
+Nov 25 08:52:35 debian kernel: [    0.000000] mapped APIC to ffffb000 (fee00000)
+Nov 25 08:52:35 debian kernel: [    0.004000] CPA: page pool initialized 1 of 1 pages preallocated
+Nov 25 08:52:35 debian kernel: [    0.658502] CPU0 attaching sched-domain:
+Nov 25 08:52:35 debian kernel: [    0.658514]  domain 0: span 0
+Nov 25 08:52:35 debian kernel: [    0.658521]   groups: 0
+Nov 25 08:52:35 debian kernel: [    0.688844] ACPI: EC: Look up EC in DSDT
+Nov 25 08:52:35 debian kernel: [    0.838573] ACPI: PCI Interrupt Routing Table [\_SB_.PCI0._PRT]
+Nov 25 08:52:35 debian kernel: [    1.811842] Switched to high resolution mode on CPU 0
+Nov 25 08:52:35 debian kernel: [    1.828113] pci 0000:00:02.0: Boot video device
+Nov 25 08:52:35 debian kernel: [    3.433378] libata version 3.00 loaded.
+Nov 25 08:52:35 debian kernel: [    3.482590] Probing IDE interface ide0...
+Nov 25 08:52:35 debian kernel: [    3.652613] ohci_hcd: 2006 August 04 USB 1.1 'Open' Host Controller (OHCI) Driver
+Nov 25 08:52:35 debian kernel: [    4.451171] hda: host max PIO4 wanted PIO255(auto-tune) selected PIO4
+Nov 25 08:52:35 debian kernel: [    4.459747] Probing IDE interface ide1...
+Nov 25 08:52:35 debian kernel: [    5.879227] hdc: host max PIO4 wanted PIO255(auto-tune) selected PIO4
+Nov 25 08:52:35 debian kernel: [    5.895906] PCI: setting IRQ 11 as level-triggered
+Nov 25 08:52:35 debian kernel: [    5.896066] PCI: Setting latency timer of device 0000:00:03.0 to 64
+Nov 25 08:52:35 debian kernel: [    5.903702] PCI: setting IRQ 5 as level-triggered
+Nov 25 08:52:35 debian kernel: [    5.903763] PCI: Setting latency timer of device 0000:00:06.0 to 64
+Nov 25 08:52:35 debian kernel: [    6.110109] PCI: Setting latency timer of device 0000:00:0b.0 to 64
+Nov 25 08:52:35 debian kernel: [   11.115994] PCI: setting IRQ 9 as level-triggered
+Nov 25 08:52:35 debian kernel: [   11.116041] PCI: Setting latency timer of device 0000:00:05.0 to 64
+Nov 25 08:52:47 debian kernel: [   30.074497] eth1: no IPv6 routers present
+Dec  7 18:34:53 debian kernel: [    0.000000] Entering add_active_range(0, 0, 65520) 0 entries of 256 used
+Dec  7 18:34:53 debian kernel: [    0.000000] On node 0 totalpages: 65520
+Dec  7 18:34:53 debian kernel: [    0.000000]   DMA zone: 32 pages used for memmap
+Dec  7 18:34:53 debian kernel: [    0.000000]   DMA zone: 0 pages reserved
+Dec  7 18:34:53 debian kernel: [    0.000000]   DMA zone: 4064 pages, LIFO batch:0
+Dec  7 18:34:53 debian kernel: [    0.000000]   Normal zone: 480 pages used for memmap
+Dec  7 18:34:53 debian kernel: [    0.000000]   Normal zone: 60944 pages, LIFO batch:15
+Dec  7 18:34:53 debian kernel: [    0.000000]   HighMem zone: 0 pages used for memmap
+Dec  7 18:34:53 debian kernel: [    0.000000]   Movable zone: 0 pages used for memmap
+Dec  7 18:34:53 debian kernel: [    0.000000] NR_CPUS: 8, nr_cpu_ids: 1
+Dec  7 18:34:53 debian kernel: [    0.000000] mapped APIC to ffffb000 (fee00000)
+Dec  7 18:34:53 debian kernel: [    0.004000] CPA: page pool initialized 1 of 1 pages preallocated
+Dec  7 18:34:53 debian kernel: [    0.625455] CPU0 attaching sched-domain:
+Dec  7 18:34:53 debian kernel: [    0.625467]  domain 0: span 0
+Dec  7 18:34:53 debian kernel: [    0.625474]   groups: 0
+Dec  7 18:34:53 debian kernel: [    0.654765] ACPI: EC: Look up EC in DSDT
+Dec  7 18:34:53 debian kernel: [    0.814277] ACPI: PCI Interrupt Routing Table [\_SB_.PCI0._PRT]
+Dec  7 18:34:53 debian kernel: [    1.800049] pci 0000:00:02.0: Boot video device
+Dec  7 18:34:53 debian kernel: [    1.813665] Switched to high resolution mode on CPU 0
+Dec  7 18:34:53 debian kernel: [    3.523804] PCI: setting IRQ 11 as level-triggered
+Dec  7 18:34:53 debian kernel: [    3.523852] PCI: Setting latency timer of device 0000:00:03.0 to 64
+Dec  7 18:34:53 debian kernel: [    3.527742] libata version 3.00 loaded.
+Dec  7 18:34:53 debian kernel: [    3.584892] ohci_hcd: 2006 August 04 USB 1.1 'Open' Host Controller (OHCI) Driver
+Dec  7 18:34:53 debian kernel: [    3.585527] PCI: setting IRQ 5 as level-triggered
+Dec  7 18:34:53 debian kernel: [    3.585590] PCI: Setting latency timer of device 0000:00:06.0 to 64
+Dec  7 18:34:53 debian kernel: [    3.762834] PCI: Setting latency timer of device 0000:00:0b.0 to 64
+Dec  7 18:34:53 debian kernel: [    3.887309] Probing IDE interface ide0...
+Dec  7 18:34:53 debian kernel: [    4.845565] hda: host max PIO4 wanted PIO255(auto-tune) selected PIO4
+Dec  7 18:34:53 debian kernel: [    4.848775] Probing IDE interface ide1...
+Dec  7 18:34:53 debian kernel: [    6.257663] hdc: host max PIO4 wanted PIO255(auto-tune) selected PIO4
+Dec  7 18:34:53 debian kernel: [   11.784042] PCI: setting IRQ 9 as level-triggered
+Dec  7 18:34:53 debian kernel: [   11.784042] PCI: Setting latency timer of device 0000:00:05.0 to 64
+Dec  7 18:35:04 debian kernel: [   31.611095] eth1: no IPv6 routers present
+Apr 26 16:40:13 debian kernel: [    0.000000] Entering add_active_range(0, 0, 159488) 0 entries of 256 used
+Apr 26 16:40:13 debian kernel: [114907284.737359] Entering add_active_range(0, 0, 159488) 0 entries of 256 used
+Apr 26 16:40:13 debian kernel: [114907284.739489] On node 0 totalpages: 159488
+Apr 26 16:40:13 debian kernel: [114907284.740836]   DMA zone: 56 pages used for memmap
+Apr 26 16:40:13 debian kernel: [114907284.740838]   DMA zone: 0 pages reserved
+Apr 26 16:40:13 debian kernel: [114907284.740840]   DMA zone: 4040 pages, LIFO batch:0
+Apr 26 16:40:13 debian kernel: [114907284.741041]   DMA32 zone: 2124 pages used for memmap
+Apr 26 16:40:13 debian kernel: [114907284.741043]   DMA32 zone: 153268 pages, LIFO batch:31
+Apr 26 16:40:13 debian kernel: [114907284.748526]   Normal zone: 0 pages used for memmap
+Apr 26 16:40:13 debian kernel: [114907284.748530]   Movable zone: 0 pages used for memmap
+Apr 26 16:40:13 debian kernel: [    0.131460] CPU0 attaching NULL sched-domain.
+Apr 26 16:40:24 debian kernel: [  198.602034] eth0: no IPv6 routers present

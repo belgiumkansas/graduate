@@ -1,0 +1,69 @@
+ASCII Contents of Fragment 918829 in forensics_release-w17.raw-996093-8385929
+
+
+658&PRImpID=157904000987531B0307E62000D60101.request-method.GET.response-head.HTTP/1.1 200 OK
+Content-Length: 41469
+Content-Type: application/x-shockwave-flash
+Last-Modified: Fri, 20 Nov 2009 21:03:14 GMT
+Accept-Ranges: bytes
+Etag: "afa022e0246aca1:527"
+Server: Microsoft-IIS/6.0
+P3P: CP="NOI DSP COR PSAo PSDo OUR BUS OTC"
+X-Powered-By: ASP.NET
+Cache-Control: max-age=938680
+Date: Tue, 24 Nov 2009 03:27:53 GMT
+.........................................................................................GIF89a.............!.......,...........L..;.................................................................................................................................................................................................................................K.R.K.R.M._....+...;....HTTP:http://ad.doubleclick.net/dot.gif?0.15230767759930985.request-method.GET.response-head.HTTP/1.1 200 OK
+Server: DCLK-HttpSvr
+Content-Type: image/gif
+Content-Length: 43
+Last-Modified: Fri, 16 Feb 1996 18:52:24 GMT
+Date: Tue, 24 Nov 2009 03:27:53 GMT
+X-XSS-Protection: 0
+................................................................................................................................................................................................................K.R.K.R.......v3...}...)HTTP:http://www.amazon.com/s/qid=1259033248/ref=sr_pg_2?ie=UTF8&rs=&keywords=nerf%20guns&rh=i%3Aaps%2Ck%3Anerf%20guns&page=2.docshell:classified.1.request-method.GET.request-Accept-Encoding.gzip,deflate.request-User-Agent.Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.15) Gecko/2009102815 Ubuntu/9.04 (jaunty) Firefox/3.0.15.response-head.HTTP/1.1 200 OK
+Date: Tue, 24 Nov 2009 03:27:54 GMT
+Server: Server
+x-amz-id-1: 0WVNENPZS3FFRR2ZXSKJ
+P3P: policyref="http://www.amazon.com/w3c/p3p.xml",CP="AMZN "
+x-amz-id-2: qY+AfAz/nH1pbzZcFjR3qJ/92DV0Ppty
+Vary: Accept-Encoding,User-Agent
+Content-Encoding: gzip
+Content-Type: text/html; charset=ISO-8859-1
+.charset.ISO-8859-1...................................................................K.R.K.R.p.X........I...ZHTTP:http://ecx.images-amazon.com/images/I/51wJJjOknfL._SL160_AA115_.jpg.request-method.GET.response-head.HTTP/1.1 200 OK
+Date: Tue, 24 Nov 2009 03:27:55 GMT
+Expires: Sun, 18 Nov 2029 13:31:28 GMT
+Last-Modified: Wed, 03 Jan 2007 22:34:00 GMT
+Server: Server
+Cache-Control: max-age=630720000
+Content-Type: image/jpeg
+X-Cache: HIT from cdn-images.amazon.com, MISS from cdn-images.amazon.com
+Content-Length: 4341
+......................................................................K.R.K.R.p.X........I...ZHTTP:http://ecx.images-amazon.com/images/I/519ysZumyxL._SL160_AA115_.jpg.request-method.GET.response-head.HTTP/1.1 200 OK
+Date: Tue, 24 Nov 2009 03:27:55 GMT
+Expires: Sun, 18 Nov 2029 12:55:18 GMT
+Last-Modified: Sun, 05 Oct 2008 23:44:21 GMT
+Server: Server
+Cache-Control: max-age=630720000
+Content-Type: image/jpeg
+X-Cache: HIT from cdn-images.amazon.com, MISS from cdn-images.amazon.com
+Content-Length: 5027
+......................................................................K.R.K.R.p.X....v...I...ZHTTP:http://ecx.images-amazon.com/images/I/41sMuyynXPL._SL160_AA115_.jpg.request-method.GET.response-head.HTTP/1.1 200 OK
+Date: Tue, 24 Nov 2009 03:27:55 GMT
+Expires: Mon, 19 Nov 2029 03:25:23 GMT
+Last-Modified: Fri, 04 Jul 2008 02:57:37 GMT
+Server: Server
+Cache-Control: max-age=630720000
+Content-Type: image/jpeg
+X-Cache: HIT from cdn-images.amazon.com, MISS from cdn-images.amazon.com
+Content-Length: 3702
+......................................................................K.R.K.R.p.X....@...I...ZHTTP:http://ecx.images-amazon.com/images/I/51r6xV3AREL._SL160_AA115_.jpg.request-method.GET.response-head.HTTP/1.1 200 OK
+Date: Tue, 24 Nov 2009 03:27:55 GMT
+Expires: Sun, 18 Nov 2029 14:08:33 GMT
+Last-Modified: Fri, 23 Jan 2009 15:50:20 GMT
+Server: Server
+Cache-Control: max-age=630720000
+Content-Type: image/jpeg
+X-Cache: HIT from cdn-images.amazon.com, MISS from cdn-images.amazon.com
+Content-Length: 4416
+..........................................................
+
+

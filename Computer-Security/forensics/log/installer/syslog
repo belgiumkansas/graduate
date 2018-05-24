@@ -1,0 +1,2470 @@
+Nov 24 20:37:41 syslogd started: BusyBox v1.10.2
+Nov 24 20:37:41 kernel: klogd started: BusyBox v1.10.2 (Debian 1:1.10.2-2)
+Nov 24 20:37:41 kernel: [    0.000000] Initializing cgroup subsys cpu
+Nov 24 20:37:41 kernel: [    0.000000] Linux version 2.6.26-2-486 (Debian 2.6.26-19) (dannf@debian.org) (gcc version 4.1.3 20080704 (prerelease) (Debian 4.1.2-25)) #1 Wed Aug 19 05:40:02 UTC 2009
+Nov 24 20:37:41 kernel: [    0.000000] BIOS-provided physical RAM map:
+Nov 24 20:37:41 kernel: [    0.000000]  BIOS-e820: 0000000000000000 - 000000000009fc00 (usable)
+Nov 24 20:37:41 kernel: [    0.000000]  BIOS-e820: 000000000009fc00 - 00000000000a0000 (reserved)
+Nov 24 20:37:41 kernel: [    0.000000]  BIOS-e820: 00000000000f0000 - 0000000000100000 (reserved)
+Nov 24 20:37:41 kernel: [    0.000000]  BIOS-e820: 0000000000100000 - 000000000fff0000 (usable)
+Nov 24 20:37:41 kernel: [    0.000000]  BIOS-e820: 000000000fff0000 - 0000000010000000 (ACPI data)
+Nov 24 20:37:41 kernel: [    0.000000]  BIOS-e820: 00000000fffc0000 - 0000000100000000 (reserved)
+Nov 24 20:37:41 kernel: [    0.000000] WARNING: strange, CPU MTRRs all blank?
+Nov 24 20:37:41 kernel: [    0.000000] ------------[ cut here ]------------
+Nov 24 20:37:41 kernel: [    0.000000] WARNING: at arch/x86/kernel/cpu/mtrr/main.c:696 mtrr_trim_uncached_memory+0x17f/0x18a()
+Nov 24 20:37:41 kernel: [    0.000000] Modules linked in:
+Nov 24 20:37:41 kernel: [    0.000000] Pid: 0, comm: swapper Not tainted 2.6.26-2-486 #1
+Nov 24 20:37:41 kernel: [    0.000000]  [<c011baf4>] warn_on_slowpath+0x40/0x65
+Nov 24 20:37:41 kernel: [    0.000000]  [<c012c9be>] up+0x36/0x3a
+Nov 24 20:37:41 kernel: [    0.000000]  [<c011c036>] release_console_sem+0x178/0x193
+Nov 24 20:37:41 kernel: [    0.000000]  [<c011c446>] vprintk+0x269/0x275
+Nov 24 20:37:41 kernel: [    0.000000]  [<c010b933>] mtrr_wrmsr+0xf/0x29
+Nov 24 20:37:41 kernel: [    0.000000]  [<c011c466>] printk+0x14/0x18
+Nov 24 20:37:41 kernel: [    0.000000]  [<c036c1a0>] mtrr_trim_uncached_memory+0x17f/0x18a
+Nov 24 20:37:41 kernel: [    0.000000]  [<c036a1c7>] setup_arch+0x263/0x63d
+Nov 24 20:37:41 kernel: [    0.000000]  [<c011c466>] printk+0x14/0x18
+Nov 24 20:37:41 kernel: [    0.000000]  [<c036479d>] start_kernel+0x52/0x27e
+Nov 24 20:37:41 kernel: [    0.000000]  =======================
+Nov 24 20:37:41 kernel: [    0.000000] ---[ end trace 4eaa2a86a8e2da22 ]---
+Nov 24 20:37:41 kernel: [    0.000000] 255MB LOWMEM available.
+Nov 24 20:37:41 kernel: [    0.000000] Entering add_active_range(0, 0, 65520) 0 entries of 256 used
+Nov 24 20:37:41 kernel: [    0.000000] Zone PFN ranges:
+Nov 24 20:37:41 kernel: [    0.000000]   DMA             0 ->     4096
+Nov 24 20:37:41 kernel: [    0.000000]   Normal       4096 ->    65520
+Nov 24 20:37:41 kernel: [    0.000000] Movable zone start PFN for each node
+Nov 24 20:37:41 kernel: [    0.000000] early_node_map[1] active PFN ranges
+Nov 24 20:37:41 kernel: [    0.000000]     0:        0 ->    65520
+Nov 24 20:37:41 kernel: [    0.000000] On node 0 totalpages: 65520
+Nov 24 20:37:41 kernel: [    0.000000]   DMA zone: 32 pages used for memmap
+Nov 24 20:37:41 kernel: [    0.000000]   DMA zone: 0 pages reserved
+Nov 24 20:37:41 kernel: [    0.000000]   DMA zone: 4064 pages, LIFO batch:0
+Nov 24 20:37:41 kernel: [    0.000000]   Normal zone: 480 pages used for memmap
+Nov 24 20:37:41 kernel: [    0.000000]   Normal zone: 60944 pages, LIFO batch:15
+Nov 24 20:37:41 kernel: [    0.000000]   Movable zone: 0 pages used for memmap
+Nov 24 20:37:41 kernel: [    0.000000] DMI 2.5 present.
+Nov 24 20:37:41 kernel: [    0.000000] ACPI: RSDP 000E0000, 0024 (r2 VBOX  )
+Nov 24 20:37:41 kernel: [    0.000000] ACPI: XSDT 0FFF0030, 002C (r1 VBOX   VBOXXSDT        1 ASL        61)
+Nov 24 20:37:41 kernel: [    0.000000] ACPI: FACP 0FFF00E0, 00F4 (r4 VBOX   VBOXFACP        1 ASL        61)
+Nov 24 20:37:41 kernel: [    0.000000] ACPI: DSDT 0FFF0220, 1A0C (r1 VBOX   VBOXBIOS        2 INTL 20090521)
+Nov 24 20:37:41 kernel: [    0.000000] ACPI: FACS 0FFF01E0, 0040
+Nov 24 20:37:41 kernel: [    0.000000] ACPI: PM-Timer IO Port: 0x4008
+Nov 24 20:37:41 kernel: [    0.000000] Allocating PCI resources starting at 20000000 (gap: 10000000:effc0000)
+Nov 24 20:37:41 kernel: [    0.000000] PM: Registered nosave memory: 000000000009f000 - 00000000000a0000
+Nov 24 20:37:41 kernel: [    0.000000] PM: Registered nosave memory: 00000000000a0000 - 00000000000f0000
+Nov 24 20:37:41 kernel: [    0.000000] PM: Registered nosave memory: 00000000000f0000 - 0000000000100000
+Nov 24 20:37:41 kernel: [    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 65008
+Nov 24 20:37:41 kernel: [    0.000000] Kernel command line: vga=normal initrd=/install.386/initrd.gz -- quiet  BOOT_IMAGE=/install.386/vmlinuz 
+Nov 24 20:37:41 kernel: [    0.000000] Found and enabled local APIC!
+Nov 24 20:37:41 kernel: [    0.000000] mapped APIC to ffffb000 (fee00000)
+Nov 24 20:37:41 kernel: [    0.000000] Enabling fast FPU save and restore... done.
+Nov 24 20:37:41 kernel: [    0.000000] Enabling unmasked SIMD FPU exception support... done.
+Nov 24 20:37:41 kernel: [    0.000000] Initializing CPU#0
+Nov 24 20:37:41 kernel: [    0.000000] PID hash table entries: 1024 (order: 10, 4096 bytes)
+Nov 24 20:37:41 kernel: [    0.000000] Detected 2392.927 MHz processor.
+Nov 24 20:37:41 kernel: [    0.004000] Console: colour VGA+ 80x25
+Nov 24 20:37:41 kernel: [    0.004000] console [tty0] enabled
+Nov 24 20:37:41 kernel: [    0.004000] Dentry cache hash table entries: 32768 (order: 5, 131072 bytes)
+Nov 24 20:37:41 kernel: [    0.004000] Inode-cache hash table entries: 16384 (order: 4, 65536 bytes)
+Nov 24 20:37:41 kernel: [    0.004000] Memory: 251672k/262080k available (1696k kernel code, 9784k reserved, 743k data, 320k init, 0k highmem)
+Nov 24 20:37:41 kernel: [    0.004000] virtual kernel memory layout:
+Nov 24 20:37:41 kernel: [    0.004000]     fixmap  : 0xfffb3000 - 0xfffff000   ( 304 kB)
+Nov 24 20:37:41 kernel: [    0.004000]     vmalloc : 0xd0800000 - 0xfffb1000   ( 759 MB)
+Nov 24 20:37:41 kernel: [    0.004000]     lowmem  : 0xc0000000 - 0xcfff0000   ( 255 MB)
+Nov 24 20:37:41 kernel: [    0.004000]       .init : 0xc0364000 - 0xc03b4000   ( 320 kB)
+Nov 24 20:37:41 kernel: [    0.004000]       .data : 0xc02a80a1 - 0xc0362000   ( 743 kB)
+Nov 24 20:37:41 kernel: [    0.004000]       .text : 0xc0100000 - 0xc02a80a1   (1696 kB)
+Nov 24 20:37:41 kernel: [    0.004000] Checking if this processor honours the WP bit even in supervisor mode...Ok.
+Nov 24 20:37:41 kernel: [    0.004000] CPA: page pool initialized 1 of 1 pages preallocated
+Nov 24 20:37:41 kernel: [    0.085465] Calibrating delay using timer specific routine.. 4854.65 BogoMIPS (lpj=9709307)
+Nov 24 20:37:41 kernel: [    0.086734] Security Framework initialized
+Nov 24 20:37:41 kernel: [    0.086794] SELinux:  Disabled at boot.
+Nov 24 20:37:41 kernel: [    0.086850] Capability LSM initialized
+Nov 24 20:37:41 kernel: [    0.087281] Mount-cache hash table entries: 512
+Nov 24 20:37:41 kernel: [    0.093910] Initializing cgroup subsys ns
+Nov 24 20:37:41 kernel: [    0.094047] Initializing cgroup subsys cpuacct
+Nov 24 20:37:41 kernel: [    0.094131] Initializing cgroup subsys devices
+Nov 24 20:37:41 kernel: [    0.094496] 
+Nov 24 20:37:41 kernel: [    0.094541] using mwait in idle threads.
+Nov 24 20:37:41 kernel: [    0.094606] CPU: Intel(R) Core(TM)2 Duo CPU     P8600  @ 2.40GHz stepping 0a
+Nov 24 20:37:41 kernel: [    0.095082] Checking 'hlt' instruction... OK.
+Nov 24 20:37:41 kernel: [    0.262817] Freeing SMP alternatives: 0k freed
+Nov 24 20:37:41 kernel: [    0.263867] ACPI: Core revision 20080321
+Nov 24 20:37:41 kernel: [    0.269593] ACPI: setting ELCR to 0200 (from 0e20)
+Nov 24 20:37:41 kernel: [    0.286342] net_namespace: 652 bytes
+Nov 24 20:37:41 kernel: [    0.286409] Booting paravirtualized kernel on bare hardware
+Nov 24 20:37:41 kernel: [    0.287629] NET: Registered protocol family 16
+Nov 24 20:37:41 kernel: [    0.290101] EISA bus registered
+Nov 24 20:37:41 kernel: [    0.290138] ACPI: bus type pci registered
+Nov 24 20:37:41 kernel: [    0.292996] PCI: PCI BIOS revision 2.10 entry at 0xfc080, last bus=0
+Nov 24 20:37:41 kernel: [    0.293015] PCI: Using configuration type 1 for base access
+Nov 24 20:37:41 kernel: [    0.293048] Setting up standard PCI resources
+Nov 24 20:37:41 kernel: [    0.300084] ACPI: EC: Look up EC in DSDT
+Nov 24 20:37:41 kernel: [    0.390801] ACPI: Interpreter enabled
+Nov 24 20:37:41 kernel: [    0.390851] ACPI: (supports S0 S5)
+Nov 24 20:37:41 kernel: [    0.390903] ACPI: Using PIC for interrupt routing
+Nov 24 20:37:41 kernel: [    0.509435] ACPI: PCI Root Bridge [PCI0] (0000:00)
+Nov 24 20:37:41 kernel: [    0.516262] ACPI: PCI Interrupt Routing Table [\_SB_.PCI0._PRT]
+Nov 24 20:37:41 kernel: [    1.105390] ACPI: PCI Interrupt Link [LNKA] (IRQs 5 *9 10 11)
+Nov 24 20:37:41 kernel: [    1.106178] ACPI: PCI Interrupt Link [LNKB] (IRQs *5 9 10 11)
+Nov 24 20:37:41 kernel: [    1.106486] ACPI: PCI Interrupt Link [LNKC] (IRQs 5 9 10 *11)
+Nov 24 20:37:41 kernel: [    1.106783] ACPI: PCI Interrupt Link [LNKD] (IRQs 5 9 *10 11)
+Nov 24 20:37:41 kernel: [    1.107758] Linux Plug and Play Support v0.97 (c) Adam Belay
+Nov 24 20:37:41 kernel: [    1.108241] pnp: PnP ACPI init
+Nov 24 20:37:41 kernel: [    1.108417] ACPI: bus type pnp registered
+Nov 24 20:37:41 kernel: [    1.164383] pnp: PnP ACPI: found 6 devices
+Nov 24 20:37:41 kernel: [    1.164407] ACPI: ACPI bus type pnp unregistered
+Nov 24 20:37:41 kernel: [    1.164430] PnPBIOS: Disabled by ACPI PNP
+Nov 24 20:37:41 kernel: [    1.171556] PCI: Using ACPI for IRQ routing
+Nov 24 20:37:41 kernel: [    1.212106] NET: Registered protocol family 2
+Nov 24 20:37:41 kernel: [    1.214607] IP route cache hash table entries: 2048 (order: 1, 8192 bytes)
+Nov 24 20:37:41 kernel: [    1.215596] TCP established hash table entries: 8192 (order: 4, 65536 bytes)
+Nov 24 20:37:41 kernel: [    1.215651] TCP bind hash table entries: 8192 (order: 3, 32768 bytes)
+Nov 24 20:37:41 kernel: [    1.215680] TCP: Hash tables configured (established 8192 bind 8192)
+Nov 24 20:37:41 kernel: [    1.215688] TCP reno registered
+Nov 24 20:37:41 kernel: [    1.216429] NET: Registered protocol family 1
+Nov 24 20:37:41 kernel: [    1.217616] checking if image is initramfs... it is
+Nov 24 20:37:41 kernel: [    1.513331] Freeing initrd memory: 4356k freed
+Nov 24 20:37:41 kernel: [    1.515230] platform rtc_cmos: registered platform RTC device (no PNP device found)
+Nov 24 20:37:41 kernel: [    1.521299] audit: initializing netlink socket (disabled)
+Nov 24 20:37:41 kernel: [    1.521870] type=2000 audit(1259095055.517:1): initialized
+Nov 24 20:37:41 kernel: [    1.523112] Total HugeTLB memory allocated, 0
+Nov 24 20:37:41 kernel: [    1.523703] VFS: Disk quotas dquot_6.5.1
+Nov 24 20:37:41 kernel: [    1.523728] Dquot-cache hash table entries: 1024 (order 0, 4096 bytes)
+Nov 24 20:37:41 kernel: [    1.523807] msgmni has been set to 500
+Nov 24 20:37:41 kernel: [    1.524125] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 253)
+Nov 24 20:37:41 kernel: [    1.524191] io sche
+Nov 24 20:37:41 kernel: duler noop registered
+Nov 24 20:37:41 kernel: [    1.524198] io scheduler anticipatory registered
+Nov 24 20:37:41 kernel: [    1.524205] io scheduler deadline registered
+Nov 24 20:37:41 kernel: [    1.524217] io scheduler cfq registered (default)
+Nov 24 20:37:41 kernel: [    1.524247] pci 0000:00:00.0: Limiting direct PCI/PCI transfers
+Nov 24 20:37:41 kernel: [    1.524288] pci 0000:00:01.0: Activating ISA DMA hang workarounds
+Nov 24 20:37:41 kernel: [    1.524310] pci 0000:00:02.0: Boot video device
+Nov 24 20:37:41 kernel: [    1.526021] isapnp: Scanning for PnP cards...
+Nov 24 20:37:41 kernel: [    1.712687] Switched to high resolution mode on CPU 0
+Nov 24 20:37:41 kernel: [    1.891285] isapnp: No Plug & Play device found
+Nov 24 20:37:41 kernel: [    1.900633] Serial: 8250/16550 driver $Revision: 1.90 $ 4 ports, IRQ sharing enabled
+Nov 24 20:37:41 kernel: [    1.908856] brd: module loaded
+Nov 24 20:37:41 kernel: [    1.909129] PNP: PS/2 Controller [PNP0303:PS2K,PNP0f03:PS2M] at 0x60,0x64 irq 1,12
+Nov 24 20:37:41 kernel: [    1.912250] serio: i8042 KBD port at 0x60,0x64 irq 1
+Nov 24 20:37:41 kernel: [    1.912390] serio: i8042 AUX port at 0x60,0x64 irq 12
+Nov 24 20:37:41 kernel: [    1.913180] mice: PS/2 mouse device common for all mice
+Nov 24 20:37:41 kernel: [    1.916896] input: AT Translated Set 2 keyboard as /class/input/input0
+Nov 24 20:37:41 kernel: [    1.917005] rtc_cmos rtc_cmos: rtc core: registered rtc_cmos as rtc0
+Nov 24 20:37:41 kernel: [    1.918023] rtc0: alarms up to one day
+Nov 24 20:37:41 kernel: [    1.920793] EISA: Probing bus 0 at eisa.0
+Nov 24 20:37:41 kernel: [    1.920814] Cannot allocate resource for EISA slot 4
+Nov 24 20:37:41 kernel: [    1.920831] EISA: Detected 0 cards.
+Nov 24 20:37:41 kernel: [    1.920842] cpuidle: using governor ladder
+Nov 24 20:37:41 kernel: [    1.920848] cpuidle: using governor menu
+Nov 24 20:37:41 kernel: [    1.920864] No iBFT detected.
+Nov 24 20:37:41 kernel: [    1.921344] TCP cubic registered
+Nov 24 20:37:41 kernel: [    1.921354] NET: Registered protocol family 17
+Nov 24 20:37:41 kernel: [    1.921652] Using IPI Shortcut mode
+Nov 24 20:37:41 kernel: [    1.922069] registered taskstats version 1
+Nov 24 20:37:41 kernel: [    1.922656] rtc_cmos rtc_cmos: setting system clock to 2009-11-24 20:37:37 UTC (1259095057)
+Nov 24 20:37:41 kernel: [    1.925742] Freeing unused kernel memory: 320k freed
+Nov 24 20:37:41 kernel: [    2.571214] Uniform Multi-Platform E-IDE driver
+Nov 24 20:37:41 kernel: [    2.571295] ide: Assuming 33MHz system bus speed for PIO modes; override with idebus=xx
+Nov 24 20:37:41 kernel: [    2.583603] PIIX4: IDE controller (0x8086:0x7111 rev 0x01) at  PCI slot 0000:00:01.1
+Nov 24 20:37:41 kernel: [    2.583673] PIIX4: not 100% native mode: will probe irqs later
+Nov 24 20:37:41 kernel: [    2.583711]     ide0: BM-DMA at 0xd000-0xd007
+Nov 24 20:37:41 kernel: [    2.583730]     ide1: BM-DMA at 0xd008-0xd00f
+Nov 24 20:37:41 kernel: [    2.583814] Probing IDE interface ide0...
+Nov 24 20:37:41 kernel: [    2.670600] usbcore: registered new interface driver usbfs
+Nov 24 20:37:41 kernel: [    2.670656] usbcore: registered new interface driver hub
+Nov 24 20:37:41 kernel: [    2.671026] usbcore: registered new device driver usb
+Nov 24 20:37:41 kernel: [    2.672708] ohci_hcd: 2006 August 04 USB 1.1 'Open' Host Controller (OHCI) Driver
+Nov 24 20:37:41 kernel: [    2.763218] Floppy drive(s): fd0 is 1.44M
+Nov 24 20:37:41 kernel: [    2.782703] FDC 0 is a S82078B
+Nov 24 20:37:41 kernel: [    2.802505] parport_pc 00:05: reported by Plug and Play ACPI
+Nov 24 20:37:41 kernel: [    2.876573] hda: VBOX HARDDISK, ATA DISK drive
+Nov 24 20:37:41 kernel: [    3.578333] hda: host max PIO4 wanted PIO255(auto-tune) selected PIO4
+Nov 24 20:37:41 kernel: [    3.581432] hda: UDMA/33 mode selected
+Nov 24 20:37:41 kernel: [    3.581926] Probing IDE interface ide1...
+Nov 24 20:37:41 kernel: [    4.323698] hdc: VBOX CD-ROM, ATAPI CD/DVD-ROM drive
+Nov 24 20:37:41 kernel: [    5.013985] hdc: host max PIO4 wanted PIO255(auto-tune) selected PIO4
+Nov 24 20:37:41 kernel: [    5.014067] hdc: UDMA/33 mode selected
+Nov 24 20:37:41 kernel: [    5.014214] ide0 at 0x1f0-0x1f7,0x3f6 on irq 14
+Nov 24 20:37:41 kernel: [    5.014801] ide1 at 0x170-0x177,0x376 on irq 15
+Nov 24 20:37:41 kernel: [    5.016490] ACPI: PCI Interrupt Link [LNKB] enabled at IRQ 5
+Nov 24 20:37:41 kernel: [    5.017112] PCI: setting IRQ 5 as level-triggered
+Nov 24 20:37:41 kernel: [    5.017140] ACPI: PCI Interrupt 0000:00:06.0[A] -> Link [LNKB] -> GSI 5 (level, low) -> IRQ 5
+Nov 24 20:37:41 kernel: [    5.017191] PCI: Setting latency timer of device 0000:00:06.0 to 64
+Nov 24 20:37:41 kernel: [    5.017214] ohci_hcd 0000:00:06.0: OHCI Host Controller
+Nov 24 20:37:41 kernel: [    5.017517] ohci_hcd 0000:00:06.0: new USB bus registered, assigned bus number 1
+Nov 24 20:37:41 kernel: [    5.017629] ohci_hcd 0000:00:06.0: irq 5, io mem 0xf0804000
+Nov 24 20:37:41 kernel: [    5.048944] hda: max request size: 128KiB
+Nov 24 20:37:41 kernel: [    5.048944] hda: 12582912 sectors (6442 MB) w/256KiB Cache, CHS=12483/16/63
+Nov 24 20:37:41 kernel: [    5.087439] hda: cache flushes supported
+Nov 24 20:37:41 kernel: [    5.087675]  hda:<6>usb usb1: configuration #1 chosen from 1 choice
+Nov 24 20:37:41 kernel: [    5.095733] hub 1-0:1.0: USB hub found
+Nov 24 20:37:41 kernel: [    5.096086] hub 1-0:1.0: 8 ports detected
+Nov 24 20:37:41 kernel: [    5.172572]  hda1 hda2 <<6>usb usb1: New USB device found, idVendor=1d6b, idProduct=0001
+Nov 24 20:37:41 kernel: [    5.199622] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Nov 24 20:37:41 kernel: [    5.199632] usb usb1: Product: OHCI Host Controller
+Nov 24 20:37:41 kernel: [    5.199639] usb usb1: Manufacturer: Linux 2.6.26-2-486 ohci_hcd
+Nov 24 20:37:41 kernel: [    5.199647] usb usb1: SerialNumber: 0000:00:06.0
+Nov 24 20:37:41 kernel: [    5.203365] ACPI: PCI Interrupt Link [LNKC] enabled at IRQ 11
+Nov 24 20:37:41 kernel: [    5.203382] PCI: setting IRQ 11 as level-triggered
+Nov 24 20:37:41 kernel: [    5.203392] ACPI: PCI Interrupt 0000:00:0b.0[A] -> Link [LNKC] -> GSI 11 (level, low) -> IRQ 11
+Nov 24 20:37:41 kernel: [    5.203448] PCI: Setting latency timer of device 0000:00:0b.0 to 64
+Nov 24 20:37:41 kernel: [    5.203467] ehci_hcd 0000:00:0b.0: EHCI Host Controller
+Nov 24 20:37:41 kernel: [    5.203556] ehci_hcd 0000:00:0b.0: new USB bus registered, assigned bus number 2
+Nov 24 20:37:41 kernel: [    5.204114] ehci_hcd 0000:00:0b.0: irq 11, io mem 0xf0805000
+Nov 24 20:37:41 kernel: [    5.205569]  hda5 >
+Nov 24 20:37:41 kernel: [    5.213863] ehci_hcd 0000:00:0b.0: USB 2.0 started, EHCI 1.00, driver 10 Dec 2004
+Nov 24 20:37:41 kernel: [    5.213927] usb usb2: configuration #1 chosen from 1 choice
+Nov 24 20:37:41 kernel: [    5.213958] hub 2-0:1.0: USB hub found
+Nov 24 20:37:41 kernel: [    5.215448] hub 2-0:1.0: 8 ports detected
+Nov 24 20:37:41 kernel: [    5.223219] hdc: ATAPI 32X DVD-ROM drive, 128kB Cache
+Nov 24 20:37:41 kernel: [    5.223245] Uniform CD-ROM driver Revision: 3.20
+Nov 24 20:37:41 kernel: [    5.317213] usb usb2: New USB device found, idVendor=1d6b, idProduct=0002
+Nov 24 20:37:41 kernel: [    5.317227] usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Nov 24 20:37:41 kernel: [    5.317236] usb usb2: Product: EHCI Host Controller
+Nov 24 20:37:41 kernel: [    5.317243] usb usb2: Manufacturer: Linux 2.6.26-2-486 ehci_hcd
+Nov 24 20:37:41 kernel: [    5.317251] usb usb2: SerialNumber: 0000:00:0b.0
+Nov 24 20:37:42 kernel: [    6.374722] vga16fb: initializing
+Nov 24 20:37:42 kernel: [    6.374818] vga16fb: mapped to 0xc00a0000
+Nov 24 20:37:42 kernel: [    6.614524] Console: switching to colour frame buffer device 80x30
+Nov 24 20:37:42 kernel: [    6.680733] fb0: VGA16 VGA frame buffer device
+Nov 24 20:37:42 net/hw-detect.hotplug: Detected hotpluggable network interface lo
+Nov 24 20:37:43 init: init: starting pid 1063, tty '': '/sbin/reopen-console /sbin/debian-installer'
+Nov 24 20:37:43 init: init: starting pid 1075, tty '/dev/tty4': '/usr/bin/tail -f /var/log/syslog'
+Nov 24 20:37:43 debconf: Setting debconf/language to en
+Nov 24 20:37:43 main-menu[1086]: DEBUG: resolver (libc6-udeb): package doesn't exist (ignored)
+Nov 24 20:37:43 main-menu[1086]: DEBUG: resolver (libc6): package doesn't exist (ignored)
+Nov 24 20:37:44 main-menu[1086]: INFO: Menu item 'localechooser' selected
+Nov 24 20:37:45 debconf: Setting debconf/language to en
+Nov 24 20:38:58 localechooser: info: Language = 'en'
+Nov 24 20:38:58 localechooser: info: line=en;0;US;en_US.UTF-8;;kbd=lat0-sun16(utf8)
+Nov 24 20:38:58 localechooser: info: Set debian-installer/language = 'en'
+Nov 24 20:38:58 localechooser: info: Set debian-installer/locale = 'en_US.UTF-8'
+Nov 24 20:38:58 localechooser: info: Set debian-installer/fallbacklocale = 'en_US.UTF-8'
+Nov 24 20:38:58 localechooser: info: Default country = 'US'
+Nov 24 20:38:58 localechooser: info: Set debian-installer/consoledisplay = 'kbd=lat0-sun16(utf8)'
+Nov 24 20:38:58 debconf: Setting debconf/language to en
+Nov 24 20:38:59 localechooser: info: Set debian-installer/country = 'US'
+Nov 24 20:38:59 localechooser: info: Set debian-installer/locale = 'en_US.UTF-8'
+Nov 24 20:38:59 localechooser: info: Selected locale (debian-installer/locale) = 'en_US.UTF-8'
+Nov 24 20:38:59 main-menu[1086]: DEBUG: resolver (libc6-udeb): package doesn't exist (ignored)
+Nov 24 20:38:59 main-menu[1086]: DEBUG: resolver (libc6): package doesn't exist (ignored)
+Nov 24 20:38:59 main-menu[1086]: INFO: Menu item 'kbd-chooser' selected
+Nov 24 20:38:59 main-menu[1086]: INFO: Falling back to the package description for console-keymaps-at
+Nov 24 20:38:59 main-menu[1086]: INFO: Falling back to the package description for console-keymaps-at
+Nov 24 20:38:59 kbd-chooser[1832]: DEBUG: Mounting usbdevfs to look for kbd
+Nov 24 20:38:59 kbd-chooser[1832]: DEBUG: Parsing /proc/bus/usb/devices
+Nov 24 20:38:59 kbd-chooser[1832]: DEBUG: Adding generic entry for AT keymaps
+Nov 24 20:38:59 kbd-chooser[1832]: INFO: keyboard type at: present: true:  
+Nov 24 20:38:59 kbd-chooser[1832]: INFO: keyboard type at: present: unknown  
+Nov 24 20:38:59 kbd-chooser[1832]: INFO: Setting debian-installer/serial-console to false
+Nov 24 20:38:59 kbd-chooser[1832]: INFO: Setting debian-installer/uml-console to false
+Nov 24 20:38:59 kbd-chooser[1832]: INFO: kbd-chooser: arch at selected
+Nov 24 20:39:00 kbd-chooser[1832]: INFO: choose_keymap: keymap = us
+Nov 24 20:39:00 kbd-chooser[1832]: INFO: kbd_chooser: setting keymap us
+Nov 24 20:39:00 main-menu[1086]: DEBUG: resolver (libc6-udeb): package doesn't exist (ignored)
+Nov 24 20:39:00 main-menu[1086]: DEBUG: resolver (libc6): package doesn't exist (ignored)
+Nov 24 20:39:00 main-menu[1086]: INFO: Menu item 'cdrom-detect' selected
+Nov 24 20:39:01 net/hw-detect.hotplug: Detected hotpluggable network interface lo
+Nov 24 20:39:02 hw-detect: Detected module 'usb-storage' for 'USB storage'
+Nov 24 20:39:02 kernel: [   86.762717] SCSI subsystem initialized
+Nov 24 20:39:02 kernel: [   86.767978] Initializing USB Mass Storage driver...
+Nov 24 20:39:02 kernel: [   86.768101] usbcore: registered new interface driver usb-storage
+Nov 24 20:39:02 kernel: [   86.768110] USB Mass Storage support registered.
+Nov 24 20:39:02 hw-detect: insmod /lib/modules/2.6.26-2-486/kernel/drivers/scsi/scsi_mod.ko 
+Nov 24 20:39:02 hw-detect: insmod /lib/modules/2.6.26-2-486/kernel/drivers/usb/storage/usb-storage.ko 
+Nov 24 20:39:02 net/hw-detect.hotplug: Detected hotpluggable network interface lo
+Nov 24 20:39:03 hw-detect: ISA bus detected; loading module 'ide-generic'
+Nov 24 20:39:03 kernel: [   87.784020] ide_generic: please use "probe_mask=0x3f" module parameter for probing all legacy ISA IDE ports
+Nov 24 20:39:03 kernel: [   87.784020] ide_generic: I/O resource 0x1F0-0x1F7 not free.
+Nov 24 20:39:03 kernel: [   87.784020] ide_generic: I/O resource 0x170-0x177 not free.
+Nov 24 20:39:03 hw-detect: insmod /lib/modules/2.6.26-2-486/kernel/drivers/ide/ide-generic.ko 
+Nov 24 20:39:03 net/hw-detect.hotplug: Detected hotpluggable network interface lo
+Nov 24 20:39:04 hw-detect: Loading PCMCIA bridge driver module: i82365
+Nov 24 20:39:04 kernel: [   88.888659] Intel ISA PCIC probe: not found.
+Nov 24 20:39:04 hw-detect: FATAL: Error inserting i82365 (/lib/modules/2.6.26-2-486/kernel/drivers/pcmcia/i82365.ko): No such device
+Nov 24 20:39:04 apt-install: Queueing package udev for later installation
+Nov 24 20:39:04 apt-install: Queueing package usbutils for later installation
+Nov 24 20:39:04 apt-install: Queueing package acpi for later installation
+Nov 24 20:39:04 apt-install: Queueing package acpid for later installation
+Nov 24 20:39:04 apt-install: Queueing package acpi-support-base for later installation
+Nov 24 20:39:05 apt-install: Queueing package eject for later installation
+Nov 24 20:39:05 apt-install: Queueing package libc6-i686 for later installation
+Nov 24 20:39:06 check-missing-firmware: no missing firmware in /tmp/missing-firmware
+Nov 24 20:39:06 net/hw-detect.hotplug: Detected hotpluggable network interface lo
+Nov 24 20:39:07 cdrom-detect: Searching for Debian installation media...
+Nov 24 20:39:08 kernel: [   92.553745] ISO 9660 Extensions: Microsoft Joliet Level 3
+Nov 24 20:39:08 cdrom-detect: CD-ROM mount succeeded: device=/dev/hdc
+Nov 24 20:39:08 kernel: [   92.580930] ISO 9660 Extensions: RRIP_1991A
+Nov 24 20:39:08 cdrom-detect: Detected CD 'Debian GNU/Linux 5.0.3 "Lenny" - Official i386 NETINST Binary-1 20090906-12:06'
+Nov 24 20:39:09 cdrom-detect: Detected CD with 'stable' (lenny) distribution
+Nov 24 20:39:09 anna-install: Queueing udeb eject-udeb for later installation
+Nov 24 20:39:09 anna-install: Queueing udeb apt-mirror-setup for later installation
+Nov 24 20:39:09 anna-install: Queueing udeb apt-cdrom-setup for later installation
+Nov 24 20:39:09 anna-install: Queueing udeb lenny-support for later installation
+Nov 24 20:39:09 main-menu[1086]: DEBUG: resolver (libc6-udeb): package doesn't exist (ignored)
+Nov 24 20:39:09 main-menu[1086]: DEBUG: resolver (libc6): package doesn't exist (ignored)
+Nov 24 20:39:09 main-menu[1086]: INFO: Menu item 'load-cdrom' selected
+Nov 24 20:39:09 cdrom-retriever: warning: Unable to find contrib/debian-installer/binary-i386/Packages in /cdrom/dists/lenny/Release.
+Nov 24 20:39:09 cdrom-retriever: warning: Unable to find contrib/debian-installer/binary-i386/Packages.gz in /cdrom/dists/lenny/Release.
+Nov 24 20:39:09 anna[4151]: DEBUG: resolver (fat-modules): package doesn't exist (ignored)
+Nov 24 20:39:09 anna[4151]: DEBUG: resolver (fat-modules): package doesn't exist (ignored)
+Nov 24 20:39:09 anna[4151]: DEBUG: retrieving apt-cdrom-setup 1:0.40
+Nov 24 20:39:09 anna[4151]: DEBUG: retrieving apt-mirror-setup 1:0.40
+Nov 24 20:39:09 anna[4151]: DEBUG: retrieving apt-setup-udeb 1:0.40
+Nov 24 20:39:09 anna[4151]: DEBUG: retrieving atl2-modules-2.6.26-2-486-di 1.18lenny1
+Nov 24 20:39:09 anna[4151]: DEBUG: retrieving base-installer 1.98
+Nov 24 20:39:10 anna[4151]: DEBUG: retrieving bootstrap-base 1.98
+Nov 24 20:39:10 anna[4151]: DEBUG: retrieving choose-mirror-bin 2.28lenny3
+Nov 24 20:39:10 anna[4151]: DEBUG: retrieving clock-setup 0.97
+Nov 24 20:39:10 anna[4151]: DEBUG: retrieving crypto-core-modules-2.6.26-2-486-di 1.76lenny5
+Nov 24 20:39:10 anna[4151]: DEBUG: retrieving debian-archive-keyring-udeb 2009.01.31
+Nov 24 20:39:10 anna[4151]: DEBUG: retrieving debootstrap-udeb 1.0.10lenny1
+Nov 24 20:39:10 anna[4151]: DEBUG: retrieving di-utils-mapdevfs 1.65
+Nov 24 20:39:10 anna[4151]: DEBUG: retrieving disk-detect 1.71
+Nov 24 20:39:10 anna[4151]: DEBUG: retrieving e2fsprogs-udeb 1.41.3-1
+Nov 24 20:39:10 anna[4151]: DEBUG: retrieving efi-modules-2.6.26-2-486-di 1.76lenny5
+Nov 24 20:39:10 anna[4151]: DEBUG: retrieving eject-udeb 2.1.5+deb1-4
+Nov 24 20:39:10 anna[4151]: DEBUG: retrieving elilo-installer 1.14
+Nov 24 20:39:11 anna[4151]: DEBUG: retrieving ext2-modules-2.6.26-2-486-di 1.76lenny5
+Nov 24 20:39:11 anna[4151]: DEBUG: retrieving ext3-modules-2.6.26-2-486-di 1.76lenny5
+Nov 24 20:39:11 anna[4151]: DEBUG: retrieving fdisk-udeb 2.13.1.1-1
+Nov 24 20:39:11 anna[4151]: DEBUG: retrieving finish-install 2.22
+Nov 24 20:39:11 anna[4151]: DEBUG: retrieving gpgv-udeb 1.4.9-3+lenny1
+Nov 24 20:39:11 anna[4151]: DEBUG: retrieving grub-installer 1.36
+Nov 24 20:39:11 anna[4151]: DEBUG: retrieving jfs-modules-2.6.26-2-486-di 1.76lenny5
+Nov 24 20:39:11 anna[4151]: DEBUG: retrieving jfsutils-udeb 1.1.12-2
+Nov 24 20:39:11 anna[4151]: DEBUG: retrieving kickseed-common 0.50
+Nov 24 20:39:11 anna[4151]: DEBUG: retrieving libblkid1-udeb 1.41.3-1
+Nov 24 20:39:11 anna[4151]: DEBUG: retrieving libc6-udeb 2.7-18
+Nov 24 20:39:12 anna[4151]: DEBUG: retrieving libdevmapper1.02.1-udeb 2:1.02.27-4
+Nov 24 20:39:12 anna[4151]: DEBUG: retrieving libparted1.8-udeb 1.8.8.git.2008.03.24-11.1
+Nov 24 20:39:12 anna[4151]: DEBUG: retrieving libuuid1-udeb 1.41.3-1
+Nov 24 20:39:12 anna[4151]: DEBUG: retrieving lilo-installer 1.29
+Nov 24 20:39:12 anna[4151]: DEBUG: retrieving loop-modules-2.6.26-2-486-di 1.76lenny5
+Nov 24 20:39:12 anna[4151]: DEBUG: retrieving md-modules-2.6.26-2-486-di 1.76lenny5
+Nov 24 20:39:12 anna[4151]: DEBUG: retrieving mdadm-udeb 2.6.7.2-3
+Nov 24 20:39:12 anna[4151]: DEBUG: retrieving mdcfg-utils 1.28
+Nov 24 20:39:12 anna[4151]: DEBUG: retrieving mkreiserfs-udeb 1:3.6.19-6
+Nov 24 20:39:13 anna[4151]: DEBUG: retrieving network-preseed 1.41
+Nov 24 20:39:13 anna[4151]: DEBUG: retrieving nic-extra-modules-2.6.26-2-486-di 1.76lenny5
+Nov 24 20:39:13 anna[4151]: DEBUG: retrieving nic-modules-2.6.26-2-486-di 1.76lenny5
+Nov 24 20:39:13 anna[4151]: DEBUG: retrieving nic-pcmcia-modules-2.6.26-2-486-di 1.76lenny5
+Nov 24 20:39:13 anna[4151]: DEBUG: retrieving nic-shared-modules-2.6.26-2-486-di 1.76lenny5
+Nov 24 20:39:13 anna[4151]: DEBUG: retrieving nic-usb-modules-2.6.26-2-486-di 1.76lenny5
+Nov 24 20:39:13 anna[4151]: DEBUG: retrieving nic-wireless-modules-2.6.26-2-486-di 1.76lenny5
+Nov 24 20:39:13 anna[4151]: DEBUG: retrieving nobootloader 1.24
+Nov 24 20:39:13 anna[4151]: DEBUG: retrieving ntfsprogs-udeb 2.0.0-1
+Nov 24 20:39:14 anna[4151]: DEBUG: retrieving os-prober-udeb 1.28
+Nov 24 20:39:14 anna[4151]: DEBUG: retrieving partconf-find-partitions 1.30
+Nov 24 20:39:14 anna[4151]: DEBUG: retrieving partman-auto 84
+Nov 24 20:39:14 anna[4151]: DEBUG: retrieving partman-auto-raid 14
+Nov 24 20:39:14 anna[4151]: DEBUG: retrieving partman-base 128lenny1
+Nov 24 20:39:14 anna[4151]: DEBUG: retrieving partman-basicfilesystems 62
+Nov 24 20:39:14 anna[4151]: DEBUG: retrieving partman-basicmethods 42
+Nov 24 20:39:14 anna[4151]: DEBUG: retrieving partman-efi 19
+Nov 24 20:39:14 anna[4151]: DEBUG: retrieving partman-ext3 55
+Nov 24 20:39:14 anna[4151]: DEBUG: retrieving partman-jfs 29
+Nov 24 20:39:14 anna[4151]: DEBUG: retrieving partman-md 44
+Nov 24 20:39:15 anna[4151]: DEBUG: retrieving partman-partitioning 64
+Nov 24 20:39:15 anna[4151]: DEBUG: retrieving partman-reiserfs 44
+Nov 24 20:39:15 anna[4151]: DEBUG: retrieving partman-target 59
+Nov 24 20:39:15 anna[4151]: DEBUG: retrieving partman-utils 128lenny1
+Nov 24 20:39:15 anna[4151]: DEBUG: retrieving partman-xfs 43
+Nov 24 20:39:15 anna[4151]: DEBUG: retrieving pkgsel 0.24
+Nov 24 20:39:15 anna[4151]: DEBUG: retrieving rdate-udeb 1:1.1.3-2
+Nov 24 20:39:15 anna[4151]: DEBUG: retrieving reiserfs-modules-2.6.26-2-486-di 1.76lenny5
+Nov 24 20:39:15 anna[4151]: DEBUG: retrieving scsi-extra-modules-2.6.26-2-486-di 1.76lenny5
+Nov 24 20:39:15 anna[4151]: DEBUG: retrieving tzsetup-udeb 1:0.24
+Nov 24 20:39:16 anna[4151]: DEBUG: retrieving user-setup-udeb 1.23
+Nov 24 20:39:16 anna[4151]: DEBUG: retrieving xfs-modules-2.6.26-2-486-di 1.76lenny5
+Nov 24 20:39:16 anna[4151]: DEBUG: retrieving xfsprogs-udeb 2.9.8-1lenny1
+Nov 24 20:39:17 main-menu[1086]: INFO: Menu item 'ethdetect' selected
+Nov 24 20:39:18 net/hw-detect.hotplug: Detected hotpluggable network interface lo
+Nov 24 20:39:18 kernel: [  103.099112] pcnet32.c:v1.35 21.Apr.2008 tsbogend@alpha.franken.de
+Nov 24 20:39:18 kernel: [  103.099300] ACPI: PCI Interrupt 0000:00:03.0[A] -> Link [LNKC] -> GSI 11 (level, low) -> IRQ 11
+Nov 24 20:39:18 kernel: [  103.099361] PCI: Setting latency timer of device 0000:00:03.0 to 64
+Nov 24 20:39:18 kernel: [  103.099422] pcnet32: PCnet/FAST III 79C973 at 0xd020, 08:00:27:77:18:3b assigned IRQ 11.
+Nov 24 20:39:18 kernel: [  103.099490] pcnet32: Found PHY 0022:561b at address 0.
+Nov 24 20:39:18 kernel: [  103.100783] eth0: registered as PCnet/FAST III 79C973
+Nov 24 20:39:18 kernel: [  103.101162] pcnet32: 1 cards_found.
+Nov 24 20:39:18 net/hw-detect.hotplug: Detected hotpluggable network interface eth0
+Nov 24 20:39:19 hw-detect: Loading PCMCIA bridge driver module: i82365
+Nov 24 20:39:19 kernel: [  103.546500] Intel ISA PCIC probe: not found.
+Nov 24 20:39:19 hw-detect: FATAL: Error inserting i82365 (/lib/modules/2.6.26-2-486/kernel/drivers/pcmcia/i82365.ko): No such device
+Nov 24 20:39:21 check-missing-firmware: no missing firmware in /tmp/missing-firmware
+Nov 24 20:39:21 net/hw-detect.hotplug: Detected hotpluggable network interface eth0
+Nov 24 20:39:21 net/hw-detect.hotplug: Detected hotpluggable network interface lo
+Nov 24 20:39:22 kernel: [  106.732271] eth0: link up, 100Mbps, full-duplex
+Nov 24 20:39:23 check-missing-firmware: no missing firmware in /tmp/missing-firmware
+Nov 24 20:39:23 main-menu[1086]: INFO: Menu item 'netcfg' selected
+Nov 24 20:39:23 dhclient: Internet Systems Consortium DHCP Client V3.1.1
+Nov 24 20:39:23 dhclient: Copyright 2004-2008 Internet Systems Consortium.
+Nov 24 20:39:23 dhclient: All rights reserved.
+Nov 24 20:39:23 dhclient: For info, please visit http://www.isc.org/sw/dhcp/
+Nov 24 20:39:23 dhclient: 
+Nov 24 20:39:23 kernel: [  108.047291] eth0: link up, 100Mbps, full-duplex
+Nov 24 20:39:24 dhclient: Listening on LPF/eth0/08:00:27:77:18:3b
+Nov 24 20:39:24 dhclient: Sending on   LPF/eth0/08:00:27:77:18:3b
+Nov 24 20:39:24 dhclient: Sending on   Socket/fallback
+Nov 24 20:39:28 dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 8
+Nov 24 20:39:28 dhclient: DHCPOFFER from 10.0.2.2
+Nov 24 20:39:28 dhclient: DHCPREQUEST on eth0 to 255.255.255.255 port 67
+Nov 24 20:39:28 dhclient: DHCPACK from 10.0.2.2
+Nov 24 20:39:28 dhclient: bound to 10.0.2.15 -- renewal in 41045 seconds.
+Nov 24 20:39:55 netcfg[6996]: INFO: Detected eth0 as a hotpluggable device
+Nov 24 20:39:55 main-menu[1086]: (process:6995): Internet Systems Consortium DHCP Client V3.1.1
+Nov 24 20:39:55 main-menu[1086]: (process:6995): 
+Nov 24 20:39:55 main-menu[1086]: (process:6995): Copyright 2004-2008 Internet Systems Consortium.
+Nov 24 20:39:55 main-menu[1086]: (process:6995): 
+Nov 24 20:39:55 main-menu[1086]: (process:6995): All rights reserved.
+Nov 24 20:39:55 main-menu[1086]: (process:6995): 
+Nov 24 20:39:55 main-menu[1086]: (process:6995): For info, please visit http://www.isc.org/sw/dhcp/
+Nov 24 20:39:55 main-menu[1086]: (process:6995): 
+Nov 24 20:39:55 main-menu[1086]: (process:6995): 
+Nov 24 20:39:55 main-menu[1086]: (process:6995): Listening on LPF/eth0/08:00:27:77:18:3b
+Nov 24 20:39:55 main-menu[1086]: (process:6995): 
+Nov 24 20:39:55 main-menu[1086]: (process:6995): Sending on   LPF/eth0/08:00:27:77:18:3b
+Nov 24 20:39:55 main-menu[1086]: (process:6995): Sending on   Socket/fallback
+Nov 24 20:39:55 main-menu[1086]: (process:6995): DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 8
+Nov 24 20:39:55 main-menu[1086]: (process:6995): 
+Nov 24 20:39:55 main-menu[1086]: (process:6995): DHCPOFFER from 10.0.2.2
+Nov 24 20:39:55 main-menu[1086]: (process:6995): DHCPREQUEST on eth0 to 255.255.255.255 port 67
+Nov 24 20:39:55 main-menu[1086]: (process:6995): DHCPACK from 10.0.2.2
+Nov 24 20:39:55 main-menu[1086]: (process:6995): bound to 10.0.2.15 -- renewal in 41045 seconds.
+Nov 24 20:39:55 main-menu[1086]: (process:6995): 
+Nov 24 20:39:55 main-menu[1086]: INFO: Falling back to the package description for auto-install
+Nov 24 20:39:55 main-menu[1086]: INFO: Falling back to the package description for ai-choosers
+Nov 24 20:39:55 main-menu[1086]: INFO: Menu item 'clock-setup' selected
+Nov 24 20:39:56 kernel: [  140.762828] warning: process `rdate' used the deprecated sysctl system call with 1.40.
+Nov 25 01:39:57 clock-setup: Wed Nov 25 01:39:57 UTC 2009
+Nov 25 01:39:57 clock-setup: rdate: adjust local clock by 18001.105330 seconds
+Nov 25 01:39:58 main-menu[1086]: INFO: Falling back to the package description for auto-install
+Nov 25 01:39:58 main-menu[1086]: INFO: Falling back to the package description for ai-choosers
+Nov 25 01:39:58 main-menu[1086]: INFO: Menu item 'disk-detect' selected
+Nov 25 01:39:59 net/hw-detect.hotplug: Detected hotpluggable network interface eth0
+Nov 25 01:39:59 net/hw-detect.hotplug: Detected hotpluggable network interface lo
+Nov 25 01:40:00 hw-detect: Loading PCMCIA bridge driver module: i82365
+Nov 25 01:40:00 kernel: [  143.662392] Intel ISA PCIC probe: not found.
+Nov 25 01:40:00 hw-detect: FATAL: Error inserting i82365 (/lib/modules/2.6.26-2-486/kernel/drivers/pcmcia/i82365.ko): No such device
+Nov 25 01:40:02 check-missing-firmware: no missing firmware in /tmp/missing-firmware
+Nov 25 01:40:02 net/hw-detect.hotplug: Detected hotpluggable network interface eth0
+Nov 25 01:40:02 net/hw-detect.hotplug: Detected hotpluggable network interface lo
+Nov 25 01:40:03 kernel: [  146.801252] end_request: I/O error, dev fd0, sector 0
+Nov 25 01:40:03 kernel: [  146.829894] end_request: I/O error, dev fd0, sector 0
+Nov 25 01:40:04 check-missing-firmware: no missing firmware in /tmp/missing-firmware
+Nov 25 01:40:04 main-menu[1086]: INFO: Falling back to the package description for auto-install
+Nov 25 01:40:04 main-menu[1086]: INFO: Falling back to the package description for ai-choosers
+Nov 25 01:40:04 main-menu[1086]: INFO: Menu item 'partman-base' selected
+Nov 25 01:40:04 anna-install: Installing partman-auto-lvm
+Nov 25 01:40:04 anna[8266]: DEBUG: resolver (cdebconf-udeb): package doesn't exist (ignored)
+Nov 25 01:40:04 anna[8266]: DEBUG: resolver (kernel-image-2.6.26-2-486-di): package doesn't exist (ignored)
+Nov 25 01:40:04 anna[8266]: DEBUG: resolver (core-modules-2.6.26-2-486-di): package doesn't exist (ignored)
+Nov 25 01:40:04 anna[8266]: DEBUG: resolver (fat-modules): package doesn't exist (ignored)
+Nov 25 01:40:04 anna[8266]: DEBUG: resolver (libdebian-installer4-udeb): package doesn't exist (ignored)
+Nov 25 01:40:04 anna[8266]: DEBUG: resolver (archdetect): package doesn't exist (ignored)
+Nov 25 01:40:04 anna[8266]: DEBUG: resolver (hw-detect): package doesn't exist (ignored)
+Nov 25 01:40:04 anna[8266]: DEBUG: resolver (di-utils): package doesn't exist (ignored)
+Nov 25 01:40:04 anna[8266]: DEBUG: retrieving lvm2-udeb 2.02.39-7
+Nov 25 01:40:05 anna[8266]: DEBUG: retrieving partman-auto-lvm 32
+Nov 25 01:40:05 anna[8266]: DEBUG: retrieving partman-lvm 65
+Nov 25 01:40:05 anna-install: Installing partman-auto-crypto
+Nov 25 01:40:05 anna[8361]: DEBUG: resolver (cdebconf-udeb): package doesn't exist (ignored)
+Nov 25 01:40:05 anna[8361]: DEBUG: resolver (di-utils): package doesn't exist (ignored)
+Nov 25 01:40:05 anna[8361]: DEBUG: resolver (kernel-image-2.6.26-2-486-di): package doesn't exist (ignored)
+Nov 25 01:40:05 anna[8361]: DEBUG: resolver (core-modules-2.6.26-2-486-di): package doesn't exist (ignored)
+Nov 25 01:40:05 anna[8361]: DEBUG: resolver (fat-modules): package doesn't exist (ignored)
+Nov 25 01:40:05 anna[8361]: DEBUG: resolver (libdebian-installer4-udeb): package doesn't exist (ignored)
+Nov 25 01:40:05 anna[8361]: DEBUG: resolver (archdetect): package doesn't exist (ignored)
+Nov 25 01:40:05 anna[8361]: DEBUG: resolver (hw-detect): package doesn't exist (ignored)
+Nov 25 01:40:05 anna[8361]: DEBUG: retrieving partman-auto-crypto 11
+Nov 25 01:40:05 anna[8361]: DEBUG: retrieving partman-crypto 36
+Nov 25 01:40:06 kernel: [  149.749744] JFS: nTxBlock = 2004, nTxLock = 16036
+Nov 25 01:40:06 kernel: [  149.850003] SGI XFS with ACLs, security attributes, realtime, large block numbers, no debug enabled
+Nov 25 01:40:06 kernel: [  149.854140] SGI XFS Quota Management subsystem
+Nov 25 01:40:06 md-devices: mdadm: No arrays found in config file
+Nov 25 01:40:06 kernel: [  150.147826] device-mapper: uevent: version 1.0.3
+Nov 25 01:40:06 kernel: [  150.150558] device-mapper: ioctl: 4.13.0-ioctl (2007-10-18) initialised: dm-devel@redhat.com
+Nov 25 01:40:06 partman:   /dev/cdrom: open failed: Read-only file system
+Nov 25 01:40:06 partman:   Attempt to close device '/dev/cdrom' which is not open.
+Nov 25 01:40:06 partman:   No matching physical volumes found
+Nov 25 01:40:06 partman:   /dev/cdrom: open failed: Read-only file system
+Nov 25 01:40:06 partman:   Attempt to close device '/dev/cdrom' which is not open.
+Nov 25 01:40:06 partman:   Reading all physical volumes.  This may take a while...
+Nov 25 01:40:07 kernel: [  150.375552] end_request: I/O error, dev fd0, sector 0
+Nov 25 01:40:07 kernel: [  150.392882] end_request: I/O error, dev fd0, sector 0
+Nov 25 01:40:21 net/hw-detect.hotplug: Detected hotpluggable network interface eth0
+Nov 25 01:40:21 net/hw-detect.hotplug: Detected hotpluggable network interface lo
+Nov 25 01:40:22 kernel: [  165.494117] Adding 321260k swap on /dev/hda5.  Priority:-1 extents:1 across:321260k
+Nov 25 01:40:22 partman: mke2fs 1.41.3 (12-Oct-2008)
+Nov 25 01:40:27 kernel: [  170.808755] kjournald starting.  Commit interval 5 seconds
+Nov 25 01:40:27 kernel: [  170.809802] EXT3 FS on hda1, internal journal
+Nov 25 01:40:27 kernel: [  170.809817] EXT3-fs: mounted filesystem with ordered data mode.
+Nov 25 01:40:28 apt-install: Queueing package e2fsprogs for later installation
+Nov 25 01:40:28 main-menu[1086]: INFO: Falling back to the package description for auto-install
+Nov 25 01:40:28 main-menu[1086]: INFO: Falling back to the package description for ai-choosers
+Nov 25 01:40:28 main-menu[1086]: INFO: Menu item 'bootstrap-base' selected
+Nov 25 01:40:47 debootstrap: Selecting previously deselected package base-passwd.
+Nov 25 01:40:47 debootstrap: (Reading database ... 0 files and directories currently installed.)
+Nov 25 01:40:47 debootstrap: Unpacking base-passwd (from .../base-passwd_3.5.20_i386.deb) ...
+Nov 25 01:40:47 debootstrap: Selecting previously deselected package base-files.
+Nov 25 01:40:47 debootstrap: Unpacking base-files (from .../base-files_5lenny4_i386.deb) ...
+Nov 25 01:40:47 debootstrap: dpkg: regarding .../base-files_5lenny4_i386.deb containing base-files, pre-dependency problem:
+Nov 25 01:40:47 debootstrap:  base-files pre-depends on awk
+Nov 25 01:40:47 debootstrap:   awk is not installed.
+Nov 25 01:40:47 debootstrap: dpkg: warning - ignoring pre-dependency problem !
+Nov 25 01:40:47 debootstrap: dpkg: base-passwd: dependency problems, but configuring anyway as you request:
+Nov 25 01:40:47 debootstrap:  base-passwd depends on libc6 (>= 2.7-1); however:
+Nov 25 01:40:47 debootstrap:   Package libc6 is not installed.
+Nov 25 01:40:47 debootstrap: Setting up base-passwd (3.5.20) ...
+Nov 25 01:40:47 debootstrap: Setting up base-files (5lenny4) ...
+Nov 25 01:40:47 debootstrap: dpkg: base-files: dependency problems, but configuring anyway as you request:
+Nov 25 01:40:47 debootstrap:  base-files depends on awk; however:
+Nov 25 01:40:47 debootstrap:   Package awk is not installed.
+Nov 25 01:40:48 debootstrap: (Reading database ... 97 files and directories currently installed.)
+Nov 25 01:40:48 debootstrap: Preparing to replace dpkg 1.14.25 (using .../archives/dpkg_1.14.25_i386.deb) ...
+Nov 25 01:40:48 debootstrap: dpkg: regarding .../archives/dpkg_1.14.25_i386.deb containing dpkg, pre-dependency problem:
+Nov 25 01:40:48 debootstrap:  dpkg pre-depends on libc6 (>= 2.7-1)
+Nov 25 01:40:48 debootstrap: dpkg: warning - ignoring pre-dependency problem !
+Nov 25 01:40:48 debootstrap: dpkg: regarding .../archives/dpkg_1.14.25_i386.deb containing dpkg, pre-dependency problem:
+Nov 25 01:40:48 debootstrap:  dpkg pre-depends on coreutils (>= 5.93-1)
+Nov 25 01:40:48 debootstrap: dpkg: warning - ignoring pre-dependency problem !
+Nov 25 01:40:48 debootstrap: dpkg: regarding .../archives/dpkg_1.14.25_i386.deb containing dpkg, pre-dependency problem:
+Nov 25 01:40:48 debootstrap:  dpkg pre-depends on lzma
+Nov 25 01:40:48 debootstrap:   lzma is not installed.
+Nov 25 01:40:48 debootstrap: dpkg: warning - ignoring pre-dependency problem !
+Nov 25 01:40:48 debootstrap: Unpacking replacement dpkg ...
+Nov 25 01:40:48 debootstrap: dpkg: dpkg: dependency problems, but configuring anyway as you request:
+Nov 25 01:40:48 debootstrap:  dpkg depends on libc6 (>= 2.7-1); however:
+Nov 25 01:40:48 debootstrap:   Package libc6 is not installed.
+Nov 25 01:40:48 debootstrap:  dpkg depends on coreutils (>= 5.93-1); however:
+Nov 25 01:40:48 debootstrap:   Package coreutils is not installed.
+Nov 25 01:40:48 debootstrap:  dpkg depends on lzma; however:
+Nov 25 01:40:48 debootstrap:   Package lzma is not installed.
+Nov 25 01:40:48 debootstrap: Setting up dpkg (1.14.25) ...
+Nov 25 01:40:49 debootstrap: Selecting previously deselected package libc6.
+Nov 25 01:40:49 debootstrap: (Reading database ... 338 files and directories currently installed.)
+Nov 25 01:40:49 debootstrap: Unpacking libc6 (from .../archives/libc6_2.7-18_i386.deb) ...
+Nov 25 01:40:50 debootstrap: dpkg: libc6: dependency problems, but configuring anyway as you request:
+Nov 25 01:40:50 debootstrap:  libc6 depends on libgcc1; however:
+Nov 25 01:40:50 debootstrap:   Package libgcc1 is not installed.
+Nov 25 01:40:50 debootstrap: Setting up libc6 (2.7-18) ...
+Nov 25 01:40:50 debootstrap: Selecting previously deselected package perl-base.
+Nov 25 01:40:50 debootstrap: (Reading database ... 683 files and directories currently installed.)
+Nov 25 01:40:50 debootstrap: Unpacking perl-base (from .../perl-base_5.10.0-19lenny2_i386.deb) ...
+Nov 25 01:40:51 debootstrap: Setting up perl-base (5.10.0-19lenny2) ...
+Nov 25 01:40:51 debootstrap: Selecting previously deselected package mawk.
+Nov 25 01:40:51 debootstrap: (Reading database ... 
+Nov 25 01:40:51 debootstrap: 1274 files and directories currently installed.)
+Nov 25 01:40:51 debootstrap: Unpacking mawk (from .../mawk_1.3.3-11.1_i386.deb) ...
+Nov 25 01:40:51 debootstrap: Setting up mawk (1.3.3-11.1) ...
+Nov 25 01:40:51 debootstrap: Selecting previously deselected package debconf.
+Nov 25 01:40:51 debootstrap: (Reading database ... 1293 files and directories currently installed.)
+Nov 25 01:40:51 debootstrap: Unpacking debconf (from .../debconf_1.5.24_all.deb) ...
+Nov 25 01:40:52 debootstrap: dpkg: debconf: dependency problems, but configuring anyway as you request:
+Nov 25 01:40:52 debootstrap:  debconf depends on debconf-i18n | debconf-english; however:
+Nov 25 01:40:52 debootstrap:   Package debconf-i18n is not installed.
+Nov 25 01:40:52 debootstrap:   Package debconf-english is not installed.
+Nov 25 01:40:52 debootstrap: Setting up debconf (1.5.24) ...
+Nov 25 01:40:52 debootstrap: Selecting previously deselected package gcc-4.3-base.
+Nov 25 01:40:52 debootstrap: (Reading database ... 
+Nov 25 01:40:52 debootstrap: 1468 files and directories currently installed.)
+Nov 25 01:40:52 debootstrap: Unpacking gcc-4.3-base (from .../gcc-4.3-base_4.3.2-1.1_i386.deb) ...
+Nov 25 01:40:53 debootstrap: Selecting previously deselected package libgcc1.
+Nov 25 01:40:53 debootstrap: Unpacking libgcc1 (from .../libgcc1_1%3a4.3.2-1.1_i386.deb) ...
+Nov 25 01:40:53 debootstrap: Preparing to replace libc6 2.7-18 (using .../archives/libc6_2.7-18_i386.deb) ...
+Nov 25 01:40:53 debootstrap: Unpacking replacement libc6 ...
+Nov 25 01:40:54 debootstrap: Preparing to replace mawk 1.3.3-11.1 (using .../mawk_1.3.3-11.1_i386.deb) ...
+Nov 25 01:40:54 debootstrap: Unpacking replacement mawk ...
+Nov 25 01:40:54 debootstrap: Preparing to replace base-passwd 3.5.20 (using .../base-passwd_3.5.20_i386.deb) ...
+Nov 25 01:40:54 debootstrap: Unpacking replacement base-passwd ...
+Nov 25 01:40:54 debootstrap: Preparing to replace base-files 5lenny4 (using .../base-files_5lenny4_i386.deb) ...
+Nov 25 01:40:54 debootstrap: dpkg: regarding .../base-files_5lenny4_i386.deb containing base-files, pre-dependency problem:
+Nov 25 01:40:54 debootstrap:  base-files pre-depends on awk
+Nov 25 01:40:54 debootstrap:   mawk provides awk but is unpacked but not configured.
+Nov 25 01:40:54 debootstrap: dpkg: warning - ignoring pre-dependency problem !
+Nov 25 01:40:54 debootstrap: Unpacking replacement base-files ...
+Nov 25 01:40:54 debootstrap: Selecting previously deselected package debianutils.
+Nov 25 01:40:54 debootstrap: Unpacking debianutils (from .../debianutils_2.30_i386.deb) ...
+Nov 25 01:40:54 debootstrap: Selecting previously deselected package libncurses5.
+Nov 25 01:40:54 debootstrap: Unpacking libncurses5 (from .../libncurses5_5.7+20081213-1_i386.deb) ...
+Nov 25 01:40:54 debootstrap: Selecting previously deselected package bash.
+Nov 25 01:40:54 debootstrap: Unpacking bash (from .../archives/bash_3.2-4_i386.deb) ...
+Nov 25 01:40:54 debootstrap: dpkg: regarding .../archives/bash_3.2-4_i386.deb containing bash, pre-dependency problem:
+Nov 25 01:40:54 debootstrap:  bash pre-depends on libncurses5 (>= 5.6+20071006-3)
+Nov 25 01:40:54 debootstrap:   libncurses5 is unpacked, but has never been configured.
+Nov 25 01:40:54 debootstrap: dpkg: warning - ignoring pre-dependency problem !
+Nov 25 01:40:54 debootstrap: Selecting previously deselected package bsdutils.
+Nov 25 01:40:54 debootstrap: Unpacking bsdutils (from .../bsdutils_1%3a2.13.1.1-1_i386.deb) ...
+Nov 25 01:40:54 debootstrap: Selecting previously deselected package libattr1.
+Nov 25 01:40:54 debootstrap: Unpacking libattr1 (from .../libattr1_1%3a2.4.43-2_i386.deb) ...
+Nov 25 01:40:54 debootstrap: Selecting previously deselected package libacl1.
+Nov 25 01:40:54 debootstrap: Unpacking libacl1 (from .../libacl1_2.2.47-2_i386.deb) ...
+Nov 25 01:40:55 debootstrap: Selecting previously deselected package libselinux1.
+Nov 25 01:40:55 debootstrap: Unpacking libselinux1 (from .../libselinux1_2.0.65-5_i386.deb) ...
+Nov 25 01:40:55 debootstrap: Selecting previously deselected package coreutils.
+Nov 25 01:40:55 debootstrap: Unpacking coreutils (from .../coreutils_6.10-6_i386.deb) ...
+Nov 25 01:40:55 debootstrap: dpkg: regarding .../coreutils_6.10-6_i386.deb containing coreutils, pre-dependency problem:
+Nov 25 01:40:55 debootstrap:  coreutils pre-depends on libacl1 (>= 2.2.11-1)
+Nov 25 01:40:55 debootstrap:   libacl1 is unpacked, but has never been configured.
+Nov 25 01:40:55 debootstrap: dpkg: warning - ignoring pre-dependency problem !
+Nov 25 01:40:55 debootstrap: dpkg: regarding .../coreutils_6.10-6_i386.deb containing coreutils, pre-dependency problem:
+Nov 25 01:40:55 debootstrap:  coreutils pre-depends on libselinux1 (>= 2.0.15)
+Nov 25 01:40:55 debootstrap:   libselinux1 is unpacked, but has never been configured.
+Nov 25 01:40:55 debootstrap: dpkg: warning - ignoring pre-dependency problem !
+Nov 25 01:40:55 debootstrap: Selecting previously deselected package libstdc++6.
+Nov 25 01:40:55 debootstrap: Unpacking libstdc++6 (from .../libstdc++6_4.3.2-1.1_i386.deb) ...
+Nov 25 01:40:55 debootstrap: Selecting previously deselected package lzma.
+Nov 25 01:40:55 debootstrap: Unpacking lzma (from .../archives/lzma_4.43-14_i386.deb) ...
+Nov 25 01:40:55 debootstrap: Preparing to replace dpkg 1.14.25 (using .../archives/dpkg_1.14.25_i386.deb) ...
+Nov 25 01:40:55 debootstrap: dpkg: regarding .../archives/dpkg_1.14.25_i386.deb containing dpkg, pre-dependency problem:
+Nov 25 01:40:55 debootstrap:  dpkg pre-depends on coreutils (>= 5.93-1)
+Nov 25 01:40:55 debootstrap:   coreutils is unpacked, but has never been configured.
+Nov 25 01:40:55 debootstrap: dpkg: warning - ignoring pre-dependency problem !
+Nov 25 01:40:55 debootstrap: dpkg: regarding .../archives/dpkg_1.14.25_i386.deb containing dpkg, pre-dependency problem:
+Nov 25 01:40:55 debootstrap:  dpkg pre-depends on lzma
+Nov 25 01:40:55 debootstrap:   lzma is unpacked, but has never been configured.
+Nov 25 01:40:55 debootstrap: dpkg: warning - ignoring pre-dependency problem !
+Nov 25 01:40:55 debootstrap: Unpacking replacement dpkg ...
+Nov 25 01:40:56 debootstrap: Preparing to replace perl-base 5.10.0-19lenny2 (using .../perl-base_5.10.0-19lenny2_i386.deb) ...
+Nov 25 01:40:56 debootstrap: Unpacking replacement perl-base ...
+Nov 25 01:40:56 debootstrap: Selecting previously deselected package liblocale-gettext-perl.
+Nov 25 01:40:56 debootstrap: Unpacking liblocale-gettext-perl (from .../liblocale-gettext-perl_1.05-4_i386.deb) ...
+Nov 25 01:40:56 debootstrap: dpkg: regarding .../liblocale-gettext-perl_1.05-4_i386.deb containing liblocale-gettext-perl, pre-dependency problem:
+Nov 25 01:40:56 debootstrap:  liblocale-gettext-perl pre-depends on perlapi-5.10.0
+Nov 25 01:40:56 debootstrap:   perl-base provides perlapi-5.10.0 but is unpacked but not configured.
+Nov 25 01:40:56 debootstrap: dpkg: warning - ignoring pre-dependency problem !
+Nov 25 01:40:56 debootstrap: Selecting previously deselected package libtext-iconv-perl.
+Nov 25 01:40:56 debootstrap: Unpacking libtext-iconv-perl (from .../libtext-iconv-perl_1.7-1+b1_i386.deb) ...
+Nov 25 01:40:56 debootstrap: Selecting previously deselected package libtext-charwidth-perl.
+Nov 25 01:40:56 debootstrap: Unpacking libtext-charwidth-perl (from .../libtext-charwidth-perl_0.04-5+b1_i386.deb) ...
+Nov 25 01:40:56 debootstrap: Selecting previously deselected package libtext-wrapi18n-perl.
+Nov 25 01:40:56 debootstrap: Unpacking libtext-wrapi18n-perl (from .../libtext-wrapi18n-perl_0.06-6_all.deb) ...
+Nov 25 01:40:56 debootstrap: Selecting previously deselected package debconf-i18n.
+Nov 25 01:40:56 debootstrap: Unpacking debconf-i18n (from .../debconf-i18n_1.5.24_all.deb) ...
+Nov 25 01:40:56 debootstrap: Preparing to replace debconf 1.5.24 (using .../debconf_1.5.24_all.deb) ...
+Nov 25 01:40:56 debootstrap: Unpacking replacement debconf ...
+Nov 25 01:40:56 debootstrap: Selecting previously deselected package diff.
+Nov 25 01:40:56 debootstrap: Unpacking diff (from .../diff_2.8.1-12_i386.deb) ...
+Nov 25 01:40:56 debootstrap: Selecting previously deselected package libcomerr2.
+Nov 25 01:40:56 debootstrap: Unpacking libcomerr2 (from .../libcomerr2_1.41.3-1_i386.deb) ...
+Nov 25 01:40:56 debootstrap: Selecting previously deselected package e2fslibs.
+Nov 25 01:40:56 debootstrap: Unpacking e2fslibs (from .../e2fslibs_1.41.3-1_i386.deb) ...
+Nov 25 01:40:57 debootstrap: Selecting previously deselected package libpam-runtime.
+Nov 25 01:40:57 debootstrap: Unpacking libpam-runtime (from .../libpam-runtime_1.0.1-5+lenny1_all.deb) ...
+Nov 25 01:40:57 debootstrap: Selecting previously deselected package libpam0g.
+Nov 25 01:40:57 debootstrap: Unpacking libpam0g (from .../libpam0g_1.0.1-5+lenny1_i386.deb) ...
+Nov 25 01:40:57 debootstrap: Selecting previously deselected package libdb4.6.
+Nov 25 01:40:57 debootstrap: Unpacking libdb4.6 (from .../libdb4.6_4.6.21-11_i386.deb) ...
+Nov 25 01:40:57 debootstrap: Selecting previously deselected package libpam-modules.
+Nov 25 01:40:57 debootstrap: Unpacking libpam-modules (from .../libpam-modules_1.0.1-5+lenny1_i386.deb) ...
+Nov 25 01:40:57 debootstrap: dpkg: regarding .../libpam-modules_1.0.1-5+lenny1_i386.deb containing libpam-modules, pre-dependency problem:
+Nov 25 01:40:57 debootstrap:  libpam-modules pre-depends on libdb4.6
+Nov 25 01:40:57 debootstrap:   libdb4.6 is unpacked, but has never been configured.
+Nov 25 01:40:57 debootstrap: dpkg: warning - ignoring pre-dependency problem !
+Nov 25 01:40:57 debootstrap: dpkg: regarding .../libpam-modules_1.0.1-5+lenny1_i386.deb containing libpam-modules, pre-dependency problem:
+Nov 25 01:40:57 debootstrap:  libpam-modules pre-depends on libpam0g (>= 0.99.7.1)
+Nov 25 01:40:57 debootstrap:   libpam0g is unpacked, but has never been configured.
+Nov 25 01:40:57 debootstrap: dpkg: warning - ignoring pre-dependency problem !
+Nov 25 01:40:57 debootstrap: dpkg: regarding .../libpam-modules_1.0.1-5+lenny1_i386.deb containing libpam-modules, pre-dependency problem:
+Nov 25 01:40:57 debootstrap:  libpam-modules pre-depends on libselinux1 (>= 2.0.59)
+Nov 25 01:40:57 debootstrap:   libselinux1 is unpacked, but has never been configured.
+Nov 25 01:40:57 debootstrap: dpkg: warning - ignoring pre-dependency problem !
+Nov 25 01:40:57 debootstrap: Selecting previously deselected package passwd.
+Nov 25 01:40:57 debootstrap: Unpacking passwd (from .../passwd_1%3a4.1.1-6_i386.deb) ...
+Nov 25 01:40:57 debootstrap: Selecting previously deselected package libuuid1.
+Nov 25 01:40:57 debootstrap: Unpacking libuuid1 (from .../libuuid1_1.41.3-1_i386.deb) ...
+Nov 25 01:40:57 debootstrap: Selecting previously deselected package libblkid1.
+Nov 25 01:40:57 debootstrap: Unpacking libblkid1 (from .../libblkid1_1.41.3-1_i386.deb) ...
+Nov 25 01:40:57 debootstrap: Selecting previously deselected package libss2.
+Nov 25 01:40:57 debootstrap: Unpacking libss2 (from .../libss2_1.41.3-1_i386.deb) ...
+Nov 25 01:40:57 debootstrap: Selecting previously deselected package e2fsprogs.
+Nov 25 01:40:57 debootstrap: Unpacking e2fsprogs (from .../e2fsprogs_1.41.3-1_i386.deb) ...
+Nov 25 01:40:57 debootstrap: dpkg: regarding .../e2fsprogs_1.41.3-1_i386.deb containing e2fsprogs, pre-dependency problem:
+Nov 25 01:40:57 debootstrap:  e2fsprogs pre-depends on e2fslibs (>= 1.41.1)
+Nov 25 01:40:57 debootstrap:   e2fslibs is unpacked, but has never been configured.
+Nov 25 01:40:57 debootstrap: dpkg: warning - ignoring pre-dependency problem !
+Nov 25 01:40:57 debootstrap: dpkg: regarding .../e2fsprogs_1.41.3-1_i386.deb containing e2fsprogs, pre-dependency problem:
+Nov 25 01:40:57 debootstrap:  e2fsprogs pre-depends on libblkid1 (>= 1.40)
+Nov 25 01:40:57 debootstrap:   libblkid1 is unpacked, but has never been configured.
+Nov 25 01:40:57 debootstrap: dpkg: warning - ignoring pre-dependency problem !
+Nov 25 01:40:57 debootstrap: dpkg: regarding .../e2fsprogs_1.41.3-1_i386.deb containing e2fsprogs, pre-dependency problem:
+Nov 25 01:40:57 debootstrap:  e2fsprogs pre-depends on libcomerr2 (>= 1.34)
+Nov 25 01:40:57 debootstrap:   libcomerr2 is unpacked, but has never been configured.
+Nov 25 01:40:57 debootstrap: dpkg: warning - ignoring pre-dependency problem !
+Nov 25 01:40:57 debootstrap: dpkg: regarding .../e2fsprogs_1.41.3-1_i386.deb containing e2fsprogs, pre-dependency problem:
+Nov 25 01:40:57 debootstrap:  e2fsprogs pre-depends on libss2 (>= 1.34)
+Nov 25 01:40:57 debootstrap:   libss2 is unpacked, but has never been configured.
+Nov 25 01:40:57 debootstrap: dpkg: warning - ignoring pre-dependency problem !
+Nov 25 01:40:57 debootstrap: dpkg: regarding .../e2fsprogs_1.41.3-1_i386.deb containing e2fsprogs, pre-dependency problem:
+Nov 25 01:40:57 debootstrap:  e2fsprogs pre-depends on libuuid1 (>= 1.15)
+Nov 25 01:40:57 debootstrap:   libuuid1 is unpacked, but has never been configured.
+Nov 25 01:40:57 debootstrap: dpkg: warning - ignoring pre-dependency problem !
+Nov 25 01:40:57 debootstrap: Selecting previously deselected package findutils.
+Nov 25 01:40:57 debootstrap: Unpacking findutils (from .../findutils_4.4.0-2_i386.deb) ...
+Nov 25 01:40:58 debootstrap: Selecting previously deselected package gcc-4.2-base.
+Nov 25 01:40:58 debootstrap: Unpacking gcc-4.2-base (from .../gcc-4.2-base_4.2.4-6_i386.deb) ...
+Nov 25 01:40:58 debootstrap: Selecting previously deselected package grep.
+Nov 25 01:40:58 debootstrap: Unpacking grep (from .../grep_2.5.3~dfsg-6_i386.deb) ...
+Nov 25 01:40:58 debootstrap: Selecting previously deselected package gzip.
+Nov 25 01:40:58 debootstrap: Unpacking gzip (from .../gzip_1.3.12-6_i386.deb) ...
+Nov 25 01:40:58 debootstrap: Selecting previously deselected package hostname.
+Nov 25 01:40:58 debootstrap: Unpacking hostname (from .../hostname_2.95_i386.deb) ...
+Nov 25 01:40:58 debootstrap: Selecting previously deselected package mount.
+Nov 25 01:40:58 debootstrap: Unpacking mount (from .../mount_2.13.1.1-1_i386.deb) ...
+Nov 25 01:40:58 debootstrap: dpkg: regarding .../mount_2.13.1.1-1_i386.deb containing mount, pre-dependency problem:
+Nov 25 01:40:58 debootstrap:  mount pre-depends on libblkid1 (>= 1.37-1)
+Nov 25 01:40:58 debootstrap:   libblkid1 is unpacked, but has never been configured.
+Nov 25 01:40:58 debootstrap: dpkg: warning - ignoring pre-dependency problem !
+Nov 25 01:40:58 debootstrap: dpkg: regarding .../mount_2.13.1.1-1_i386.deb containing mount, pre-dependency problem:
+Nov 25 01:40:58 debootstrap:  mount pre-depends on libselinux1 (>= 2.0.59)
+Nov 25 01:40:58 debootstrap:   libselinux1 is unpacked, but has never been configured.
+Nov 25 01:40:58 debootstrap: dpkg: warning - ignoring pre-dependency problem !
+Nov 25 01:40:58 debootstrap: dpkg: regarding .../mount_2.13.1.1-1_i386.deb containing mount, pre-dependency problem:
+Nov 25 01:40:58 debootstrap:  mount pre-depends on libuuid1
+Nov 25 01:40:58 debootstrap:   libuuid1 is unpacked, but has never been configured.
+Nov 25 01:40:58 debootstrap: dpkg: warning - ignoring pre-dependency problem !
+Nov 25 01:40:58 debootstrap: Selecting previously deselected package ncurses-bin.
+Nov 25 01:40:58 debootstrap: Unpacking ncurses-bin (from .../ncurses-bin_5.7+20081213-1_i386.deb) ...
+Nov 25 01:40:58 debootstrap: dpkg: regarding .../ncurses-bin_5.7+20081213-1_i386.deb containing ncurses-bin, pre-dependency problem:
+Nov 25 01:40:58 debootstrap:  ncurses-bin pre-depends on libncurses5 (>= 5.6+20071006-3)
+Nov 25 01:40:58 debootstrap:   libncurses5 is unpacked, but has never been configured.
+Nov 25 01:40:58 debootstrap: dpkg: warning - ignoring pre-dependency problem !
+Nov 25 01:40:58 debootstrap: Selecting previously deselected package lsb-base.
+Nov 25 01:40:58 debootstrap: Unpacking lsb-base (from .../lsb-base_3.2-20_all.deb) ...
+Nov 25 01:40:58 debootstrap: Selecting previously deselected package libsepol1.
+Nov 25 01:40:58 debootstrap: Unpacking libsepol1 (from .../libsepol1_2.0.30-2_i386.deb) ...
+Nov 25 01:40:58 debootstrap: Selecting previously deselected package initscripts.
+Nov 25 01:40:58 debootstrap: Unpacking initscripts (from .../initscripts_2.86.ds1-61_i386.deb) ...
+Nov 25 01:40:58 debootstrap: Selecting previously deselected package libdevmapper1.02.1.
+Nov 25 01:40:58 debootstrap: Unpacking libdevmapper1.02.1 (from .../libdevmapper1.02.1_2%3a1.02.27-4_i386.deb) ...
+Nov 25 01:40:58 debootstrap: Selecting previously deselected package libslang2.
+Nov 25 01:40:58 debootstrap: Unpacking libslang2 (from .../libslang2_2.1.3-3_i386.deb) ...
+Nov 25 01:40:58 debootstrap: Selecting previously deselected package login.
+Nov 25 01:40:58 debootstrap: Unpacking login (from .../login_1%3a4.1.1-6_i386.deb) ...
+Nov 25 01:40:58 debootstrap: dpkg: regarding .../login_1%3a4.1.1-6_i386.deb containing login, pre-dependency problem:
+Nov 25 01:40:58 debootstrap:  login pre-depends on libpam0g (>= 0.99.7.1)
+Nov 25 01:40:58 debootstrap:   libpam0g is unpacked, but has never been configured.
+Nov 25 01:40:58 debootstrap: dpkg: warning - ignoring pre-dependency problem !
+Nov 25 01:40:58 debootstrap: dpkg: regarding .../login_1%3a4.1.1-6_i386.deb containing login, pre-dependency problem:
+Nov 25 01:40:58 debootstrap:  login pre-depends on libpam-runtime
+Nov 25 01:40:58 debootstrap:   libpam-runtime is unpacked, but has never been configured.
+Nov 25 01:40:58 debootstrap: dpkg: warning - ignoring pre-dependency problem !
+Nov 25 01:40:58 debootstrap: dpkg: regarding .../login_1%3a4.1.1-6_i386.deb containing login, pre-dependency problem:
+Nov 25 01:40:58 debootstrap:  login pre-depends on libpam-modules
+Nov 25 01:40:58 debootstrap:   libpam-modules is unpacked, but has never been configured.
+Nov 25 01:40:58 debootstrap: dpkg: warning - ignoring pre-dependency problem !
+Nov 25 01:40:59 debootstrap: Selecting previously deselected package makedev.
+Nov 25 01:40:59 debootstrap: Unpacking makedev (from .../makedev_2.3.1-88_all.deb) ...
+Nov 25 01:40:59 debootstrap:  Removing any system startup links for /etc/init.d/makedev ...
+Nov 25 01:40:59 debootstrap: Selecting previously deselected package mktemp.
+Nov 25 01:40:59 debootstrap: Unpacking mktemp (from .../archives/mktemp_1.5-9_i386.deb) ...
+Nov 25 01:40:59 debootstrap: Selecting previously deselected package ncurses-base.
+Nov 25 01:40:59 debootstrap: Unpacking ncurses-base (from .../ncurses-base_5.7+20081213-1_all.deb) ...
+Nov 25 01:40:59 debootstrap: Selecting previously deselected package procps.
+Nov 25 01:40:59 debootstrap: Unpacking procps (from .../procps_1%3a3.2.7-11_i386.deb) ...
+Nov 25 01:40:59 debootstrap: Selecting previously deselected package sed.
+Nov 25 01:40:59 debootstrap: Unpacking sed (from .../archives/sed_4.1.5-6_i386.deb) ...
+Nov 25 01:40:59 debootstrap: Selecting previously deselected package sysvinit-utils.
+Nov 25 01:40:59 debootstrap: Unpacking sysvinit-utils (from .../sysvinit-utils_2.86.ds1-61_i386.deb) ...
+Nov 25 01:40:59 debootstrap: Selecting previously deselected package sysv-rc.
+Nov 25 01:40:59 debootstrap: Unpacking sysv-rc (from .../sysv-rc_2.86.ds1-61_all.deb) ...
+Nov 25 01:40:59 debootstrap: Selecting previously deselected package sysvinit.
+Nov 25 01:40:59 debootstrap: Unpacking sysvinit (from .../sysvinit_2.86.ds1-61_i386.deb) ...
+Nov 25 01:40:59 debootstrap: dpkg: regarding .../sysvinit_2.86.ds1-61_i386.deb containing sysvinit, pre-dependency problem:
+Nov 25 01:40:59 debootstrap:  sysvinit pre-depends on initscripts
+Nov 25 01:40:59 debootstrap:   initscripts is unpacked, but has never been configured.
+Nov 25 01:40:59 debootstrap: dpkg: warning - ignoring pre-dependency problem !
+Nov 25 01:40:59 debootstrap: dpkg: regarding .../sysvinit_2.86.ds1-61_i386.deb containing sysvinit, pre-dependency problem:
+Nov 25 01:40:59 debootstrap:  sysvinit pre-depends on sysv-rc (>= 2.86.ds1-1.2) | file-rc (>> 0.7.0)
+Nov 25 01:40:59 debootstrap:   sysv-rc is unpacked, but has never been configured.
+Nov 25 01:40:59 debootstrap: dpkg: warning - ignoring pre-dependency problem !
+Nov 25 01:40:59 debootstrap: dpkg: regarding .../sysvinit_2.86.ds1-61_i386.deb containing sysvinit, pre-dependency problem:
+Nov 25 01:40:59 debootstrap:  sysvinit pre-depends on sysvinit-utils
+Nov 25 01:40:59 debootstrap:   sysvinit-utils is unpacked, but has never been configured.
+Nov 25 01:40:59 debootstrap: dpkg: warning - ignoring pre-dependency problem !
+Nov 25 01:40:59 debootstrap: Selecting previously deselected package tar.
+Nov 25 01:40:59 debootstrap: Unpacking tar (from .../archives/tar_1.20-1_i386.deb) ...
+Nov 25 01:40:59 debootstrap: Selecting previously deselected package tzdata.
+Nov 25 01:40:59 debootstrap: Unpacking tzdata (from .../tzdata_2009l-0lenny1_all.deb) ...
+Nov 25 01:41:00 debootstrap: Selecting previously deselected package zlib1g.
+Nov 25 01:41:00 debootstrap: Unpacking zlib1g (from .../zlib1g_1%3a1.2.3.3.dfsg-12_i386.deb) ...
+Nov 25 01:41:00 debootstrap: Selecting previously deselected package util-linux.
+Nov 25 01:41:00 debootstrap: Unpacking util-linux (from .../util-linux_2.13.1.1-1_i386.deb) ...
+Nov 25 01:41:00 debootstrap: dpkg: regarding .../util-linux_2.13.1.1-1_i386.deb containing util-linux, pre-dependency problem:
+Nov 25 01:41:00 debootstrap:  util-linux pre-depends on libncurses5 (>= 5.6+20071006-3)
+Nov 25 01:41:00 debootstrap:   libncurses5 is unpacked, but has never been configured.
+Nov 25 01:41:00 debootstrap: dpkg: warning - ignoring pre-dependency problem !
+Nov 25 01:41:00 debootstrap: dpkg: regarding .../util-linux_2.13.1.1-1_i386.deb containing util-linux, pre-dependency problem:
+Nov 25 01:41:00 debootstrap:  util-linux pre-depends on libselinux1 (>= 2.0.59)
+Nov 25 01:41:00 debootstrap:   libselinux1 is unpacked, but has never been configured.
+Nov 25 01:41:00 debootstrap: dpkg: warning - ignoring pre-dependency problem !
+Nov 25 01:41:00 debootstrap: dpkg: regarding .../util-linux_2.13.1.1-1_i386.deb containing util-linux, pre-dependency problem:
+Nov 25 01:41:00 debootstrap:  util-linux pre-depends on libslang2 (>= 2.0.7-1)
+Nov 25 01:41:00 debootstrap:   libslang2 is unpacked, but has never been configured.
+Nov 25 01:41:00 debootstrap: dpkg: warning - ignoring pre-dependency problem !
+Nov 25 01:41:00 debootstrap: dpkg: regarding .../util-linux_2.13.1.1-1_i386.deb containing util-linux, pre-dependency problem:
+Nov 25 01:41:00 debootstrap:  util-linux pre-depends on libuuid1
+Nov 25 01:41:00 debootstrap:   libuuid1 is unpacked, but has never been configured.
+Nov 25 01:41:00 debootstrap: dpkg: warning - ignoring pre-dependency problem !
+Nov 25 01:41:00 debootstrap: dpkg: regarding .../util-linux_2.13.1.1-1_i386.deb containing util-linux, pre-dependency problem:
+Nov 25 01:41:00 debootstrap:  util-linux pre-depends on zlib1g (>= 1:1.1.4)
+Nov 25 01:41:00 debootstrap:   zlib1g is unpacked, but has never been configured.
+Nov 25 01:41:00 debootstrap: dpkg: warning - ignoring pre-dependency problem !
+Nov 25 01:41:00 debootstrap: Setting up sysv-rc (2.86.ds1-61) ...
+Nov 25 01:41:00 debootstrap: Setting up gcc-4.2-base (4.2.4-6) ...
+Nov 25 01:41:00 debootstrap: Setting up libpam-runtime (1.0.1-5+lenny1) ...
+Nov 25 01:41:01 debootstrap: Setting up gcc-4.3-base (4.3.2-1.1) ...
+Nov 25 01:41:01 debootstrap: Setting up libc6 (2.7-18) ...
+Nov 25 01:41:01 debootstrap: Setting up mktemp (1.5-9) ...
+Nov 25 01:41:01 debootstrap: Setting up debianutils (2.30) ...
+Nov 25 01:41:01 debootstrap: Setting up bsdutils (1:2.13.1.1-1) ...
+Nov 25 01:41:01 debootstrap: Setting up libsepol1 (2.0.30-2) ...
+Nov 25 01:41:01 debootstrap: Setting up tar (1.20-1) ...
+Nov 25 01:41:02 debootstrap: Setting up zlib1g (1:1.2.3.3.dfsg-12) ...
+Nov 25 01:41:02 debootstrap: Setting up libgcc1 (1:4.3.2-1.1) ...
+Nov 25 01:41:02 debootstrap: Setting up libncurses5 (5.7+20081213-1) ...
+Nov 25 01:41:02 debootstrap: Setting up libattr1 (1:2.4.43-2) ...
+Nov 25 01:41:02 debootstrap: Setting up sed (4.1.5-6) ...
+Nov 25 01:41:02 debootstrap: Setting up base-passwd (3.5.20) ...
+Nov 25 01:41:02 debootstrap: Setting up libcomerr2 (1.41.3-1) ...
+Nov 25 01:41:02 debootstrap: Setting up mawk (1.3.3-11.1) ...
+Nov 25 01:41:02 debootstrap: Setting up libdb4.6 (4.6.21-11) ...
+Nov 25 01:41:02 debootstrap: Setting up grep (2.5.3~dfsg-6) ...
+Nov 25 01:41:02 debootstrap: Setting up hostname (2.95) ...
+Nov 25 01:41:02 debootstrap: Setting up libacl1 (2.2.47-2) ...
+Nov 25 01:41:02 debootstrap: Setting up libslang2 (2.1.3-3) ...
+Nov 25 01:41:02 debootstrap: Setting up libss2 (1.41.3-1) ...
+Nov 25 01:41:02 debootstrap: Setting up findutils (4.4.0-2) ...
+Nov 25 01:41:02 debootstrap: Setting up gzip (1.3.12-6) ...
+Nov 25 01:41:02 debootstrap: Setting up diff (2.8.1-12) ...
+Nov 25 01:41:02 debootstrap: Setting up libselinux1 (2.0.65-5) ...
+Nov 25 01:41:02 debootstrap: Setting up libstdc++6 (4.3.2-1.1) ...
+Nov 25 01:41:02 debootstrap: Setting up coreutils (6.10-6) ...
+Nov 25 01:41:02 debootstrap: Setting up makedev (2.3.1-88) ...
+Nov 25 01:41:13 debootstrap: Setting up lzma (4.43-14) ...
+Nov 25 01:41:13 debootstrap: Setting up ncurses-base (5.7+20081213-1) ...
+Nov 25 01:41:13 debootstrap: Setting up ncurses-bin (5.7+20081213-1) ...
+Nov 25 01:41:13 debootstrap: Setting up base-files (5lenny4) ...
+Nov 25 01:41:13 debootstrap: Setting up libdevmapper1.02.1 (2:1.02.27-4) ...
+Nov 25 01:41:13 debootstrap: Setting up e2fslibs (1.41.3-1) ...
+Nov 25 01:41:13 debootstrap: Setting up dpkg (1.14.25) ...
+Nov 25 01:41:13 debootstrap: Setting up sysvinit-utils (2.86.ds1-61) ...
+Nov 25 01:41:13 debootstrap: Setting up bash (3.2-4) ...
+Nov 25 01:41:13 debootstrap: Setting up lsb-base (3.2-20) ...
+Nov 25 01:41:13 debootstrap: Setting up procps (1:3.2.7-11) ...
+Nov 25 01:41:14 debootstrap: Setting up perl-base (5.10.0-19lenny2) ...
+Nov 25 01:41:14 debootstrap: Setting up libtext-iconv-perl (1.7-1+b1) ...
+Nov 25 01:41:14 debootstrap: Setting up liblocale-gettext-perl (1.05-4) ...
+Nov 25 01:41:14 debootstrap: Setting up libtext-charwidth-perl (0.04-5+b1) ...
+Nov 25 01:41:14 debootstrap: Setting up libtext-wrapi18n-perl (0.06-6) ...
+Nov 25 01:41:14 debootstrap: Setting up debconf-i18n (1.5.24) ...
+Nov 25 01:41:14 debootstrap: Setting up debconf (1.5.24) ...
+Nov 25 01:41:14 debootstrap: Setting up libpam0g (1.0.1-5+lenny1) ...
+Nov 25 01:41:14 debootstrap: Setting up libpam-modules (1.0.1-5+lenny1) ...
+Nov 25 01:41:14 debootstrap: Setting up tzdata (2009l-0lenny1) ...
+Nov 25 01:41:14 debootstrap: 
+Nov 25 01:41:14 debootstrap: Current default timezone: 'Etc/UTC'
+Nov 25 01:41:14 debootstrap: Local time is now:      Wed Nov 25 01:41:14 UTC 2009.
+Nov 25 01:41:14 debootstrap: Universal Time is now:  Wed Nov 25 01:41:14 UTC 2009.
+Nov 25 01:41:14 debootstrap: Run 'dpkg-reconfigure tzdata' if you wish to change it.
+Nov 25 01:41:14 debootstrap: 
+Nov 25 01:41:14 debootstrap: Setting up passwd (1:4.1.1-6) ...
+Nov 25 01:41:15 debootstrap: Shadow passwords are now on.
+Nov 25 01:41:15 debootstrap: Setting up login (1:4.1.1-6) ...
+Nov 25 01:41:15 debootstrap: Setting up libuuid1 (1.41.3-1) ...
+Nov 25 01:41:15 debootstrap: Setting up libblkid1 (1.41.3-1) ...
+Nov 25 01:41:15 debootstrap: Setting up e2fsprogs (1.41.3-1) ...
+Nov 25 01:41:15 debootstrap: Setting up util-linux (2.13.1.1-1) ...
+Nov 25 01:41:15 debootstrap: Setting up mount (2.13.1.1-1) ...
+Nov 25 01:41:15 debootstrap: Setting up initscripts (2.86.ds1-61) ...
+Nov 25 01:41:16 debootstrap: Setting up sysvinit (2.86.ds1-61) ...
+Nov 25 01:41:16 debootstrap: sysvinit: creating /dev/initctl
+Nov 25 01:41:19 debootstrap: init: 
+Nov 25 01:41:19 debootstrap: timeout opening/writing control channel /dev/initctl
+Nov 25 01:41:19 debootstrap: Selecting previously deselected package adduser.
+Nov 25 01:41:19 debootstrap: (Reading database ... 
+Nov 25 01:41:19 debootstrap: 5525 files and directories currently installed.)
+Nov 25 01:41:19 debootstrap: Unpacking adduser (from .../archives/adduser_3.110_all.deb) ...
+Nov 25 01:41:19 debootstrap: Selecting previously deselected package libbz2-1.0.
+Nov 25 01:41:19 debootstrap: Unpacking libbz2-1.0 (from .../libbz2-1.0_1.0.5-1_i386.deb) ...
+Nov 25 01:41:19 debootstrap: Selecting previously deselected package libreadline5.
+Nov 25 01:41:19 debootstrap: Unpacking libreadline5 (from .../libreadline5_5.2-3.1_i386.deb) ...
+Nov 25 01:41:19 debootstrap: Selecting previously deselected package libusb-0.1-4.
+Nov 25 01:41:19 debootstrap: Unpacking libusb-0.1-4 (from .../libusb-0.1-4_2%3a0.1.12-13_i386.deb) ...
+Nov 25 01:41:20 debootstrap: Selecting previously deselected package gpgv.
+Nov 25 01:41:20 debootstrap: Unpacking gpgv (from .../gpgv_1.4.9-3+lenny1_i386.deb) ...
+Nov 25 01:41:20 debootstrap: Selecting previously deselected package gnupg.
+Nov 25 01:41:20 debootstrap: Unpacking gnupg (from .../gnupg_1.4.9-3+lenny1_i386.deb) ...
+Nov 25 01:41:20 debootstrap: Selecting previously deselected package debian-archive-keyring.
+Nov 25 01:41:20 debootstrap: Unpacking debian-archive-keyring (from .../debian-archive-keyring_2009.01.31_all.deb) ...
+Nov 25 01:41:20 debootstrap: Selecting previously deselected package apt.
+Nov 25 01:41:20 debootstrap: Unpacking apt (from .../apt_0.7.20.2+lenny1_i386.deb) ...
+Nov 25 01:41:20 debootstrap: Selecting previously deselected package apt-utils.
+Nov 25 01:41:20 debootstrap: Unpacking apt-utils (from .../apt-utils_0.7.20.2+lenny1_i386.deb) ...
+Nov 25 01:41:20 debootstrap: Selecting previously deselected package libncursesw5.
+Nov 25 01:41:20 debootstrap: Unpacking libncursesw5 (from .../libncursesw5_5.7+20081213-1_i386.deb) ...
+Nov 25 01:41:21 debootstrap: Selecting previously deselected package libsigc++-2.0-0c2a.
+Nov 25 01:41:21 debootstrap: Unpacking libsigc++-2.0-0c2a (from .../libsigc++-2.0-0c2a_2.0.18-2_i386.deb) ...
+Nov 25 01:41:21 debootstrap: Selecting previously deselected package libcwidget3.
+Nov 25 01:41:21 debootstrap: Unpacking libcwidget3 (from .../libcwidget3_0.5.12-4_i386.deb) ...
+Nov 25 01:41:21 debootstrap: Selecting previously deselected package libxapian15.
+Nov 25 01:41:21 debootstrap: Unpacking libxapian15 (from .../libxapian15_1.0.7-4_i386.deb) ...
+Nov 25 01:41:21 debootstrap: Selecting previously deselected package libept0.
+Nov 25 01:41:21 debootstrap: Unpacking libept0 (from .../libept0_0.5.22_i386.deb) ...
+Nov 25 01:41:21 debootstrap: Selecting previously deselected package aptitude.
+Nov 25 01:41:21 debootstrap: Unpacking aptitude (from .../aptitude_0.4.11.11-1~lenny1_i386.deb) ...
+Nov 25 01:41:23 debootstrap: Selecting previously deselected package bsdmainutils.
+Nov 25 01:41:23 debootstrap: Unpacking bsdmainutils (from .../bsdmainutils_6.1.10_i386.deb) ...
+Nov 25 01:41:23 debootstrap: Selecting previously deselected package cpio.
+Nov 25 01:41:23 debootstrap: Unpacking cpio (from .../archives/cpio_2.9-13_i386.deb) ...
+Nov 25 01:41:23 debootstrap: Selecting previously deselected package cron.
+Nov 25 01:41:23 debootstrap: Unpacking cron (from .../cron_3.0pl1-105_i386.deb) ...
+Nov 25 01:41:24 debootstrap: Selecting previously deselected package dhcp3-common.
+Nov 25 01:41:24 debootstrap: Unpacking dhcp3-common (from .../dhcp3-common_3.1.1-6+lenny3_i386.deb) ...
+Nov 25 01:41:24 debootstrap: Selecting previously deselected package dhcp3-client.
+Nov 25 01:41:24 debootstrap: Unpacking dhcp3-client (from .../dhcp3-client_3.1.1-6+lenny3_i386.deb) ...
+Nov 25 01:41:24 debootstrap: Selecting previously deselected package dmidecode.
+Nov 25 01:41:24 debootstrap: Unpacking dmidecode (from .../dmidecode_2.9-1_i386.deb) ...
+Nov 25 01:41:24 debootstrap: Selecting previously deselected package ed.
+Nov 25 01:41:24 debootstrap: Unpacking ed (from .../apt/archives/ed_0.7-3_i386.deb) ...
+Nov 25 01:41:24 debootstrap: Selecting previously deselected package groff-base.
+Nov 25 01:41:24 debootstrap: Unpacking groff-base (from .../groff-base_1.18.1.1-21_i386.deb) ...
+Nov 25 01:41:24 debootstrap: Selecting previously deselected package net-tools.
+Nov 25 01:41:24 debootstrap: Unpacking net-tools (from .../net-tools_1.60-22_i386.deb) ...
+Nov 25 01:41:24 debootstrap: Selecting previously deselected package ifupdown.
+Nov 25 01:41:24 debootstrap: Unpacking ifupdown (from .../ifupdown_0.6.8+nmu1_i386.deb) ...
+Nov 25 01:41:24 debootstrap: Selecting previously deselected package info.
+Nov 25 01:41:24 debootstrap: Unpacking info (from .../info_4.11.dfsg.1-4_i386.deb) ...
+Nov 25 01:41:24 debootstrap: Selecting previously deselected package iproute.
+Nov 25 01:41:24 debootstrap: Unpacking iproute (from .../iproute_20080725-2_i386.deb) ...
+Nov 25 01:41:24 debootstrap: Selecting previously deselected package iptables.
+Nov 25 01:41:24 debootstrap: Unpacking iptables (from .../iptables_1.4.2-6_i386.deb) ...
+Nov 25 01:41:24 debootstrap: Selecting previously deselected package iputils-ping.
+Nov 25 01:41:24 debootstrap: Unpacking iputils-ping (from .../iputils-ping_3%3a20071127-1_i386.deb) ...
+Nov 25 01:41:25 debootstrap: Selecting previously deselected package libconsole.
+Nov 25 01:41:25 debootstrap: Unpacking libconsole (from .../libconsole_1%3a0.2.3dbs-65.1_i386.deb) ...
+Nov 25 01:41:25 debootstrap: Selecting previously deselected package libgpg-error0.
+Nov 25 01:41:25 debootstrap: Unpacking libgpg-error0 (from .../libgpg-error0_1.4-2_i386.deb) ...
+Nov 25 01:41:25 debootstrap: Selecting previously deselected package libgcrypt11.
+Nov 25 01:41:25 debootstrap: Unpacking libgcrypt11 (from .../libgcrypt11_1.4.1-1_i386.deb) ...
+Nov 25 01:41:25 debootstrap: Selecting previously deselected package libgdbm3.
+Nov 25 01:41:25 debootstrap: Unpacking libgdbm3 (from .../libgdbm3_1.8.3-3_i386.deb) ...
+Nov 25 01:41:25 debootstrap: Selecting previously deselected package libtasn1-3.
+Nov 25 01:41:25 debootstrap: Unpacking libtasn1-3 (from .../libtasn1-3_1.4-1_i386.deb) ...
+Nov 25 01:41:25 debootstrap: Selecting previously deselected package libgnutls26.
+Nov 25 01:41:25 debootstrap: Unpacking libgnutls26 (from .../libgnutls26_2.4.2-6+lenny1_i386.deb) ...
+Nov 25 01:41:25 debootstrap: Selecting previously deselected package libnewt0.52.
+Nov 25 01:41:25 debootstrap: Unpacking libnewt0.52 (from .../libnewt0.52_0.52.2-11.3_i386.deb) ...
+Nov 25 01:41:25 debootstrap: Selecting previously deselected package libpopt0.
+Nov 25 01:41:25 debootstrap: Unpacking libpopt0 (from .../libpopt0_1.14-4_i386.deb) ...
+Nov 25 01:41:25 debootstrap: Selecting previously deselected package libsasl2-2.
+Nov 25 01:41:25 debootstrap: Unpacking libsasl2-2 (from .../libsasl2-2_2.1.22.dfsg1-23+lenny1_i386.deb) ...
+Nov 25 01:41:25 debootstrap: Selecting previously deselected package libssl0.9.8.
+Nov 25 01:41:25 debootstrap: Unpacking libssl0.9.8 (from .../libssl0.9.8_0.9.8g-15+lenny3_i386.deb) ...
+Nov 25 01:41:26 debootstrap: Selecting previously deselected package libwrap0.
+Nov 25 01:41:26 debootstrap: Unpacking libwrap0 (from .../libwrap0_7.6.q-16_i386.deb) ...
+Nov 25 01:41:26 debootstrap: Selecting previously deselected package logrotate.
+Nov 25 01:41:26 debootstrap: Unpacking logrotate (from .../logrotate_3.7.1-5_i386.deb) ...
+Nov 25 01:41:26 debootstrap: Selecting previously deselected package man-db.
+Nov 25 01:41:26 debootstrap: Unpacking man-db (from .../man-db_2.5.2-4_i386.deb) ...
+Nov 25 01:41:26 debootstrap: Selecting previously deselected package manpages.
+Nov 25 01:41:26 debootstrap: Unpacking manpages (from .../manpages_3.05-1_all.deb) ...
+Nov 25 01:41:26 debootstrap: Selecting previously deselected package module-init-tools.
+Nov 25 01:41:26 debootstrap: Unpacking module-init-tools (from .../module-init-tools_3.4-1_i386.deb) ...
+Nov 25 01:41:26 debootstrap: Selecting previously deselected package nano.
+Nov 25 01:41:26 debootstrap: Unpacking nano (from .../archives/nano_2.0.7-4_i386.deb) ...
+Nov 25 01:41:26 debootstrap: Selecting previously deselected package netbase.
+Nov 25 01:41:26 debootstrap: Unpacking netbase (from .../archives/netbase_4.34_all.deb) ...
+Nov 25 01:41:26 debootstrap: Selecting previously deselected package netcat-traditional.
+Nov 25 01:41:26 debootstrap: Unpacking netcat-traditional (from .../netcat-traditional_1.10-38_i386.deb) ...
+Nov 25 01:41:26 debootstrap: Selecting previously deselected package readline-common.
+Nov 25 01:41:26 debootstrap: Unpacking readline-common (from .../readline-common_5.2-3.1_all.deb) ...
+Nov 25 01:41:26 debootstrap: Selecting previously deselected package rsyslog.
+Nov 25 01:41:26 debootstrap: Unpacking rsyslog (from .../rsyslog_3.18.6-4_i386.deb) ...
+Nov 25 01:41:27 debootstrap: Selecting previously deselected package tasksel-data.
+Nov 25 01:41:27 debootstrap: Unpacking tasksel-data (from .../tasksel-data_2.78_all.deb) ...
+Nov 25 01:41:27 debootstrap: Selecting previously deselected package tasksel.
+Nov 25 01:41:27 debootstrap: Unpacking tasksel (from .../archives/tasksel_2.78_all.deb) ...
+Nov 25 01:41:27 debootstrap: Selecting previously deselected package tcpd.
+Nov 25 01:41:27 debootstrap: Unpacking tcpd (from .../tcpd_7.6.q-16_i386.deb) ...
+Nov 25 01:41:27 debootstrap: Selecting previously deselected package traceroute.
+Nov 25 01:41:27 debootstrap: Unpacking traceroute (from .../traceroute_2.0.11-2_i386.deb) ...
+Nov 25 01:41:27 debootstrap: Selecting previously deselected package update-inetd.
+Nov 25 01:41:27 debootstrap: Unpacking update-inetd (from .../update-inetd_4.31_all.deb) ...
+Nov 25 01:41:27 debootstrap: Selecting previously deselected package vim-common.
+Nov 25 01:41:27 debootstrap: Unpacking vim-common (from .../vim-common_1%3a7.1.314-3+lenny2_i386.deb) ...
+Nov 25 01:41:27 debootstrap: Selecting previously deselected package vim-tiny.
+Nov 25 01:41:27 debootstrap: Unpacking vim-tiny (from .../vim-tiny_1%3a7.1.314-3+lenny2_i386.deb) ...
+Nov 25 01:41:27 debootstrap: Selecting previously deselected package wget.
+Nov 25 01:41:27 debootstrap: Unpacking wget (from .../wget_1.11.4-2_i386.deb) ...
+Nov 25 01:41:28 debootstrap: Selecting previously deselected package whiptail.
+Nov 25 01:41:28 debootstrap: Unpacking whiptail (from .../whiptail_0.52.2-11.3_i386.deb) ...
+Nov 25 01:41:28 debootstrap: Setting up gpgv (1.4.9-3+lenny1) ...
+Nov 25 01:41:28 debootstrap: Setting up module-init-tools (3.4-1) ...
+Nov 25 01:41:28 debootstrap: Setting up libgdbm3 (1.8.3-3) ...
+Nov 25 01:41:28 debootstrap: Setting up libtasn1-3 (1.4-1) ...
+Nov 25 01:41:28 debootstrap: Setting up libpopt0 (1.14-4) ...
+Nov 25 01:41:28 debootstrap: Setting up libusb-0.1-4 (2:0.1.12-13) ...
+Nov 25 01:41:28 debootstrap: Setting up libgpg-error0 (1.4-2) ...
+Nov 25 01:41:28 debootstrap: Setting up update-inetd (4.31) ...
+Nov 25 01:41:29 debootstrap: Setting up libssl0.9.8 (0.9.8g-15+lenny3) ...
+Nov 25 01:41:29 debootstrap: Setting up vim-common (1:7.1.314-3+lenny2) ...
+Nov 25 01:41:29 debootstrap: Setting up netbase (4.34) ...
+Nov 25 01:41:29 debootstrap: Setting up libxapian15 (1.0.7-4) ...
+Nov 25 01:41:29 debootstrap: Setting up dmidecode (2.9-1) ...
+Nov 25 01:41:29 debootstrap: Setting up adduser (3.110) ...
+Nov 25 01:41:29 debootstrap: Setting up traceroute (2.0.11-2) ...
+Nov 25 01:41:29 debootstrap: Setting up ed (0.7-3) ...
+Nov 25 01:41:30 debootstrap: Setting up manpages (3.05-1) ...
+Nov 25 01:41:30 debootstrap: Setting up iproute (20080725-2) ...
+Nov 25 01:41:30 debootstrap: Setting up wget (1.11.4-2) ...
+Nov 25 01:41:30 debootstrap: Setting up groff-base (1.18.1.1-21) ...
+Nov 25 01:41:30 debootstrap: Setting up libnewt0.52 (0.52.2-11.3) ...
+Nov 25 01:41:30 debootstrap: Setting up net-tools (1.60-22) ...
+Nov 25 01:41:30 debootstrap: Setting up libsasl2-2 (2.1.22.dfsg1-23+lenny1) ...
+Nov 25 01:41:30 debootstrap: Setting up bsdmainutils (6.1.10) ...
+Nov 25 01:41:30 debootstrap: Setting up libsigc++-2.0-0c2a (2.0.18-2) ...
+Nov 25 01:41:30 debootstrap: Setting up netcat-traditional (1.10-38) ...
+Nov 25 01:41:30 debootstrap: Setting up libncursesw5 (5.7+20081213-1) ...
+Nov 25 01:41:30 debootstrap: Setting up info (4.11.dfsg.1-4) ...
+Nov 25 01:41:30 debootstrap: Setting up iputils-ping (3:20071127-1) ...
+Nov 25 01:41:30 debootstrap: Setting up libbz2-1.0 (1.0.5-1) ...
+Nov 25 01:41:30 debootstrap: Setting up cron (3.0pl1-105) ...
+Nov 25 01:41:30 debootstrap: Adding group `crontab' (GID 102) ...
+Nov 25 01:41:30 debootstrap: Done.
+Nov 25 01:41:30 debootstrap: Starting periodic command scheduler: crond
+Nov 25 01:41:30 debootstrap: Warning: Fake start-stop-daemon called, doing nothing
+Nov 25 01:41:30 debootstrap: .
+Nov 25 01:41:30 debootstrap: Setting up nano (2.0.7-4) ...
+Nov 25 01:41:31 debootstrap: Setting up dhcp3-common (3.1.1-6+lenny3) ...
+Nov 25 01:41:31 debootstrap: Setting up libconsole (1:0.2.3dbs-65.1) ...
+Nov 25 01:41:31 debootstrap: Setting up iptables (1.4.2-6) ...
+Nov 25 01:41:31 debootstrap: Setting up rsyslog (3.18.6-4) ...
+Nov 25 01:41:31 debootstrap: Starting enhanced syslogd: rsyslogd
+Nov 25 01:41:31 debootstrap: 
+Nov 25 01:41:31 debootstrap: Warning: Fake start-stop-daemon called, doing nothing
+Nov 25 01:41:31 debootstrap: .
+Nov 25 01:41:31 debootstrap: Setting up cpio (2.9-13) ...
+Nov 25 01:41:31 debootstrap: Setting up vim-tiny (1:7.1.314-3+lenny2) ...
+Nov 25 01:41:31 debootstrap: Setting up readline-common (5.2-3.1) ...
+Nov 25 01:41:31 debootstrap: Setting up libwrap0 (7.6.q-16) ...
+Nov 25 01:41:31 debootstrap: Setting up tcpd (7.6.q-16) ...
+Nov 25 01:41:32 debootstrap: Setting up man-db (2.5.2-4) ...
+Nov 25 01:41:32 debootstrap: Building database of manual pages ...
+Nov 25 01:41:48 debootstrap: Setting up libgcrypt11 (1.4.1-1) ...
+Nov 25 01:41:48 debootstrap: Setting up whiptail (0.52.2-11.3) ...
+Nov 25 01:41:48 debootstrap: Setting up ifupdown (0.6.8+nmu1) ...
+Nov 25 01:41:48 debootstrap: ifupdown.postinst: Warning: No 'iface lo' definition found in /etc/network/interfaces
+Nov 25 01:41:48 debootstrap: ifupdown.postinst: Warning: No 'auto lo' statement found in /etc/network/interfaces
+Nov 25 01:41:48 debootstrap: Setting up dhcp3-client (3.1.1-6+lenny3) ...
+Nov 25 01:41:48 debootstrap: Setting up libreadline5 (5.2-3.1) ...
+Nov 25 01:41:48 debootstrap: Setting up logrotate (3.7.1-5) ...
+Nov 25 01:41:48 debootstrap: Setting up gnupg (1.4.9-3+lenny1) ...
+Nov 25 01:41:48 debootstrap: Setting up libcwidget3 (0.5.12-4) ...
+Nov 25 01:41:48 debootstrap: Setting up libgnutls26 (2.4.2-6+lenny1) ...
+Nov 25 01:41:48 debootstrap: Setting up debian-archive-keyring (2009.01.31) ...
+Nov 25 01:41:48 debootstrap: gpg: 
+Nov 25 01:41:48 debootstrap: keyring `/etc/apt/trusted.gpg' created
+Nov 25 01:41:48 debootstrap: gpg: 
+Nov 25 01:41:48 debootstrap: /etc/apt/trustdb.gpg: trustdb created
+Nov 25 01:41:48 debootstrap: gpg: 
+Nov 25 01:41:48 debootstrap: key 6070D3A1: public key "Debian Archive Automatic Signing Key (4.0/etch) <ftpmaster@debian.org>" imported
+Nov 25 01:41:48 debootstrap: gpg: 
+Nov 25 01:41:48 debootstrap: key ADB11277: public key "Etch Stable Release Key <debian-release@lists.debian.org>" imported
+Nov 25 01:41:48 debootstrap: gpg: 
+Nov 25 01:41:48 debootstrap: key BBE55AB3: public key "Debian-Volatile Archive Automatic Signing Key (4.0/etch)" imported
+Nov 25 01:41:48 debootstrap: gpg: 
+Nov 25 01:41:48 debootstrap: key F42584E6: public key "Lenny Stable Release Key <debian-release@lists.debian.org>" imported
+Nov 25 01:41:48 debootstrap: gpg: 
+Nov 25 01:41:48 debootstrap: key 55BE302B: public key "Debian Archive Automatic Signing Key (5.0/lenny) <ftpmaster@debian.org>" imported
+Nov 25 01:41:48 debootstrap: gpg: 
+Nov 25 01:41:48 debootstrap: key 6D849617: public key "Debian-Volatile Archive Automatic Signing Key (5.0/lenny)" imported
+Nov 25 01:41:48 debootstrap: gpg: 
+Nov 25 01:41:48 debootstrap: Total number processed: 6
+Nov 25 01:41:48 debootstrap: gpg: 
+Nov 25 01:41:48 debootstrap:               imported: 6
+Nov 25 01:41:48 debootstrap:   (RSA: 2)
+Nov 25 01:41:48 debootstrap: 
+Nov 25 01:41:48 debootstrap: gpg: 
+Nov 25 01:41:48 debootstrap: no ultimately trusted keys found
+Nov 25 01:41:49 debootstrap: Setting up apt (0.7.20.2+lenny1) ...
+Nov 25 01:41:49 debootstrap: gpg: 
+Nov 25 01:41:49 debootstrap: key 6070D3A1: "Debian Archive Automatic Signing Key (4.0/etch) <ftpmaster@debian.org>" not changed
+Nov 25 01:41:49 debootstrap: gpg: 
+Nov 25 01:41:49 debootstrap: key ADB11277: "Etch Stable Release Key <debian-release@lists.debian.org>" not changed
+Nov 25 01:41:49 debootstrap: gpg: 
+Nov 25 01:41:49 debootstrap: key BBE55AB3: "Debian-Volatile Archive Automatic Signing Key (4.0/etch)" not changed
+Nov 25 01:41:49 debootstrap: gpg: 
+Nov 25 01:41:49 debootstrap: key F42584E6: "Lenny Stable Release Key <debian-release@lists.debian.org>" not changed
+Nov 25 01:41:49 debootstrap: gpg: 
+Nov 25 01:41:49 debootstrap: key 55BE302B: "Debian Archive Automatic Signing Key (5.0/lenny) <ftpmaster@debian.org>" not changed
+Nov 25 01:41:49 debootstrap: gpg: 
+Nov 25 01:41:49 debootstrap: key 6D849617: "Debian-Volatile Archive Automatic Signing Key (5.0/lenny)" not changed
+Nov 25 01:41:49 debootstrap: gpg: 
+Nov 25 01:41:49 debootstrap: Total number processed: 6
+Nov 25 01:41:49 debootstrap: gpg: 
+Nov 25 01:41:49 debootstrap:              unchanged: 6
+Nov 25 01:41:49 debootstrap: Setting up libept0 (0.5.22) ...
+Nov 25 01:41:49 debootstrap: Setting up apt-utils (0.7.20.2+lenny1) ...
+Nov 25 01:41:49 debootstrap: Setting up aptitude (0.4.11.11-1~lenny1) ...
+Nov 25 01:41:49 debootstrap: Setting up tasksel-data (2.78) ...
+Nov 25 01:41:49 debootstrap: Setting up tasksel (2.78) ...
+Nov 25 01:41:50 base-installer: Using CD-ROM mount point /cdrom/
+Nov 25 01:41:50 base-installer: Identifying.. 
+Nov 25 01:41:50 base-installer: [09e1e399a5cdb7545a38d161d8c2c074-2]
+Nov 25 01:41:50 base-installer: Scanning disc for index files..
+Nov 25 01:41:50 base-installer: Found 1 package indexes, 0 source indexes, 0 translation indexes and 0 signatures
+Nov 25 01:41:50 base-installer: Found label 'Debian GNU/Linux 5.0.3 _Lenny_ - Official i386 NETINST Binary-1 20090906-12:06'
+Nov 25 01:41:50 base-installer: This disc is called: 
+Nov 25 01:41:50 base-installer: 'Debian GNU/Linux 5.0.3 _Lenny_ - Official i386 NETINST Binary-1 20090906-12:06'
+Nov 25 01:41:50 base-installer: Copying package lists...
+Nov 25 01:41:50 base-installer: ^MReading Package Indexes... 0%^M
+Nov 25 01:41:50 base-installer: ^MReading Package Indexes... 1%^M
+Nov 25 01:41:50 base-installer: ^MReading Package Indexes... Done^M
+Nov 25 01:41:50 base-installer: 
+Nov 25 01:41:50 base-installer: Writing new source list
+Nov 25 01:41:50 base-installer: Source list entries for this disc are:
+Nov 25 01:41:50 base-installer: deb cdrom:[Debian GNU/Linux 5.0.3 _Lenny_ - Official i386 NETINST Binary-1 20090906-12:06]/ lenny main
+Nov 25 01:41:50 base-installer: Repeat this process for the rest of the CDs in your set.
+Nov 25 01:41:50 base-installer: Ign cdrom://[Debian GNU/Linux 5.0.3 _Lenny_ - Official i386 NETINST Binary-1 20090906-12:06] lenny Release.gpg
+Nov 25 01:41:50 base-installer: Ign cdrom://[Debian GNU/Linux 5.0.3 _Lenny_ - Official i386 NETINST Binary-1 20090906-12:06] lenny Release
+Nov 25 01:41:50 base-installer: Ign cdrom://[Debian GNU/Linux 5.0.3 _Lenny_ - Official i386 NETINST Binary-1 20090906-12:06] lenny/main Packages/DiffIndex
+Nov 25 01:41:50 base-installer: Reading package lists...
+Nov 25 01:41:50 base-installer: 
+Nov 25 01:41:50 in-target: Reading package lists...
+Nov 25 01:41:50 in-target: 
+Nov 25 01:41:50 in-target: Building dependency tree...
+Nov 25 01:41:50 in-target: 
+Nov 25 01:41:50 in-target: The following NEW packages will be installed:
+Nov 25 01:41:50 in-target:   locales
+Nov 25 01:41:51 in-target: Preconfiguring packages ...
+Nov 25 01:41:51 debconf: Obsolete command TITLE Configuring locales called
+Nov 25 01:41:51 in-target: 0 upgraded, 1 newly installed, 0 to remove and 0 not upgraded.
+Nov 25 01:41:51 in-target: Need to get 0B/4492kB of archives.
+Nov 25 01:41:51 in-target: After this operation, 12.0MB of additional disk space will be used.
+Nov 25 01:41:51 in-target: Selecting previously deselected package locales.
+Nov 25 01:41:51 in-target: (Reading database ... 
+Nov 25 01:41:51 in-target: 7941 files and directories currently installed.)
+Nov 25 01:41:51 in-target: Unpacking locales (from .../g/glibc/locales_2.7-18_all.deb) ...
+Nov 25 01:41:51 in-target: Processing triggers for man-db ...
+Nov 25 01:41:52 in-target: Setting up locales (2.7-18) ...
+Nov 25 01:41:52 debconf: Obsolete command TITLE Configuring locales called
+Nov 25 01:41:55 in-target: Generating locales (this might take a while)...
+Nov 25 01:41:55 in-target: Generation complete.
+Nov 25 01:41:55 localechooser: Adding locale 'en_US.UTF-8'
+Nov 25 01:41:55 localechooser: Generating added locales...
+Nov 25 01:41:57 root: register-modules
+Nov 25 01:41:58 in-target: Reading package lists...
+Nov 25 01:41:58 in-target: 
+Nov 25 01:41:58 in-target: Building dependency tree...
+Nov 25 01:41:58 in-target: 
+Nov 25 01:41:58 in-target: Reading state information...
+Nov 25 01:41:58 in-target: 
+Nov 25 01:41:58 in-target: Suggested packages:
+Nov 25 01:41:58 in-target:   unicode-data kbd-compat
+Nov 25 01:41:58 in-target: The following NEW packages will be installed:
+Nov 25 01:41:58 in-target:   console-common console-data console-tools
+Nov 25 01:41:58 in-target: Preconfiguring packages ...
+Nov 25 01:41:58 debconf: Obsolete command TITLE Configuring console-data called
+Nov 25 01:41:59 debconf: Obsolete command TITLE Configuring console-common called
+Nov 25 01:41:59 in-target: 0 upgraded, 3 newly installed, 0 to remove and 0 not upgraded.
+Nov 25 01:41:59 in-target: Need to get 0B/1533kB of archives.
+Nov 25 01:41:59 in-target: After this operation, 4764kB of additional disk space will be used.
+Nov 25 01:41:59 in-target: Selecting previously deselected package console-data.
+Nov 25 01:41:59 in-target: (Reading database ... 
+Nov 25 01:41:59 in-target: 8488 files and directories currently installed.)
+Nov 25 01:41:59 in-target: Unpacking console-data (from .../console-data_1.07-11_all.deb) ...
+Nov 25 01:41:59 in-target: Selecting previously deselected package console-tools.
+Nov 25 01:41:59 in-target: Unpacking console-tools (from .../console-tools_0.2.3dbs-65.1_i386.deb) ...
+Nov 25 01:41:59 in-target: Selecting previously deselected package console-common.
+Nov 25 01:41:59 in-target: Unpacking console-common (from .../console-common_0.7.80_all.deb) ...
+Nov 25 01:41:59 debconf: Obsolete command TITLE Configuring console-common called
+Nov 25 01:42:00 in-target: Processing triggers for man-db ...
+Nov 25 01:42:01 in-target: Setting up console-data (2:1.07-11) ...
+Nov 25 01:42:01 debconf: Obsolete command TITLE Configuring console-data called
+Nov 25 01:42:02 in-target: Looking for keymap to install:
+Nov 25 01:42:02 in-target: NONE
+Nov 25 01:42:02 in-target: Setting up console-tools (1:0.2.3dbs-65.1) ...
+Nov 25 01:42:02 in-target: Setting up console-common (0.7.80) ...
+Nov 25 01:42:02 debconf: Obsolete command TITLE Configuring console-common called
+Nov 25 01:42:02 in-target: Looking for keymap to install:
+Nov 25 01:42:02 in-target: NONE
+Nov 25 01:42:04 in-target: Reading package lists...
+Nov 25 01:42:04 in-target: 
+Nov 25 01:42:04 in-target: Building dependency tree...
+Nov 25 01:42:04 in-target: Reading state information...
+Nov 25 01:42:04 in-target: Recommended packages:
+Nov 25 01:42:04 in-target:   reportbug pciutils
+Nov 25 01:42:04 in-target: The following NEW packages will be installed:
+Nov 25 01:42:04 in-target:   installation-report
+Nov 25 01:42:05 in-target: 0 upgraded, 1 newly installed, 0 to remove and 0 not upgraded.
+Nov 25 01:42:05 in-target: Need to get 0B/16.8kB of archives.
+Nov 25 01:42:05 in-target: After this operation, 111kB of additional disk space will be used.
+Nov 25 01:42:05 in-target: Selecting previously deselected package installation-report.
+Nov 25 01:42:05 in-target: (Reading database ... 
+Nov 25 01:42:05 in-target: 9301 files and directories currently installed.)
+Nov 25 01:42:05 in-target: Unpacking installation-report (from .../installation-report_2.38_all.deb) ...
+Nov 25 01:42:05 in-target: Processing triggers for man-db ...
+Nov 25 01:42:05 in-target: Setting up installation-report (2.38) ...
+Nov 25 01:42:05 in-target:  Removing any system startup links for /etc/init.d/installation-report ...
+Nov 25 01:42:06 base-installer: info: kernel linux-image-2.6.26-2-686 usable on 686
+Nov 25 01:42:06 base-installer: info: kernel linux-image-2.6.26-2-486 usable on 686
+Nov 25 01:42:06 base-installer: info: kernel linux-image-2.6-686 usable on 686
+Nov 25 01:42:06 base-installer: info: kernel linux-image-2.6-486 usable on 686
+Nov 25 01:42:06 base-installer: info: Found kernels 'linux-image-2.6-486,linux-image-2.6-686,linux-image-2.6.26-2-486,linux-image-2.6.26-2-686'
+Nov 25 01:42:06 base-installer: info: arch_kernel candidates: linux-image-2.6-686 linux-image-2.6-486
+Nov 25 01:42:06 base-installer: info: arch_kernel: linux-image-2.6-686 (present)
+Nov 25 01:42:06 base-installer: info: Using kernel 'linux-image-2.6-686'
+Nov 25 01:42:06 base-installer: info: Setting do_initrd='yes'.
+Nov 25 01:42:06 base-installer: info: Setting link_in_boot='no'.
+Nov 25 01:42:06 base-installer: info: Available initramfs generator(s): 'initramfs-tools'
+Nov 25 01:42:07 in-target: Reading package lists...
+Nov 25 01:42:07 in-target: 
+Nov 25 01:42:07 in-target: Building dependency tree...
+Nov 25 01:42:07 in-target: Reading state information...
+Nov 25 01:42:07 in-target: The following NEW packages will be installed:
+Nov 25 01:42:07 in-target:   busybox
+Nov 25 01:42:07 in-target: 0 upgraded, 1 newly installed, 0 to remove and 0 not upgraded.
+Nov 25 01:42:07 in-target: Need to get 0B/297kB of archives.
+Nov 25 01:42:07 in-target: After this operation, 446kB of additional disk space will be used.
+Nov 25 01:42:07 in-target: Selecting previously deselected package busybox.
+Nov 25 01:42:07 in-target: (Reading database ... 
+Nov 25 01:42:07 in-target: 9315 files and directories currently installed.)
+Nov 25 01:42:07 in-target: Unpacking busybox (from .../busybox_1.10.2-2_i386.deb) ...
+Nov 25 01:42:07 in-target: Processing triggers for man-db ...
+Nov 25 01:42:08 in-target: Setting up busybox (1:1.10.2-2) ...
+Nov 25 01:42:08 in-target: Reading package lists...
+Nov 25 01:42:08 in-target: 
+Nov 25 01:42:08 in-target: Building dependency tree...
+Nov 25 01:42:08 in-target: 
+Nov 25 01:42:08 in-target: Reading state information...
+Nov 25 01:42:08 in-target: 
+Nov 25 01:42:08 in-target: The following extra packages will be installed:
+Nov 25 01:42:08 in-target:   klibc-utils libklibc libvolume-id0 udev
+Nov 25 01:42:08 in-target: The following NEW packages will be installed:
+Nov 25 01:42:08 in-target:   initramfs-tools klibc-utils libklibc libvolume-id0 udev
+Nov 25 01:42:09 in-target: Preconfiguring packages ...
+Nov 25 01:42:09 debconf: Obsolete command TITLE Configuring udev called
+Nov 25 01:42:09 in-target: 0 upgraded, 5 newly installed, 0 to remove and 0 not upgraded.
+Nov 25 01:42:09 in-target: Need to get 0B/601kB of archives.
+Nov 25 01:42:09 in-target: After this operation, 1901kB of additional disk space will be used.
+Nov 25 01:42:09 in-target: Selecting previously deselected package libvolume-id0.
+Nov 25 01:42:09 in-target: (Reading database ... 
+Nov 25 01:42:09 in-target: 9320 files and directories currently installed.)
+Nov 25 01:42:09 in-target: Unpacking libvolume-id0 (from .../libvolume-id0_0.125-7+lenny3_i386.deb) ...
+Nov 25 01:42:09 in-target: Selecting previously deselected package udev.
+Nov 25 01:42:09 in-target: Unpacking udev (from .../udev_0.125-7+lenny3_i386.deb) ...
+Nov 25 01:42:09 debconf: Obsolete command TITLE Configuring udev called
+Nov 25 01:42:09 in-target: Selecting previously deselected package libklibc.
+Nov 25 01:42:09 in-target: Unpacking libklibc (from .../libklibc_1.5.12-2_i386.deb) ...
+Nov 25 01:42:09 in-target: Selecting previously deselected package klibc-utils.
+Nov 25 01:42:09 in-target: Unpacking klibc-utils (from .../klibc-utils_1.5.12-2_i386.deb) ...
+Nov 25 01:42:10 in-target: Selecting previously deselected package initramfs-tools.
+Nov 25 01:42:10 in-target: Unpacking initramfs-tools (from .../initramfs-tools_0.92o_all.deb) ...
+Nov 25 01:42:10 in-target: Processing triggers for man-db ...
+Nov 25 01:42:10 in-target: Setting up libvolume-id0 (0.125-7+lenny3) ...
+Nov 25 01:42:11 in-target: Setting up udev (0.125-7+lenny3) ...
+Nov 25 01:42:11 in-target: A chroot environment has been detected, udev not started.
+Nov 25 01:42:11 in-target: Setting up libklibc (1.5.12-2) ...
+Nov 25 01:42:11 in-target: Setting up klibc-utils (1.5.12-2) ...
+Nov 25 01:42:11 in-target: Setting up initramfs-tools (0.92o) ...
+Nov 25 01:42:11 in-target: update-initramfs: deferring update (trigger activated)
+Nov 25 01:42:11 in-target: Processing triggers for initramfs-tools ...
+Nov 25 01:42:12 in-target: Reading package lists...
+Nov 25 01:42:12 in-target: 
+Nov 25 01:42:12 in-target: Building dependency tree...
+Nov 25 01:42:12 in-target: Reading state information...
+Nov 25 01:42:12 in-target: The following extra packages will be installed:
+Nov 25 01:42:12 in-target:   linux-image-2.6.26-2-686
+Nov 25 01:42:12 in-target: Suggested packages:
+Nov 25 01:42:12 in-target:   linux-doc-2.6.26 grub lilo
+Nov 25 01:42:12 in-target: Recommended packages:
+Nov 25 01:42:12 in-target:   libc6-i686
+Nov 25 01:42:12 in-target: The following NEW packages will be installed:
+Nov 25 01:42:12 in-target:   linux-image-2.6-686 linux-image-2.6.26-2-686
+Nov 25 01:42:13 in-target: Preconfiguring packages ...
+Nov 25 01:42:13 debconf: Obsolete command TITLE Configuring linux-image-2.6.26-2-686 called
+Nov 25 01:42:13 in-target: 0 upgraded, 2 newly installed, 0 to remove and 0 not upgraded.
+Nov 25 01:42:13 in-target: Need to get 0B/20.2MB of archives.
+Nov 25 01:42:13 in-target: After this operation, 59.9MB of additional disk space will be used.
+Nov 25 01:42:13 in-target: Selecting previously deselected package linux-image-2.6.26-2-686.
+Nov 25 01:42:13 in-target: (Reading database ... 
+Nov 25 01:42:13 in-target: 9522 files and directories currently installed.)
+Nov 25 01:42:13 in-target: Unpacking linux-image-2.6.26-2-686 (from .../linux-image-2.6.26-2-686_2.6.26-19_i386.deb) ...
+Nov 25 01:42:13 debconf: Obsolete command TITLE Configuring linux-image-2.6.26-2-686 called
+Nov 25 01:42:13 in-target: Done.
+Nov 25 01:42:18 in-target: Selecting previously deselected package linux-image-2.6-686.
+Nov 25 01:42:18 in-target: Unpacking linux-image-2.6-686 (from .../linux-image-2.6-686_2.6.26+17+lenny1_i386.deb) ...
+Nov 25 01:42:18 in-target: Setting up linux-image-2.6.26-2-686 (2.6.26-19) ...
+Nov 25 01:42:19 debconf: Obsolete command TITLE Configuring linux-image-2.6.26-2-686 called
+Nov 25 01:42:19 in-target: Running depmod.
+Nov 25 01:42:19 in-target: Running mkinitramfs-kpkg.
+Nov 25 01:42:39 in-target: Setting up linux-image-2.6-686 (2.6.26+17+lenny1) ...
+Nov 25 01:42:40 base-installer: info: Installing queued packages into /target/.
+Nov 25 01:42:40 in-target: Reading package lists...
+Nov 25 01:42:40 in-target: 
+Nov 25 01:42:40 in-target: Building dependency tree...
+Nov 25 01:42:40 in-target: Reading state information...
+Nov 25 01:42:40 in-target: udev is already the newest version.
+Nov 25 01:42:40 in-target: udev set to manually installed.
+Nov 25 01:42:40 in-target: 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Nov 25 01:42:41 in-target: Reading package lists...
+Nov 25 01:42:41 in-target: Building dependency tree...
+Nov 25 01:42:41 in-target: Reading state information...
+Nov 25 01:42:41 in-target: The following NEW packages will be installed:
+Nov 25 01:42:41 in-target:   usbutils
+Nov 25 01:42:41 in-target: 0 upgraded, 1 newly installed, 0 to remove and 0 not upgraded.
+Nov 25 01:42:41 in-target: Need to get 0B/160kB of archives.
+Nov 25 01:42:41 in-target: After this operation, 459kB of additional disk space will be used.
+Nov 25 01:42:41 in-target: Selecting previously deselected package usbutils.
+Nov 25 01:42:41 in-target: (Reading database ... 
+Nov 25 01:42:41 in-target: 12062 files and directories currently installed.)
+Nov 25 01:42:41 in-target: Unpacking usbutils (from .../usbutils_0.73-10_i386.deb) ...
+Nov 25 01:42:41 in-target: Processing triggers for man-db ...
+Nov 25 01:42:42 in-target: Setting up usbutils (0.73-10) ...
+Nov 25 01:42:43 in-target: Reading package lists...
+Nov 25 01:42:43 in-target: 
+Nov 25 01:42:43 in-target: Building dependency tree...
+Nov 25 01:42:43 in-target: Reading state information...
+Nov 25 01:42:43 in-target: E: Couldn't find package acpi
+Nov 25 01:42:43 base-installer: warning: Failed to install acpi into /target/: 0
+Nov 25 01:42:43 in-target: Reading package lists...
+Nov 25 01:42:43 in-target: 
+Nov 25 01:42:43 in-target: Building dependency tree...
+Nov 25 01:42:43 in-target: 
+Nov 25 01:42:43 in-target: Reading state information...
+Nov 25 01:42:43 in-target: 
+Nov 25 01:42:43 in-target: The following NEW packages will be installed:
+Nov 25 01:42:43 in-target:   acpid
+Nov 25 01:42:44 in-target: 0 upgraded, 1 newly installed, 0 to remove and 0 not upgraded.
+Nov 25 01:42:44 in-target: Need to get 0B/35.6kB of archives.
+Nov 25 01:42:44 in-target: After this operation, 193kB of additional disk space will be used.
+Nov 25 01:42:44 in-target: Selecting previously deselected package acpid.
+Nov 25 01:42:44 in-target: (Reading database ... 
+Nov 25 01:42:44 in-target: 12076 files and directories currently installed.)
+Nov 25 01:42:44 in-target: Unpacking acpid (from .../acpid_1.0.8-1lenny1_i386.deb) ...
+Nov 25 01:42:44 in-target: Processing triggers for man-db ...
+Nov 25 01:42:44 in-target: Setting up acpid (1.0.8-1lenny1) ...
+Nov 25 01:42:45 in-target: Reading package lists...
+Nov 25 01:42:45 in-target: 
+Nov 25 01:42:45 in-target: Building dependency tree...
+Nov 25 01:42:45 in-target: 
+Nov 25 01:42:45 in-target: Reading state information...
+Nov 25 01:42:45 in-target: 
+Nov 25 01:42:46 in-target: Suggested packages:
+Nov 25 01:42:46 in-target:   acpi-support
+Nov 25 01:42:46 in-target: The following NEW packages will be installed:
+Nov 25 01:42:46 in-target:   acpi-support-base
+Nov 25 01:42:46 in-target: 0 upgraded, 1 newly installed, 0 to remove and 0 not upgraded.
+Nov 25 01:42:46 in-target: Need to get 0B/22.5kB of archives.
+Nov 25 01:42:46 in-target: After this operation, 90.1kB of additional disk space will be used.
+Nov 25 01:42:46 in-target: Selecting previously deselected package acpi-support-base.
+Nov 25 01:42:46 in-target: (Reading database ... 
+Nov 25 01:42:46 in-target: 12099 files and directories currently installed.)
+Nov 25 01:42:46 in-target: Unpacking acpi-support-base (from .../acpi-support-base_0.109-11_all.deb) ...
+Nov 25 01:42:46 in-target: Setting up acpi-support-base (0.109-11) ...
+Nov 25 01:42:48 in-target: Reading package lists...
+Nov 25 01:42:48 in-target: 
+Nov 25 01:42:48 in-target: Building dependency tree...
+Nov 25 01:42:48 in-target: Reading state information...
+Nov 25 01:42:48 in-target: Suggested packages:
+Nov 25 01:42:48 in-target:   cdtool setcd
+Nov 25 01:42:48 in-target: The following NEW packages will be installed:
+Nov 25 01:42:48 in-target:   eject
+Nov 25 01:42:48 in-target: 0 upgraded, 1 newly installed, 0 to remove and 0 not upgraded.
+Nov 25 01:42:48 in-target: Need to get 0B/51.7kB of archives.
+Nov 25 01:42:48 in-target: After this operation, 319kB of additional disk space will be used.
+Nov 25 01:42:48 in-target: Selecting previously deselected package eject.
+Nov 25 01:42:48 in-target: (Reading database ... 
+Nov 25 01:42:48 in-target: 12108 files and directories currently installed.)
+Nov 25 01:42:48 in-target: Unpacking eject (from .../eject_2.1.5+deb1-4_i386.deb) ...
+Nov 25 01:42:48 in-target: Processing triggers for man-db ...
+Nov 25 01:42:49 in-target: Setting up eject (2.1.5+deb1-4) ...
+Nov 25 01:42:50 in-target: Reading package lists...
+Nov 25 01:42:50 in-target: 
+Nov 25 01:42:50 in-target: Building dependency tree...
+Nov 25 01:42:50 in-target: Reading state information...
+Nov 25 01:42:50 in-target: The following NEW packages will be installed:
+Nov 25 01:42:50 in-target:   libc6-i686
+Nov 25 01:42:50 in-target: 0 upgraded, 1 newly installed, 0 to remove and 0 not upgraded.
+Nov 25 01:42:50 in-target: Need to get 0B/1265kB of archives.
+Nov 25 01:42:50 in-target: After this operation, 2769kB of additional disk space will be used.
+Nov 25 01:42:50 in-target: Selecting previously deselected package libc6-i686.
+Nov 25 01:42:50 in-target: (Reading database ... 
+Nov 25 01:42:50 in-target: 12133 files and directories currently installed.)
+Nov 25 01:42:50 in-target: Unpacking libc6-i686 (from .../libc6-i686_2.7-18_i386.deb) ...
+Nov 25 01:42:51 in-target: Setting up libc6-i686 (2.7-18) ...
+Nov 25 01:42:52 in-target: Reading package lists...
+Nov 25 01:42:52 in-target: 
+Nov 25 01:42:52 in-target: Building dependency tree...
+Nov 25 01:42:52 in-target: Reading state information...
+Nov 25 01:42:52 in-target: e2fsprogs is already the newest version.
+Nov 25 01:42:52 in-target: 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Nov 25 01:42:52 main-menu[1086]: INFO: Falling back to the package description for auto-install
+Nov 25 01:42:52 main-menu[1086]: INFO: Falling back to the package description for ai-choosers
+Nov 25 01:42:52 main-menu[1086]: INFO: Menu item 'user-setup-udeb' selected
+Nov 25 01:44:52 main-menu[1086]: INFO: Falling back to the package description for auto-install
+Nov 25 01:44:52 main-menu[1086]: INFO: Falling back to the package description for ai-choosers
+Nov 25 01:44:52 main-menu[1086]: INFO: Menu item 'apt-setup-udeb' selected
+Nov 25 01:44:52 apt-setup: Using CD-ROM mount point /cdrom/
+Nov 25 01:44:52 apt-setup: Unmounting CD-ROM
+Nov 25 01:44:52 apt-setup: Waiting for disc...
+Nov 25 01:44:52 apt-setup: Please insert a Disc in the drive and press enter 
+Nov 25 01:44:52 apt-setup: Mounting CD-ROM...
+Nov 25 01:44:52 kernel: [  435.989441] ISO 9660 Extensions: Microsoft Joliet Level 3
+Nov 25 01:44:52 kernel: [  435.990186] ISO 9660 Extensions: RRIP_1991A
+Nov 25 01:44:52 apt-setup: Identifying.. 
+Nov 25 01:44:52 apt-setup: [09e1e399a5cdb7545a38d161d8c2c074-2]
+Nov 25 01:44:52 apt-setup: Scanning disc for index files..
+Nov 25 01:44:52 apt-setup: Found 1 package indexes, 0 source indexes, 0 translation indexes and 0 signatures
+Nov 25 01:44:52 apt-setup: This disc is called: 
+Nov 25 01:44:52 apt-setup: 'Debian GNU/Linux 5.0.3 _Lenny_ - Official i386 NETINST Binary-1 20090906-12:06'
+Nov 25 01:44:52 apt-setup: Copying package lists...
+Nov 25 01:44:52 apt-setup: ^MReading Package Indexes... 0%^M
+Nov 25 01:44:52 apt-setup: ^MReading Package Indexes... 1%^M
+Nov 25 01:44:52 apt-setup: ^MReading Package Indexes... Done^M
+Nov 25 01:44:52 apt-setup: 
+Nov 25 01:44:52 apt-setup: Writing new source list
+Nov 25 01:44:52 apt-setup: Source list entries for this disc are:
+Nov 25 01:44:52 apt-setup: deb cdrom:[Debian GNU/Linux 5.0.3 _Lenny_ - Official i386 NETINST Binary-1 20090906-12:06]/ lenny main
+Nov 25 01:44:52 apt-setup: Unmounting CD-ROM...
+Nov 25 01:44:52 apt-setup: Repeat this process for the rest of the CDs in your set.
+Nov 25 01:44:52 kernel: [  436.244868] ISO 9660 Extensions: Microsoft Joliet Level 3
+Nov 25 01:44:52 kernel: [  436.248299] ISO 9660 Extensions: RRIP_1991A
+Nov 25 01:44:52 kernel: [  436.298145] ISO 9660 Extensions: Microsoft Joliet Level 3
+Nov 25 01:44:52 kernel: [  436.299564] ISO 9660 Extensions: RRIP_1991A
+Nov 25 01:44:57 choose-mirror[30040]: DEBUG: command: wget -q http://ftp.us.debian.org/debian//dists/lenny/Release -O - | grep ^Suite: | cut -d' ' -f 2
+Nov 25 01:44:58 choose-mirror[30040]: DEBUG: command: wget -q http://ftp.us.debian.org/debian//dists/stable/Release -O - | grep ^Codename: | cut -d' ' -f 2
+Nov 25 01:44:58 choose-mirror[30040]: INFO: codename set to: lenny
+Nov 25 01:44:58 choose-mirror[30040]: DEBUG: command: wget -q http://ftp.us.debian.org/debian//dists/stable/main/binary-i386/Release -O - | grep Architecture
+Nov 25 01:44:59 in-target: Get:1 http://ftp.us.debian.org lenny Release.gpg [1032B]
+Nov 25 01:44:59 in-target: Ign http://ftp.us.debian.org lenny/main Translation-en_US
+Nov 25 01:44:59 in-target: Get:2 http://ftp.us.debian.org lenny Release [73.6kB]
+Nov 25 01:44:59 in-target: Get:3 http://ftp.us.debian.org lenny/main Packages [6911kB]
+Nov 25 01:45:05 in-target: Fetched 6986kB in 6s (1127kB/s)
+Nov 25 01:45:05 in-target: Reading package lists...
+Nov 25 01:45:06 in-target: 
+Nov 25 01:45:07 in-target: Hit http://ftp.us.debian.org lenny Release.gpg
+Nov 25 01:45:07 in-target: Ign http://ftp.us.debian.org lenny/main Translation-en_US
+Nov 25 01:45:07 in-target: Hit http://ftp.us.debian.org lenny Release
+Nov 25 01:45:07 in-target: Ign http://ftp.us.debian.org lenny/main Packages/DiffIndex
+Nov 25 01:45:07 in-target: Hit http://ftp.us.debian.org lenny/main Packages
+Nov 25 01:45:07 in-target: Reading package lists...
+Nov 25 01:45:07 in-target: 
+Nov 25 01:45:08 in-target: Hit http://ftp.us.debian.org lenny Release.gpg
+Nov 25 01:45:08 in-target: Hit http://ftp.us.debian.org lenny Release
+Nov 25 01:45:08 in-target: Get:1 http://ftp.us.debian.org lenny/main Sources [2982kB]
+Nov 25 01:45:11 in-target: Fetched 2982kB in 3s (949kB/s)
+Nov 25 01:45:11 in-target: Reading package lists...
+Nov 25 01:45:11 in-target: 
+Nov 25 01:45:12 in-target: Get:1 http://security.debian.org lenny/updates Release.gpg [835B]
+Nov 25 01:45:12 in-target: Ign http://security.debian.org lenny/updates/main Translation-en_US
+Nov 25 01:45:12 in-target: Get:2 http://security.debian.org lenny/updates Release [40.8kB]
+Nov 25 01:45:12 in-target: Get:3 http://security.debian.org lenny/updates/main Packages [307kB]
+Nov 25 01:45:13 in-target: Fetched 349kB in 0s (368kB/s)
+Nov 25 01:45:13 in-target: Reading package lists...
+Nov 25 01:45:13 in-target: 
+Nov 25 01:45:13 in-target: Hit http://security.debian.org lenny/updates Release.gpg
+Nov 25 01:45:13 in-target: Ign http://security.debian.org lenny/updates/main Translation-en_US
+Nov 25 01:45:13 in-target: Hit http://security.debian.org lenny/updates Release
+Nov 25 01:45:13 in-target: Ign http://security.debian.org lenny/updates/main Packages/DiffIndex
+Nov 25 01:45:14 in-target: Hit http://security.debian.org lenny/updates/main Packages
+Nov 25 01:45:14 in-target: Reading package lists...
+Nov 25 01:45:14 in-target: 
+Nov 25 01:45:14 in-target: Hit http://security.debian.org lenny/updates Release.gpg
+Nov 25 01:45:14 in-target: Hit http://security.debian.org lenny/updates Release
+Nov 25 01:45:14 in-target: Get:1 http://security.debian.org lenny/updates/main Sources [76.4kB]
+Nov 25 01:45:15 in-target: Fetched 76.4kB in 0s (87.2kB/s)
+Nov 25 01:45:15 in-target: Reading package lists...
+Nov 25 01:45:15 in-target: 
+Nov 25 01:45:16 in-target: Get:1 http://volatile.debian.org lenny/volatile Release.gpg [189B]
+Nov 25 01:45:16 in-target: Ign http://volatile.debian.org lenny/volatile/main Translation-en_US
+Nov 25 01:45:16 in-target: Get:2 http://volatile.debian.org lenny/volatile Release [40.7kB]
+Nov 25 01:45:17 in-target: Get:3 http://volatile.debian.org lenny/volatile/main Packages [7540B]
+Nov 25 01:45:17 in-target: Fetched 48.5kB in 1s (44.6kB/s)
+Nov 25 01:45:17 in-target: Reading package lists...
+Nov 25 01:45:17 in-target: 
+Nov 25 01:45:17 in-target: Hit http://volatile.debian.org lenny/volatile Release.gpg
+Nov 25 01:45:17 in-target: Ign http://volatile.debian.org lenny/volatile/main Translation-en_US
+Nov 25 01:45:18 in-target: Hit http://volatile.debian.org lenny/volatile Release
+Nov 25 01:45:18 in-target: Ign http://volatile.debian.org lenny/volatile/main Packages/DiffIndex
+Nov 25 01:45:18 in-target: Hit http://volatile.debian.org lenny/volatile/main Packages
+Nov 25 01:45:18 in-target: Reading package lists...
+Nov 25 01:45:18 in-target: 
+Nov 25 01:45:18 in-target: Hit http://volatile.debian.org lenny/volatile Release.gpg
+Nov 25 01:45:19 in-target: Hit http://volatile.debian.org lenny/volatile Release
+Nov 25 01:45:19 in-target: Get:1 http://volatile.debian.org lenny/volatile/main Sources [2240B]
+Nov 25 01:45:19 in-target: Fetched 2240B in 0s (4137B/s)
+Nov 25 01:45:19 in-target: Reading package lists...
+Nov 25 01:45:19 in-target: 
+Nov 25 01:45:19 main-menu[1086]: INFO: Falling back to the package description for auto-install
+Nov 25 01:45:19 main-menu[1086]: INFO: Falling back to the package description for ai-choosers
+Nov 25 01:45:19 main-menu[1086]: INFO: Menu item 'pkgsel' selected
+Nov 25 01:45:22 in-target: Reading package lists...
+Nov 25 01:45:23 in-target: 
+Nov 25 01:45:23 in-target: Building dependency tree...
+Nov 25 01:45:23 in-target: 
+Nov 25 01:45:23 in-target: Reading state information...
+Nov 25 01:45:23 in-target: 
+Nov 25 01:45:23 in-target: Initializing package states...
+Nov 25 01:45:23 in-target: 
+Nov 25 01:45:23 in-target: Writing extended state information...
+Nov 25 01:45:24 in-target: 
+Nov 25 01:45:24 in-target: Reading task descriptions...
+Nov 25 01:45:24 in-target: 
+Nov 25 01:45:24 in-target: The following packages will be upgraded:
+Nov 25 01:45:24 in-target:   libgnutls26 libnewt0.52 libssl0.9.8 linux-image-2.6.26-2-686 tzdata wget 
+Nov 25 01:45:24 in-target:   whiptail 
+Nov 25 01:45:24 in-target: 7 packages upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Nov 25 01:45:24 in-target: Need to get 25.1MB of archives. After unpacking 926kB will be used.
+Nov 25 01:45:24 in-target: Writing extended state information...
+Nov 25 01:45:24 in-target: 
+Nov 25 01:45:24 in-target: Get:1 http://security.debian.org lenny/updates/main linux-image-2.6.26-2-686 2.6.26-19lenny2 [20.2MB]
+Nov 25 01:45:25 in-target: Get:2 http://volatile.debian.org lenny/volatile/main tzdata 2009l-0lenny1.1 [772kB]
+Nov 25 01:45:40 in-target: Get:3 http://security.debian.org lenny/updates/main libgnutls26 2.4.2-6+lenny2 [464kB]
+Nov 25 01:45:40 in-target: Get:4 http://security.debian.org lenny/updates/main libnewt0.52 0.52.2-11.3+lenny1 [68.6kB]
+Nov 25 01:45:40 in-target: Get:5 http://security.debian.org lenny/updates/main libssl0.9.8 0.9.8g-15+lenny5 [2975kB]
+Nov 25 01:45:41 in-target: Get:6 http://security.debian.org lenny/updates/main wget 1.11.4-2+lenny1 [608kB]
+Nov 25 01:45:42 in-target: Get:7 http://security.debian.org lenny/updates/main whiptail 0.52.2-11.3+lenny1 [35.1kB]
+Nov 25 01:45:42 in-target: Preconfiguring packages ...
+Nov 25 01:45:42 debconf: Obsolete command TITLE Configuring linux-image-2.6.26-2-686 called
+Nov 25 01:45:42 debconf: Obsolete command TITLE Configuring tzdata called
+Nov 25 01:45:42 debconf: Obsolete command TITLE Configuring libssl0.9.8 called
+Nov 25 01:45:42 in-target: Fetched 25.1MB in 17s (1411kB/s)
+Nov 25 01:45:42 in-target: (Reading database ... 
+Nov 25 01:45:43 in-target: 12189 files and directories currently installed.)
+Nov 25 01:45:43 in-target: Preparing to replace linux-image-2.6.26-2-686 2.6.26-19 (using .../linux-image-2.6.26-2-686_2.6.26-19lenny2_i386.deb) ...
+Nov 25 01:45:43 debconf: Obsolete command TITLE Configuring linux-image-2.6.26-2-686 called
+Nov 25 01:45:43 debconf: Obsolete command TITLE Configuring linux-image-2.6.26-2-686 called
+Nov 25 01:45:43 in-target: The directory /lib/modules/2.6.26-2-686 still exists. Continuing as directed.
+Nov 25 01:45:43 in-target: Done.
+Nov 25 01:45:43 in-target: Unpacking replacement linux-image-2.6.26-2-686 ...
+Nov 25 01:45:46 debconf: Obsolete command TITLE Configuring linux-image-2.6.26-2-686 called
+Nov 25 01:45:46 in-target: Preparing to replace tzdata 2009l-0lenny1 (using .../tzdata_2009l-0lenny1.1_all.deb) ...
+Nov 25 01:45:46 in-target: Unpacking replacement tzdata ...
+Nov 25 01:45:47 in-target: Setting up tzdata (2009l-0lenny1.1) ...
+Nov 25 01:45:48 debconf: Obsolete command TITLE Configuring tzdata called
+Nov 25 01:45:48 in-target: 
+Nov 25 01:45:48 in-target: Current default timezone: 'America/New_York'
+Nov 25 01:45:48 in-target: Local time is now:      Tue Nov 24 20:45:48 EST 2009.
+Nov 25 01:45:48 in-target: Universal Time is now:  Wed Nov 25 01:45:48 UTC 2009.
+Nov 25 01:45:48 in-target: Run 'dpkg-reconfigure tzdata' if you wish to change it.
+Nov 25 01:45:48 in-target: 
+Nov 25 01:45:48 in-target: (Reading database ... 
+Nov 25 01:45:48 in-target: 12189 files and directories currently installed.)
+Nov 25 01:45:48 in-target: Preparing to replace libgnutls26 2.4.2-6+lenny1 (using .../libgnutls26_2.4.2-6+lenny2_i386.deb) ...
+Nov 25 01:45:48 in-target: Unpacking replacement libgnutls26 ...
+Nov 25 01:45:49 in-target: Preparing to replace libnewt0.52 0.52.2-11.3 (using .../libnewt0.52_0.52.2-11.3+lenny1_i386.deb) ...
+Nov 25 01:45:49 in-target: Unpacking replacement libnewt0.52 ...
+Nov 25 01:45:49 in-target: Preparing to replace libssl0.9.8 0.9.8g-15+lenny3 (using .../libssl0.9.8_0.9.8g-15+lenny5_i386.deb) ...
+Nov 25 01:45:49 in-target: Unpacking replacement libssl0.9.8 ...
+Nov 25 01:45:49 in-target: Preparing to replace wget 1.11.4-2 (using .../wget_1.11.4-2+lenny1_i386.deb) ...
+Nov 25 01:45:49 in-target: Unpacking replacement wget ...
+Nov 25 01:45:49 in-target: Preparing to replace whiptail 0.52.2-11.3 (using .../whiptail_0.52.2-11.3+lenny1_i386.deb) ...
+Nov 25 01:45:49 in-target: Unpacking replacement whiptail ...
+Nov 25 01:45:49 in-target: Processing triggers for man-db ...
+Nov 25 01:45:50 in-target: Setting up linux-image-2.6.26-2-686 (2.6.26-19lenny2) ...
+Nov 25 01:45:50 debconf: Obsolete command TITLE Configuring linux-image-2.6.26-2-686 called
+Nov 25 01:45:50 in-target: Running depmod.
+Nov 25 01:45:51 in-target: Running mkinitramfs-kpkg.
+Nov 25 01:46:09 in-target: Not updating initrd symbolic links since we are being updated/reinstalled 
+Nov 25 01:46:09 in-target: (2.6.26-19 was configured last, according to dpkg)
+Nov 25 01:46:09 in-target: Not updating image symbolic links since we are being updated/reinstalled 
+Nov 25 01:46:09 in-target: (2.6.26-19 was configured last, according to dpkg)
+Nov 25 01:46:09 in-target: Setting up libgnutls26 (2.4.2-6+lenny2) ...
+Nov 25 01:46:09 in-target: Setting up libnewt0.52 (0.52.2-11.3+lenny1) ...
+Nov 25 01:46:10 in-target: Setting up libssl0.9.8 (0.9.8g-15+lenny5) ...
+Nov 25 01:46:10 debconf: Obsolete command TITLE Configuring libssl0.9.8 called
+Nov 25 01:46:10 in-target: Setting up wget (1.11.4-2+lenny1) ...
+Nov 25 01:46:10 in-target: Setting up whiptail (0.52.2-11.3+lenny1) ...
+Nov 25 01:46:10 in-target: Reading package lists...
+Nov 25 01:46:11 in-target: 
+Nov 25 01:46:11 in-target: Building dependency tree...
+Nov 25 01:46:11 in-target: 
+Nov 25 01:46:11 in-target: Reading state information...
+Nov 25 01:46:11 in-target: 
+Nov 25 01:46:11 in-target: Reading extended state information...
+Nov 25 01:46:11 in-target: 
+Nov 25 01:46:11 in-target: Initializing package states...
+Nov 25 01:46:11 in-target: 
+Nov 25 01:46:11 in-target: Reading task descriptions...
+Nov 25 01:46:11 in-target: 
+Nov 25 01:46:12 in-target: Reading package lists...
+Nov 25 01:46:12 in-target: 
+Nov 25 01:46:12 in-target: Building dependency tree...
+Nov 25 01:46:12 in-target: 
+Nov 25 01:46:12 in-target: Reading state information...
+Nov 25 01:46:12 in-target: 
+Nov 25 01:46:12 in-target: The following NEW packages will be installed:
+Nov 25 01:46:12 in-target:   laptop-detect
+Nov 25 01:46:12 kernel: [  516.186791] ISO 9660 Extensions: Microsoft Joliet Level 3
+Nov 25 01:46:12 kernel: [  516.188136] ISO 9660 Extensions: RRIP_1991A
+Nov 25 01:46:13 in-target: 0 upgraded, 1 newly installed, 0 to remove and 0 not upgraded.
+Nov 25 01:46:13 in-target: Need to get 0B/5196B of archives.
+Nov 25 01:46:13 in-target: After this operation, 20.5kB of additional disk space will be used.
+Nov 25 01:46:13 in-target: Selecting previously deselected package laptop-detect.
+Nov 25 01:46:13 in-target: (Reading database ... 
+Nov 25 01:46:13 in-target: 12189 files and directories currently installed.)
+Nov 25 01:46:13 in-target: Unpacking laptop-detect (from .../laptop-detect_0.13.6_i386.deb) ...
+Nov 25 01:46:13 in-target: Processing triggers for man-db ...
+Nov 25 01:46:13 in-target: Setting up laptop-detect (0.13.6) ...
+Nov 25 01:46:14 in-target: Reading package lists...
+Nov 25 01:46:15 in-target: 
+Nov 25 01:46:15 in-target: Building dependency tree...
+Nov 25 01:46:15 in-target: 
+Nov 25 01:46:15 in-target: Reading state information...
+Nov 25 01:46:15 in-target: 
+Nov 25 01:46:15 in-target: Suggested packages:
+Nov 25 01:46:15 in-target:   anacron
+Nov 25 01:46:15 in-target: Recommended packages:
+Nov 25 01:46:15 in-target:   exim4 mail-transport-agent
+Nov 25 01:46:15 in-target: The following NEW packages will be installed:
+Nov 25 01:46:15 in-target:   popularity-contest
+Nov 25 01:46:15 in-target: 0 upgraded, 1 newly installed, 0 to remove and 0 not upgraded.
+Nov 25 01:46:15 in-target: Need to get 61.0kB of archives.
+Nov 25 01:46:15 in-target: After this operation, 250kB of additional disk space will be used.
+Nov 25 01:46:15 in-target: Get:1 http://ftp.us.debian.org lenny/main popularity-contest 1.46 [61.0kB]
+Nov 25 01:46:15 in-target: Preconfiguring packages ...
+Nov 25 01:46:15 debconf: Obsolete command TITLE Configuring popularity-contest called
+Nov 25 02:16:59 in-target: Fetched 61.0kB in 0s (217kB/s)
+Nov 25 02:16:59 in-target: Selecting previously deselected package popularity-contest.
+Nov 25 02:16:59 in-target: (Reading database ... 
+Nov 25 02:16:59 in-target: 12195 files and directories currently installed.)
+Nov 25 02:16:59 in-target: Unpacking popularity-contest (from .../popularity-contest_1.46_all.deb) ...
+Nov 25 02:16:59 in-target: Processing triggers for man-db ...
+Nov 25 02:17:00 in-target: Setting up popularity-contest (1.46) ...
+Nov 25 02:17:00 debconf: Obsolete command TITLE Configuring popularity-contest called
+Nov 25 02:17:01 in-target: (Reading database ... 
+Nov 25 02:17:01 in-target: 12218 files and directories currently installed.)
+Nov 25 02:17:01 in-target: Removing popularity-contest ...
+Nov 25 02:17:01 in-target: Purging configuration files for popularity-contest ...
+Nov 25 02:17:01 debconf: Obsolete command TITLE Configuring popularity-contest called
+Nov 25 02:17:01 in-target: Processing triggers for man-db ...
+Nov 25 02:17:17 in-target: Reading package lists...
+Nov 25 02:17:17 in-target: 
+Nov 25 02:17:17 in-target: Building dependency tree...
+Nov 25 02:17:17 in-target: 
+Nov 25 02:17:17 in-target: Reading state information...
+Nov 25 02:17:17 in-target: 
+Nov 25 02:17:17 in-target: Reading extended state information...
+Nov 25 02:17:17 in-target: 
+Nov 25 02:17:17 in-target: Initializing package states...
+Nov 25 02:17:17 in-target: 
+Nov 25 02:17:17 in-target: Writing extended state information...
+Nov 25 02:17:18 in-target: 
+Nov 25 02:17:18 in-target: Reading task descriptions...
+Nov 25 02:17:18 in-target: 
+Nov 25 02:17:18 in-target: The following NEW packages will be installed:
+Nov 25 02:17:18 in-target:   analog apache2{a} apache2-doc apache2-mpm-prefork apache2-utils{a} 
+Nov 25 02:17:18 in-target:   apache2.2-common{a} at bash-completion bc bind9-host bsd-mailx dc 
+Nov 25 02:17:18 in-target:   debian-faq dictionaries-common dnsutils doc-debian doc-linux-text exim4 
+Nov 25 02:17:18 in-target:   exim4-base exim4-config exim4-daemon-light file ftp gettext-base 
+Nov 25 02:17:18 in-target:   iamerican ibritish ispell less libapache2-mod-perl2 libapache2-mod-php5 
+Nov 25 02:17:18 in-target:   libapache2-mod-python libapr1{a} libaprutil1{a} libbind9-40 libcap2 
+Nov 25 02:17:18 in-target:   libdb4.5 libdevel-symdump-perl{a} libdns45 libedit2 libevent1 
+Nov 25 02:17:18 in-target:   libexpat1{a} libfreetype6{a} libgc1c2 libgd2-noxpm{a} libgpm2 libgssglue1 
+Nov 25 02:17:18 in-target:   libhtml-parser-perl{a} libhtml-tagset-perl{a} libhtml-tree-perl{a} 
+Nov 25 02:17:18 in-target:   libidn11 libisc45 libisccc40 libisccfg40 libjpeg62{a} libkeyutils1 
+Nov 25 02:17:18 in-target:   libkrb53 libldap-2.4-2 liblockfile1 liblwres40 libmagic1 
+Nov 25 02:17:18 in-target:   libmysqlclient15off{a} libnfsidmap2 libpci3 libpcre3 libperl5.10{a} 
+Nov 25 02:17:18 in-target:   libpng12-0{a} libpq5{a} librpcsecgss3 libsqlite3-0 liburi-perl{a} 
+Nov 25 02:17:18 in-target:   libwww-perl{a} libxml2 lsof m4 mime-support mlocate mutt mysql-common{a} 
+Nov 25 02:17:18 in-target:   ncurses-term nfs-common openbsd-inetd openssh-client patch pciutils perl 
+Nov 25 02:17:18 in-target:   perl-modules php5-common{a} portmap procmail python python-central 
+Nov 25 02:17:18 in-target:   python-minimal python2.5 python2.5-minimal reportbug telnet texinfo time 
+Nov 25 02:17:18 in-target:   ucf w3m wamerican whois 
+Nov 25 02:17:18 in-target: 0 packages upgraded, 102 newly installed, 0 to remove and 0 not upgraded.
+Nov 25 02:17:18 in-target: Need to get 48.0MB/49.5MB of archives. After unpacking 143MB will be used.
+Nov 25 02:17:18 in-target: Writing extended state information...
+Nov 25 02:17:19 in-target: 
+Nov 25 02:17:19 kernel: [ 2382.622615] ISO 9660 Extensions: Microsoft Joliet Level 3
+Nov 25 02:17:19 kernel: [ 2382.624022] ISO 9660 Extensions: RRIP_1991A
+Nov 25 02:17:19 in-target: Get:1 http://ftp.us.debian.org lenny/main exim4-config 4.69-9 [350kB]
+Nov 25 02:17:19 in-target: Get:2 http://security.debian.org lenny/updates/main libgd2-noxpm 2.0.36~rc1~dfsg-3+lenny1 [221kB]
+Nov 25 02:17:19 in-target: Get:3 http://ftp.us.debian.org lenny/main exim4-base 4.69-9 [987kB]
+Nov 25 02:17:20 in-target: Get:4 http://ftp.us.debian.org lenny/main libpcre3 7.6-2.1 [211kB]
+Nov 25 02:17:20 in-target: Get:5 http://ftp.us.debian.org lenny/main exim4-daemon-light 4.69-9 [422kB]
+Nov 25 02:17:20 in-target: Get:6 http://ftp.us.debian.org lenny/main exim4 4.69-9 [7478B]
+Nov 25 02:17:21 in-target: Get:7 http://ftp.us.debian.org lenny/main at 3.1.10.2 [43.1kB]
+Nov 25 02:17:21 in-target: Get:8 http://ftp.us.debian.org lenny/main bash-completion 20080705 [89.2kB]
+Nov 25 02:17:21 in-target: Get:9 http://ftp.us.debian.org lenny/main bc 1.06.94-3 [72.2kB]
+Nov 25 02:17:21 in-target: Get:10 http://ftp.us.debian.org lenny/main libcap2 2.11-2 [11.1kB]
+Nov 25 02:17:21 in-target: Get:11 http://ftp.us.debian.org lenny/main libxml2 2.6.32.dfsg-5+lenny1 [815kB]
+Nov 25 02:17:21 in-target: Get:12 http://ftp.us.debian.org lenny/main libisc45 1:9.5.1.dfsg.P3-1 [150kB]
+Nov 25 02:17:21 in-target: Get:13 http://ftp.us.debian.org lenny/main libdns45 1:9.5.1.dfsg.P3-1 [548kB]
+Nov 25 02:17:21 in-target: Get:14 http://security.debian.org lenny/updates/main libexpat1 2.0.1-4+lenny1 [132kB]
+Nov 25 02:17:22 in-target: Get:15 http://ftp.us.debian.org lenny/main libisccc40 1:9.5.1.dfsg.P3-1 [27.0kB]
+Nov 25 02:17:22 in-target: Get:16 http://ftp.us.debian.org lenny/main libisccfg40 1:9.5.1.dfsg.P3-1 [44.4kB]
+Nov 25 02:17:22 in-target: Get:17 http://ftp.us.debian.org lenny/main libbind9-40 1:9.5.1.dfsg.P3-1 [32.3kB]
+Nov 25 02:17:22 in-target: Get:18 http://ftp.us.debian.org lenny/main liblwres40 1:9.5.1.dfsg.P3-1 [45.3kB]
+Nov 25 02:17:22 in-target: Get:19 http://ftp.us.debian.org lenny/main bind9-host 1:9.5.1.dfsg.P3-1 [60.9kB]
+Nov 25 02:17:22 in-target: Get:20 http://ftp.us.debian.org lenny/main liblockfile1 1.08-3 [18.6kB]
+Nov 25 02:17:22 in-target: Get:21 http://ftp.us.debian.org lenny/main bsd-mailx 8.1.2-0.20071201cvs-3 [157kB]
+Nov 25 02:17:22 in-target: Get:22 http://ftp.us.debian.org lenny/main dc 1.06.94-3 [64.8kB]
+Nov 25 02:17:22 in-target: Get:23 http://ftp.us.debian.org lenny/main debian-faq 4.0.4 [654kB]
+Nov 25 02:17:22 in-target: Get:24 http://security.debian.org lenny/updates/main libpq5 8.3.8-0lenny1 [370kB]
+Nov 25 02:17:22 in-target: Get:25 http://ftp.us.debian.org lenny/main dictionaries-common 0.98.12 [274kB]
+Nov 25 02:17:23 in-target: Get:26 http://ftp.us.debian.org lenny/main dnsutils 1:9.5.1.dfsg.P3-1 [144kB]
+Nov 25 02:17:23 in-target: Get:27 http://ftp.us.debian.org lenny/main doc-debian 4.0.1 [83.6kB]
+Nov 25 02:17:23 in-target: Get:28 http://ftp.us.debian.org lenny/main doc-linux-text 2008.08-1 [7814kB]
+Nov 25 02:17:24 in-target: Get:29 http://security.debian.org lenny/updates/main apache2-utils 2.2.9-10+lenny6 [143kB]
+Nov 25 02:17:25 in-target: Get:30 http://security.debian.org lenny/updates/main apache2.2-common 2.2.9-10+lenny6 [783kB]
+Nov 25 02:17:27 in-target: Get:31 http://security.debian.org lenny/updates/main apache2-mpm-prefork 2.2.9-10+lenny6 [237kB]
+Nov 25 02:17:27 in-target: Get:32 http://security.debian.org lenny/updates/main apache2 2.2.9-10+lenny6 [45.2kB]
+Nov 25 02:17:27 in-target: Get:33 http://security.debian.org lenny/updates/main apache2-doc 2.2.9-10+lenny6 [2060kB]
+Nov 25 02:17:29 in-target: Get:34 http://ftp.us.debian.org lenny/main libmagic1 4.26-1 [369kB]
+Nov 25 02:17:29 in-target: Get:35 http://ftp.us.debian.org lenny/main file 4.26-1 [44.1kB]
+Nov 25 02:17:29 in-target: Get:36 http://ftp.us.debian.org lenny/main ftp 0.17-18 [50.0kB]
+Nov 25 02:17:30 in-target: Get:37 http://ftp.us.debian.org lenny/main ibritish 3.1.20.0-4.4 [425kB]
+Nov 25 02:17:30 in-target: Get:38 http://security.debian.org lenny/updates/main libhtml-parser-perl 3.56-1+lenny1 [110kB]
+Nov 25 02:17:30 in-target: Get:39 http://ftp.us.debian.org lenny/main ispell 3.1.20.0-4.4 [160kB]
+Nov 25 02:17:30 in-target: Get:40 http://ftp.us.debian.org lenny/main iamerican 3.1.20.0-4.4 [426kB]
+Nov 25 02:17:30 in-target: Get:41 http://ftp.us.debian.org lenny/main less 418-1 [115kB]
+Nov 25 02:17:30 in-target: Get:42 http://ftp.us.debian.org lenny/main libdb4.5 4.5.20-13 [535kB]
+Nov 25 02:17:30 in-target: Get:43 http://ftp.us.debian.org lenny/main libevent1 1.3e-3 [44.6kB]
+Nov 25 02:17:30 in-target: Get:44 http://ftp.us.debian.org lenny/main libgc1c2 1:6.8-1.1 [122kB]
+Nov 25 02:17:31 in-target: Get:45 http://ftp.us.debian.org lenny/main libgpm2 1.20.4-3.1 [33.8kB]
+Nov 25 02:17:31 in-target: Get:46 http://ftp.us.debian.org lenny/main libgssglue1 0.1-2 [20.8kB]
+Nov 25 02:17:31 in-target: Get:47 http://ftp.us.debian.org lenny/main libidn11 1.8+20080606-1 [141kB]
+Nov 25 02:17:31 in-target: Get:48 http://ftp.us.debian.org lenny/main libldap-2.4-2 2.4.11-1 [188kB]
+Nov 25 02:17:31 in-target: Get:49 http://ftp.us.debian.org lenny/main libnfsidmap2 0.20-1 [22.4kB]
+Nov 25 02:17:31 in-target: Get:50 http://ftp.us.debian.org lenny/main librpcsecgss3 0.18-1 [31.4kB]
+Nov 25 02:17:31 in-target: Get:51 http://ftp.us.debian.org lenny/main libsqlite3-0 3.5.9-6 [245kB]
+Nov 25 02:17:31 in-target: Get:52 http://ftp.us.debian.org lenny/main lsof 4.78.dfsg.1-4 [262kB]
+Nov 25 02:17:31 in-target: Get:53 http://ftp.us.debian.org lenny/main m4 1.4.11-1 [217kB]
+Nov 25 02:17:31 in-target: Get:54 http://ftp.us.debian.org lenny/main mime-support 3.44-1 [33.3kB]
+Nov 25 02:17:31 in-target: Get:55 http://ftp.us.debian.org lenny/main mlocate 0.21.1-1 [73.5kB]
+Nov 25 02:17:31 in-target: Get:56 http://ftp.us.debian.org lenny/main mutt 1.5.18-6 [1931kB]
+Nov 25 02:17:32 in-target: Get:57 http://ftp.us.debian.org lenny/main ncurses-term 5.7+20081213-1 [553kB]
+Nov 25 02:17:33 in-target: Get:58 http://ftp.us.debian.org lenny/main portmap 6.0-9 [36.0kB]
+Nov 25 02:17:33 in-target: Get:59 http://ftp.us.debian.org lenny/main ucf 3.0016 [64.4kB]
+Nov 25 02:17:33 in-target: Get:60 http://ftp.us.debian.org lenny/main nfs-common 1:1.1.2-6lenny1 [190kB]
+Nov 25 02:17:33 in-target: Get:61 http://ftp.us.debian.org lenny/main openbsd-inetd 0.20080125-2 [33.8kB]
+Nov 25 02:17:33 in-target: Get:62 http://ftp.us.debian.org lenny/main patch 2.5.9-5 [97.5kB]
+Nov 25 02:17:33 in-target: Get:63 http://ftp.us.debian.org lenny/main pciutils 1:3.0.0-6 [225kB]
+Nov 25 02:17:33 in-target: Get:64 http://ftp.us.debian.org lenny/main perl-modules 5.10.0-19lenny2 [3198kB]
+Nov 25 02:17:35 in-target: Get:65 http://ftp.us.debian.org lenny/main perl 5.10.0-19lenny2 [4549kB]
+Nov 25 02:17:37 in-target: Get:66 http://ftp.us.debian.org lenny/main procmail 3.22-16 [142kB]
+Nov 25 02:17:37 in-target: Get:67 http://ftp.us.debian.org lenny/main python2.5-minimal 2.5.2-15 [1207kB]
+Nov 25 02:17:38 in-target: Get:68 http://ftp.us.debian.org lenny/main python2.5 2.5.2-15 [2922kB]
+Nov 25 02:17:40 in-target: Get:69 http://ftp.us.debian.org lenny/main python-minimal 2.5.2-3 [13.5kB]
+Nov 25 02:17:40 in-target: Get:70 http://ftp.us.debian.org lenny/main python 2.5.2-3 [139kB]
+Nov 25 02:17:40 in-target: Get:71 http://ftp.us.debian.org lenny/main python-central 0.6.8 [40.4kB]
+Nov 25 02:17:40 in-target: Get:72 http://ftp.us.debian.org lenny/main reportbug 3.48 [159kB]
+Nov 25 02:17:40 in-target: Get:73 http://ftp.us.debian.org lenny/main telnet 0.17-36 [65.8kB]
+Nov 25 02:17:40 in-target: Get:74 http://ftp.us.debian.org lenny/main texinfo 4.11.dfsg.1-4 [710kB]
+Nov 25 02:17:40 in-target: Get:75 http://ftp.us.debian.org lenny/main time 1.7-23 [32.5kB]
+Nov 25 02:17:40 in-target: Get:76 http://ftp.us.debian.org lenny/main w3m 0.5.2-2+b1 [1103kB]
+Nov 25 02:17:41 in-target: Get:77 http://ftp.us.debian.org lenny/main wamerican 6-2.3 [268kB]
+Nov 25 02:17:41 in-target: Get:78 http://ftp.us.debian.org lenny/main whois 4.7.30 [54.6kB]
+Nov 25 02:17:41 in-target: Get:79 http://ftp.us.debian.org lenny/main libfreetype6 2.3.7-2+lenny1 [372kB]
+Nov 25 02:17:41 in-target: Get:80 http://ftp.us.debian.org lenny/main libjpeg62 6b-14 [86.0kB]
+Nov 25 02:17:41 in-target: Get:81 http://ftp.us.debian.org lenny/main libpng12-0 1.2.27-2+lenny2 [166kB]
+Nov 25 02:17:41 in-target: Get:82 http://ftp.us.debian.org lenny/main analog 2:6.0-17~lenny1 [1304kB]
+Nov 25 02:17:42 in-target: Get:83 http://ftp.us.debian.org lenny/main libapr1 1.2.12-5+lenny1 [109kB]
+Nov 25 02:17:42 in-target: Get:84 http://ftp.us.debian.org lenny/main mysql-common 5.0.51a-24+lenny2 [60.8kB]
+Nov 25 02:17:42 in-target: Get:85 http://ftp.us.debian.org lenny/main libmysqlclient15off 5.0.51a-24+lenny2 [1859kB]
+Nov 25 02:17:43 in-target: Get:86 http://ftp.us.debian.org lenny/main libaprutil1 1.2.12+dfsg-8+lenny4 [73.8kB]
+Nov 25 02:17:43 in-target: Get:87 http://ftp.us.debian.org lenny/main liburi-perl 1.35.dfsg.1-1 [88.0kB]
+Nov 25 02:17:43 in-target: Get:88 http://ftp.us.debian.org lenny/main libhtml-tagset-perl 3.20-2 [13.5kB]
+Nov 25 02:17:43 in-target: Get:89 http://ftp.us.debian.org lenny/main libhtml-tree-perl 3.23-1 [209kB]
+Nov 25 02:17:43 in-target: Get:90 http://ftp.us.debian.org lenny/main libwww-perl 5.813-1 [375kB]
+Nov 25 02:17:43 in-target: Get:91 http://ftp.us.debian.org lenny/main libdevel-symdump-perl 2.08-1 [16.4kB]
+Nov 25 02:17:43 in-target: Get:92 http://ftp.us.debian.org lenny/main libperl5.10 5.10.0-19lenny2 [623kB]
+Nov 25 02:17:44 in-target: Get:93 http://ftp.us.debian.org lenny/main libapache2-mod-perl2 2.0.4-5 [1119kB]
+Nov 25 02:17:44 in-target: Get:94 http://ftp.us.debian.org lenny/main php5-common 5.2.6.dfsg.1-1+lenny3 [363kB]
+Nov 25 02:17:44 in-target: Get:95 http://ftp.us.debian.org lenny/main libapache2-mod-php5 5.2.6.dfsg.1-1+lenny3 [2484kB]
+Nov 25 02:17:46 in-target: Get:96 http://ftp.us.debian.org lenny/main libapache2-mod-python 3.3.1-7 [128kB]
+Nov 25 02:17:46 in-target: ^MExtracting templates from packages: 29%
+Nov 25 02:17:46 in-target: ^MExtracting templates from packages: 58%
+Nov 25 02:17:47 in-target: ^MExtracting templates from packages: 88%
+Nov 25 02:17:47 in-target: ^MExtracting templates from packages: 100%
+Nov 25 02:17:47 in-target: Preconfiguring packages ...
+Nov 25 02:17:47 debconf: Obsolete command TITLE Configuring exim4-config called
+Nov 25 02:17:47 debconf: Obsolete command TITLE Configuring exim4-base called
+Nov 25 02:17:47 debconf: Obsolete command TITLE Configuring exim4-daemon-light called
+Nov 25 02:17:47 debconf: Obsolete command TITLE Configuring exim4 called
+Nov 25 02:17:47 debconf: Obsolete command TITLE Configuring dictionaries-common called
+Nov 25 02:17:47 debconf: Obsolete command TITLE Dictionaries-common: Ispell dictionary called
+Nov 25 02:17:47 debconf: Obsolete command TITLE Dictionaries-common: Wordlist dictionary called
+Nov 25 02:17:47 debconf: Obsolete command TITLE Configuring ibritish called
+Nov 25 02:17:47 debconf: Obsolete command TITLE Configuring iamerican called
+Nov 25 02:17:47 debconf: Obsolete command TITLE Configuring portmap called
+Nov 25 02:17:47 debconf: Obsolete command TITLE Configuring ucf called
+Nov 25 02:17:47 debconf: Obsolete command TITLE Configuring wamerican called
+Nov 25 02:17:47 debconf: Obsolete command TITLE Configuring analog called
+Nov 25 02:17:47 debconf: Obsolete command TITLE Configuring libapache2-mod-python called
+Nov 25 02:17:47 in-target: Fetched 48.0MB in 27s (1769kB/s)
+Nov 25 02:17:47 in-target: Selecting previously deselected package exim4-config.
+Nov 25 02:17:47 in-target: (Reading database ... 
+Nov 25 02:17:47 in-target: 12195 files and directories currently installed.)
+Nov 25 02:17:47 in-target: Unpacking exim4-config (from .../exim4-config_4.69-9_all.deb) ...
+Nov 25 02:17:48 in-target: Selecting previously deselected package exim4-base.
+Nov 25 02:17:48 in-target: Unpacking exim4-base (from .../exim4-base_4.69-9_i386.deb) ...
+Nov 25 02:17:48 in-target: Selecting previously deselected package libpcre3.
+Nov 25 02:17:48 in-target: Unpacking libpcre3 (from .../libpcre3_7.6-2.1_i386.deb) ...
+Nov 25 02:17:48 in-target: Selecting previously deselected package exim4-daemon-light.
+Nov 25 02:17:48 in-target: Unpacking exim4-daemon-light (from .../exim4-daemon-light_4.69-9_i386.deb) ...
+Nov 25 02:17:48 in-target: Selecting previously deselected package exim4.
+Nov 25 02:17:48 in-target: Unpacking exim4 (from .../archives/exim4_4.69-9_all.deb) ...
+Nov 25 02:17:48 in-target: Selecting previously deselected package at.
+Nov 25 02:17:48 in-target: Unpacking at (from .../archives/at_3.1.10.2_i386.deb) ...
+Nov 25 02:17:48 in-target: Selecting previously deselected package bash-completion.
+Nov 25 02:17:48 in-target: Unpacking bash-completion (from .../bash-completion_20080705_all.deb) ...
+Nov 25 02:17:48 in-target: Selecting previously deselected package bc.
+Nov 25 02:17:48 in-target: Unpacking bc (from .../archives/bc_1.06.94-3_i386.deb) ...
+Nov 25 02:17:48 in-target: Selecting previously deselected package libcap2.
+Nov 25 02:17:48 in-target: Unpacking libcap2 (from .../libcap2_2.11-2_i386.deb) ...
+Nov 25 02:17:48 in-target: Selecting previously deselected package libxml2.
+Nov 25 02:17:48 in-target: Unpacking libxml2 (from .../libxml2_2.6.32.dfsg-5+lenny1_i386.deb) ...
+Nov 25 02:17:49 in-target: Selecting previously deselected package libisc45.
+Nov 25 02:17:49 in-target: Unpacking libisc45 (from .../libisc45_1%3a9.5.1.dfsg.P3-1_i386.deb) ...
+Nov 25 02:17:49 in-target: Selecting previously deselected package libkeyutils1.
+Nov 25 02:17:49 in-target: Unpacking libkeyutils1 (from .../libkeyutils1_1.2-9_i386.deb) ...
+Nov 25 02:17:49 in-target: Selecting previously deselected package libkrb53.
+Nov 25 02:17:49 in-target: Unpacking libkrb53 (from .../libkrb53_1.6.dfsg.4~beta1-5lenny1_i386.deb) ...
+Nov 25 02:17:49 in-target: Selecting previously deselected package libdns45.
+Nov 25 02:17:49 in-target: Unpacking libdns45 (from .../libdns45_1%3a9.5.1.dfsg.P3-1_i386.deb) ...
+Nov 25 02:17:49 in-target: Selecting previously deselected package libisccc40.
+Nov 25 02:17:49 in-target: Unpacking libisccc40 (from .../libisccc40_1%3a9.5.1.dfsg.P3-1_i386.deb) ...
+Nov 25 02:17:49 in-target: Selecting previously deselected package libisccfg40.
+Nov 25 02:17:49 in-target: Unpacking libisccfg40 (from .../libisccfg40_1%3a9.5.1.dfsg.P3-1_i386.deb) ...
+Nov 25 02:17:49 in-target: Selecting previously deselected package libbind9-40.
+Nov 25 02:17:49 in-target: Unpacking libbind9-40 (from .../libbind9-40_1%3a9.5.1.dfsg.P3-1_i386.deb) ...
+Nov 25 02:17:49 in-target: Selecting previously deselected package liblwres40.
+Nov 25 02:17:49 in-target: Unpacking liblwres40 (from .../liblwres40_1%3a9.5.1.dfsg.P3-1_i386.deb) ...
+Nov 25 02:17:49 in-target: Selecting previously deselected package bind9-host.
+Nov 25 02:17:49 in-target: Unpacking bind9-host (from .../bind9-host_1%3a9.5.1.dfsg.P3-1_i386.deb) ...
+Nov 25 02:17:49 in-target: Selecting previously deselected package liblockfile1.
+Nov 25 02:17:49 in-target: Unpacking liblockfile1 (from .../liblockfile1_1.08-3_i386.deb) ...
+Nov 25 02:17:49 in-target: Selecting previously deselected package bsd-mailx.
+Nov 25 02:17:49 in-target: Unpacking bsd-mailx (from .../bsd-mailx_8.1.2-0.20071201cvs-3_i386.deb) ...
+Nov 25 02:17:49 in-target: Selecting previously deselected package dc.
+Nov 25 02:17:49 in-target: Unpacking dc (from .../archives/dc_1.06.94-3_i386.deb) ...
+Nov 25 02:17:50 in-target: Selecting previously deselected package debian-faq.
+Nov 25 02:17:50 in-target: Unpacking debian-faq (from .../debian-faq_4.0.4_all.deb) ...
+Nov 25 02:17:50 in-target: Selecting previously deselected package dictionaries-common.
+Nov 25 02:17:50 in-target: Unpacking dictionaries-common (from .../dictionaries-common_0.98.12_all.deb) ...
+Nov 25 02:17:50 in-target: Adding `diversion of /usr/share/dict/words to /usr/share/dict/words.pre-dictionaries-common by dictionaries-common'
+Nov 25 02:17:50 in-target: Selecting previously deselected package dnsutils.
+Nov 25 02:17:50 in-target: Unpacking dnsutils (from .../dnsutils_1%3a9.5.1.dfsg.P3-1_i386.deb) ...
+Nov 25 02:17:50 in-target: Selecting previously deselected package doc-debian.
+Nov 25 02:17:50 in-target: Unpacking doc-debian (from .../doc-debian_4.0.1_all.deb) ...
+Nov 25 02:17:50 in-target: Selecting previously deselected package doc-linux-text.
+Nov 25 02:17:50 in-target: Unpacking doc-linux-text (from .../doc-linux-text_2008.08-1_all.deb) ...
+Nov 25 02:17:50 in-target: Selecting previously deselected package libmagic1.
+Nov 25 02:17:50 in-target: Unpacking libmagic1 (from .../libmagic1_4.26-1_i386.deb) ...
+Nov 25 02:17:51 in-target: Selecting previously deselected package file.
+Nov 25 02:17:51 in-target: Unpacking file (from .../archives/file_4.26-1_i386.deb) ...
+Nov 25 02:17:51 in-target: Selecting previously deselected package ftp.
+Nov 25 02:17:51 in-target: Unpacking ftp (from .../archives/ftp_0.17-18_i386.deb) ...
+Nov 25 02:17:51 in-target: Selecting previously deselected package gettext-base.
+Nov 25 02:17:51 in-target: Unpacking gettext-base (from .../gettext-base_0.17-4_i386.deb) ...
+Nov 25 02:17:51 in-target: Selecting previously deselected package ibritish.
+Nov 25 02:17:51 in-target: Unpacking ibritish (from .../ibritish_3.1.20.0-4.4_i386.deb) ...
+Nov 25 02:17:51 in-target: Selecting previously deselected package ispell.
+Nov 25 02:17:51 in-target: Unpacking ispell (from .../ispell_3.1.20.0-4.4_i386.deb) ...
+Nov 25 02:17:51 in-target: Selecting previously deselected package iamerican.
+Nov 25 02:17:51 in-target: Unpacking iamerican (from .../iamerican_3.1.20.0-4.4_i386.deb) ...
+Nov 25 02:17:51 in-target: Selecting previously deselected package less.
+Nov 25 02:17:51 in-target: Unpacking less (from .../archives/less_418-1_i386.deb) ...
+Nov 25 02:17:51 in-target: Selecting previously deselected package libdb4.5.
+Nov 25 02:17:51 in-target: Unpacking libdb4.5 (from .../libdb4.5_4.5.20-13_i386.deb) ...
+Nov 25 02:17:51 in-target: Selecting previously deselected package libedit2.
+Nov 25 02:17:51 in-target: Unpacking libedit2 (from .../libedit2_2.11~20080614-1_i386.deb) ...
+Nov 25 02:17:51 in-target: Selecting previously deselected package libevent1.
+Nov 25 02:17:51 in-target: Unpacking libevent1 (from .../libevent1_1.3e-3_i386.deb) ...
+Nov 25 02:17:52 in-target: Selecting previously deselected package libgc1c2.
+Nov 25 02:17:52 in-target: Unpacking libgc1c2 (from .../libgc1c2_1%3a6.8-1.1_i386.deb) ...
+Nov 25 02:17:52 in-target: Selecting previously deselected package libgpm2.
+Nov 25 02:17:52 in-target: Unpacking libgpm2 (from .../libgpm2_1.20.4-3.1_i386.deb) ...
+Nov 25 02:17:52 in-target: Selecting previously deselected package libgssglue1.
+Nov 25 02:17:52 in-target: Unpacking libgssglue1 (from .../libgssglue1_0.1-2_i386.deb) ...
+Nov 25 02:17:52 in-target: Selecting previously deselected package libidn11.
+Nov 25 02:17:52 in-target: Unpacking libidn11 (from .../libidn11_1.8+20080606-1_i386.deb) ...
+Nov 25 02:17:52 in-target: Selecting previously deselected package libldap-2.4-2.
+Nov 25 02:17:52 in-target: Unpacking libldap-2.4-2 (from .../libldap-2.4-2_2.4.11-1_i386.deb) ...
+Nov 25 02:17:52 in-target: Selecting previously deselected package libnfsidmap2.
+Nov 25 02:17:52 in-target: Unpacking libnfsidmap2 (from .../libnfsidmap2_0.20-1_i386.deb) ...
+Nov 25 02:17:52 in-target: Selecting previously deselected package libpci3.
+Nov 25 02:17:52 in-target: Unpacking libpci3 (from .../libpci3_3.0.0-6_i386.deb) ...
+Nov 25 02:17:52 in-target: Selecting previously deselected package librpcsecgss3.
+Nov 25 02:17:52 in-target: Unpacking librpcsecgss3 (from .../librpcsecgss3_0.18-1_i386.deb) ...
+Nov 25 02:17:52 in-target: Selecting previously deselected package libsqlite3-0.
+Nov 25 02:17:52 in-target: Unpacking libsqlite3-0 (from .../libsqlite3-0_3.5.9-6_i386.deb) ...
+Nov 25 02:17:52 in-target: Selecting previously deselected package lsof.
+Nov 25 02:17:52 in-target: Unpacking lsof (from .../lsof_4.78.dfsg.1-4_i386.deb) ...
+Nov 25 02:17:52 in-target: Selecting previously deselected package m4.
+Nov 25 02:17:52 in-target: Unpacking m4 (from .../archives/m4_1.4.11-1_i386.deb) ...
+Nov 25 02:17:52 in-target: Selecting previously deselected package mime-support.
+Nov 25 02:17:52 in-target: Unpacking mime-support (from .../mime-support_3.44-1_all.deb) ...
+Nov 25 02:17:53 in-target: Selecting previously deselected package mlocate.
+Nov 25 02:17:53 in-target: Unpacking mlocate (from .../mlocate_0.21.1-1_i386.deb) ...
+Nov 25 02:17:53 in-target: Selecting previously deselected package mutt.
+Nov 25 02:17:53 in-target: Unpacking mutt (from .../mutt_1.5.18-6_i386.deb) ...
+Nov 25 02:17:53 in-target: Selecting previously deselected package ncurses-term.
+Nov 25 02:17:53 in-target: Unpacking ncurses-term (from .../ncurses-term_5.7+20081213-1_all.deb) ...
+Nov 25 02:17:54 in-target: Selecting previously deselected package portmap.
+Nov 25 02:17:54 in-target: Unpacking portmap (from .../portmap_6.0-9_i386.deb) ...
+Nov 25 02:17:54 in-target: Selecting previously deselected package ucf.
+Nov 25 02:17:54 in-target: Unpacking ucf (from .../archives/ucf_3.0016_all.deb) ...
+Nov 25 02:17:54 in-target: Moving old data out of the way
+Nov 25 02:17:54 in-target: Selecting previously deselected package nfs-common.
+Nov 25 02:17:54 in-target: Unpacking nfs-common (from .../nfs-common_1%3a1.1.2-6lenny1_i386.deb) ...
+Nov 25 02:17:54 in-target: Selecting previously deselected package openbsd-inetd.
+Nov 25 02:17:54 in-target: Unpacking openbsd-inetd (from .../openbsd-inetd_0.20080125-2_i386.deb) ...
+Nov 25 02:17:54 in-target: Selecting previously deselected package openssh-client.
+Nov 25 02:17:54 in-target: Unpacking openssh-client (from .../openssh-client_5.1p1-5_i386.deb) ...
+Nov 25 02:17:54 in-target: Selecting previously deselected package patch.
+Nov 25 02:17:54 in-target: Unpacking patch (from .../patch_2.5.9-5_i386.deb) ...
+Nov 25 02:17:55 in-target: Selecting previously deselected package pciutils.
+Nov 25 02:17:55 in-target: Unpacking pciutils (from .../pciutils_1%3a3.0.0-6_i386.deb) ...
+Nov 25 02:17:55 in-target: Selecting previously deselected package perl-modules.
+Nov 25 02:17:55 in-target: Unpacking perl-modules (from .../perl-modules_5.10.0-19lenny2_all.deb) ...
+Nov 25 02:17:55 in-target: Selecting previously deselected package perl.
+Nov 25 02:17:55 in-target: Unpacking perl (from .../perl_5.10.0-19lenny2_i386.deb) ...
+Nov 25 02:17:56 in-target: Selecting previously deselected package procmail.
+Nov 25 02:17:56 in-target: Unpacking procmail (from .../procmail_3.22-16_i386.deb) ...
+Nov 25 02:17:56 in-target: Selecting previously deselected package python2.5-minimal.
+Nov 25 02:17:56 in-target: Unpacking python2.5-minimal (from .../python2.5-minimal_2.5.2-15_i386.deb) ...
+Nov 25 02:17:56 in-target: Selecting previously deselected package python2.5.
+Nov 25 02:17:56 in-target: Unpacking python2.5 (from .../python2.5_2.5.2-15_i386.deb) ...
+Nov 25 02:17:57 in-target: Selecting previously deselected package python-minimal.
+Nov 25 02:17:57 in-target: Unpacking python-minimal (from .../python-minimal_2.5.2-3_all.deb) ...
+Nov 25 02:17:57 in-target: Selecting previously deselected package python.
+Nov 25 02:17:57 in-target: Unpacking python (from .../python_2.5.2-3_all.deb) ...
+Nov 25 02:17:57 in-target: Selecting previously deselected package python-central.
+Nov 25 02:17:57 in-target: Unpacking python-central (from .../python-central_0.6.8_all.deb) ...
+Nov 25 02:17:57 in-target: Selecting previously deselected package reportbug.
+Nov 25 02:17:57 in-target: Unpacking reportbug (from .../reportbug_3.48_all.deb) ...
+Nov 25 02:17:58 in-target: Selecting previously deselected package telnet.
+Nov 25 02:17:58 in-target: Unpacking telnet (from .../telnet_0.17-36_i386.deb) ...
+Nov 25 02:17:58 in-target: Selecting previously deselected package texinfo.
+Nov 25 02:17:58 in-target: Unpacking texinfo (from .../texinfo_4.11.dfsg.1-4_i386.deb) ...
+Nov 25 02:17:58 in-target: Selecting previously deselected package time.
+Nov 25 02:17:58 in-target: Unpacking time (from .../archives/time_1.7-23_i386.deb) ...
+Nov 25 02:17:58 in-target: Selecting previously deselected package w3m.
+Nov 25 02:17:58 in-target: Unpacking w3m (from .../w3m_0.5.2-2+b1_i386.deb) ...
+Nov 25 02:17:58 in-target: Selecting previously deselected package wamerican.
+Nov 25 02:17:58 in-target: Unpacking wamerican (from .../wamerican_6-2.3_all.deb) ...
+Nov 25 02:17:58 in-target: Selecting previously deselected package whois.
+Nov 25 02:17:58 in-target: Unpacking whois (from .../archives/whois_4.7.30_i386.deb) ...
+Nov 25 02:17:58 in-target: Selecting previously deselected package libfreetype6.
+Nov 25 02:17:58 in-target: Unpacking libfreetype6 (from .../libfreetype6_2.3.7-2+lenny1_i386.deb) ...
+Nov 25 02:17:59 in-target: Selecting previously deselected package libjpeg62.
+Nov 25 02:17:59 in-target: Unpacking libjpeg62 (from .../libjpeg62_6b-14_i386.deb) ...
+Nov 25 02:17:59 in-target: Selecting previously deselected package libpng12-0.
+Nov 25 02:17:59 in-target: Unpacking libpng12-0 (from .../libpng12-0_1.2.27-2+lenny2_i386.deb) ...
+Nov 25 02:17:59 in-target: Selecting previously deselected package libgd2-noxpm.
+Nov 25 02:17:59 in-target: Unpacking libgd2-noxpm (from .../libgd2-noxpm_2.0.36~rc1~dfsg-3+lenny1_i386.deb) ...
+Nov 25 02:17:59 in-target: Selecting previously deselected package analog.
+Nov 25 02:17:59 in-target: Unpacking analog (from .../analog_2%3a6.0-17~lenny1_i386.deb) ...
+Nov 25 02:17:59 in-target: Selecting previously deselected package libapr1.
+Nov 25 02:17:59 in-target: Unpacking libapr1 (from .../libapr1_1.2.12-5+lenny1_i386.deb) ...
+Nov 25 02:17:59 in-target: Selecting previously deselected package libexpat1.
+Nov 25 02:17:59 in-target: Unpacking libexpat1 (from .../libexpat1_2.0.1-4+lenny1_i386.deb) ...
+Nov 25 02:17:59 in-target: Selecting previously deselected package mysql-common.
+Nov 25 02:17:59 in-target: Unpacking mysql-common (from .../mysql-common_5.0.51a-24+lenny2_all.deb) ...
+Nov 25 02:17:59 in-target: Selecting previously deselected package libmysqlclient15off.
+Nov 25 02:17:59 in-target: Unpacking libmysqlclient15off (from .../libmysqlclient15off_5.0.51a-24+lenny2_i386.deb) ...
+Nov 25 02:18:00 in-target: Selecting previously deselected package libpq5.
+Nov 25 02:18:00 in-target: Unpacking libpq5 (from .../libpq5_8.3.8-0lenny1_i386.deb) ...
+Nov 25 02:18:00 in-target: Selecting previously deselected package libaprutil1.
+Nov 25 02:18:00 in-target: Unpacking libaprutil1 (from .../libaprutil1_1.2.12+dfsg-8+lenny4_i386.deb) ...
+Nov 25 02:18:00 in-target: Selecting previously deselected package apache2-utils.
+Nov 25 02:18:00 in-target: Unpacking apache2-utils (from .../apache2-utils_2.2.9-10+lenny6_i386.deb) ...
+Nov 25 02:18:00 in-target: Selecting previously deselected package apache2.2-common.
+Nov 25 02:18:00 in-target: Unpacking apache2.2-common (from .../apache2.2-common_2.2.9-10+lenny6_i386.deb) ...
+Nov 25 02:18:01 in-target: Selecting previously deselected package apache2-mpm-prefork.
+Nov 25 02:18:01 in-target: Unpacking apache2-mpm-prefork (from .../apache2-mpm-prefork_2.2.9-10+lenny6_i386.deb) ...
+Nov 25 02:18:01 in-target: Selecting previously deselected package apache2.
+Nov 25 02:18:01 in-target: Unpacking apache2 (from .../apache2_2.2.9-10+lenny6_all.deb) ...
+Nov 25 02:18:01 in-target: Selecting previously deselected package apache2-doc.
+Nov 25 02:18:01 in-target: Unpacking apache2-doc (from .../apache2-doc_2.2.9-10+lenny6_all.deb) ...
+Nov 25 02:18:01 in-target: Selecting previously deselected package liburi-perl.
+Nov 25 02:18:01 in-target: Unpacking liburi-perl (from .../liburi-perl_1.35.dfsg.1-1_all.deb) ...
+Nov 25 02:18:02 in-target: Selecting previously deselected package libhtml-tagset-perl.
+Nov 25 02:18:02 in-target: Unpacking libhtml-tagset-perl (from .../libhtml-tagset-perl_3.20-2_all.deb) ...
+Nov 25 02:18:02 in-target: Selecting previously deselected package libhtml-parser-perl.
+Nov 25 02:18:02 in-target: Unpacking libhtml-parser-perl (from .../libhtml-parser-perl_3.56-1+lenny1_i386.deb) ...
+Nov 25 02:18:02 in-target: Selecting previously deselected package libhtml-tree-perl.
+Nov 25 02:18:02 in-target: Unpacking libhtml-tree-perl (from .../libhtml-tree-perl_3.23-1_all.deb) ...
+Nov 25 02:18:02 in-target: Selecting previously deselected package libwww-perl.
+Nov 25 02:18:02 in-target: Unpacking libwww-perl (from .../libwww-perl_5.813-1_all.deb) ...
+Nov 25 02:18:02 in-target: Selecting previously deselected package libdevel-symdump-perl.
+Nov 25 02:18:02 in-target: Unpacking libdevel-symdump-perl (from .../libdevel-symdump-perl_2.08-1_all.deb) ...
+Nov 25 02:18:02 in-target: Selecting previously deselected package libperl5.10.
+Nov 25 02:18:02 in-target: Unpacking libperl5.10 (from .../libperl5.10_5.10.0-19lenny2_i386.deb) ...
+Nov 25 02:18:02 in-target: Selecting previously deselected package libapache2-mod-perl2.
+Nov 25 02:18:02 in-target: Unpacking libapache2-mod-perl2 (from .../libapache2-mod-perl2_2.0.4-5_i386.deb) ...
+Nov 25 02:18:03 in-target: Selecting previously deselected package php5-common.
+Nov 25 02:18:03 in-target: Unpacking php5-common (from .../php5-common_5.2.6.dfsg.1-1+lenny3_i386.deb) ...
+Nov 25 02:18:03 in-target: Selecting previously deselected package libapache2-mod-php5.
+Nov 25 02:18:03 in-target: Unpacking libapache2-mod-php5 (from .../libapache2-mod-php5_5.2.6.dfsg.1-1+lenny3_i386.deb) ...
+Nov 25 02:18:03 in-target: Selecting previously deselected package libapache2-mod-python.
+Nov 25 02:18:03 in-target: Unpacking libapache2-mod-python (from .../libapache2-mod-python_3.3.1-7_i386.deb) ...
+Nov 25 02:18:03 in-target: Processing triggers for man-db ...
+Nov 25 02:18:09 in-target: Setting up exim4-config (4.69-9) ...
+Nov 25 02:18:09 debconf: Obsolete command TITLE Configuring exim4-config called
+Nov 25 02:18:10 in-target: Adding system-user for exim (v4)
+Nov 24 21:18:10 groupadd[4997]: new group: name=Debian-exim, GID=103
+Nov 24 21:18:10 useradd[5001]: new user: name=Debian-exim, UID=101, GID=103, home=/var/spool/exim4, shell=/bin/false
+Nov 24 21:18:10 chage[5006]: changed password expiry for Debian-exim
+Nov 25 02:18:12 in-target: Setting up exim4-base (4.69-9) ...
+Nov 25 02:18:12 debconf: Obsolete command TITLE Configuring exim4-base called
+Nov 25 02:18:13 in-target: Setting up libpcre3 (7.6-2.1) ...
+Nov 25 02:18:13 in-target: Setting up exim4-daemon-light (4.69-9) ...
+Nov 25 02:18:13 debconf: Obsolete command TITLE Configuring exim4-daemon-light called
+Nov 25 02:18:13 in-target: Setting up exim4 (4.69-9) ...
+Nov 25 02:18:13 debconf: Obsolete command TITLE Configuring exim4 called
+Nov 25 02:18:13 in-target: Setting up at (3.1.10.2) ...
+Nov 25 02:18:14 in-target: Setting up bash-completion (20080705) ...
+Nov 25 02:18:14 in-target: Setting up bc (1.06.94-3) ...
+Nov 25 02:18:14 in-target: Setting up libcap2 (2.11-2) ...
+Nov 25 02:18:14 in-target: Setting up libxml2 (2.6.32.dfsg-5+lenny1) ...
+Nov 25 02:18:14 in-target: Setting up libisc45 (1:9.5.1.dfsg.P3-1) ...
+Nov 25 02:18:14 in-target: Setting up libkeyutils1 (1.2-9) ...
+Nov 25 02:18:14 in-target: Setting up libkrb53 (1.6.dfsg.4~beta1-5lenny1) ...
+Nov 25 02:18:14 in-target: Setting up libdns45 (1:9.5.1.dfsg.P3-1) ...
+Nov 25 02:18:14 in-target: Setting up libisccc40 (1:9.5.1.dfsg.P3-1) ...
+Nov 25 02:18:14 in-target: Setting up libisccfg40 (1:9.5.1.dfsg.P3-1) ...
+Nov 25 02:18:14 in-target: Setting up libbind9-40 (1:9.5.1.dfsg.P3-1) ...
+Nov 25 02:18:14 in-target: Setting up liblwres40 (1:9.5.1.dfsg.P3-1) ...
+Nov 25 02:18:14 in-target: Setting up bind9-host (1:9.5.1.dfsg.P3-1) ...
+Nov 25 02:18:14 in-target: Setting up liblockfile1 (1.08-3) ...
+Nov 25 02:18:14 in-target: Setting up bsd-mailx (8.1.2-0.20071201cvs-3) ...
+Nov 25 02:18:15 in-target: Setting up dc (1.06.94-3) ...
+Nov 25 02:18:15 in-target: Setting up debian-faq (4.0.4) ...
+Nov 25 02:18:15 in-target: Setting up dictionaries-common (0.98.12) ...
+Nov 25 02:18:15 debconf: Obsolete command TITLE Configuring dictionaries-common called
+Nov 25 02:18:15 debconf: Obsolete command TITLE Dictionaries-common: Ispell dictionary called
+Nov 25 02:18:15 debconf: Obsolete command TITLE Dictionaries-common: Wordlist dictionary called
+Nov 25 02:18:15 in-target: Updating OpenOffice.org's dictionary list... done.
+Nov 25 02:18:15 in-target: Setting up dnsutils (1:9.5.1.dfsg.P3-1) ...
+Nov 25 02:18:15 in-target: Setting up doc-debian (4.0.1) ...
+Nov 25 02:18:16 in-target: Setting up doc-linux-text (2008.08-1) ...
+Nov 25 02:18:16 in-target: Setting up libmagic1 (4.26-1) ...
+Nov 25 02:18:16 in-target: Setting up file (4.26-1) ...
+Nov 25 02:18:16 in-target: Setting up ftp (0.17-18) ...
+Nov 25 02:18:16 in-target: Setting up gettext-base (0.17-4) ...
+Nov 25 02:18:16 in-target: Setting up less (418-1) ...
+Nov 25 02:18:16 debconf: Obsolete command TITLE Configuring less called
+Nov 25 02:18:16 in-target: Setting up libdb4.5 (4.5.20-13) ...
+Nov 25 02:18:16 in-target: Setting up libedit2 (2.11~20080614-1) ...
+Nov 25 02:18:16 in-target: Setting up libevent1 (1.3e-3) ...
+Nov 25 02:18:16 in-target: Setting up libgc1c2 (1:6.8-1.1) ...
+Nov 25 02:18:16 in-target: Setting up libgpm2 (1.20.4-3.1) ...
+Nov 25 02:18:16 in-target: Setting up libgssglue1 (0.1-2) ...
+Nov 25 02:18:16 in-target: Setting up libidn11 (1.8+20080606-1) ...
+Nov 25 02:18:16 in-target: Setting up libldap-2.4-2 (2.4.11-1) ...
+Nov 25 02:18:17 in-target: Setting up libnfsidmap2 (0.20-1) ...
+Nov 25 02:18:17 in-target: Setting up libpci3 (1:3.0.0-6) ...
+Nov 25 02:18:17 in-target: Setting up librpcsecgss3 (0.18-1) ...
+Nov 25 02:18:17 in-target: Setting up libsqlite3-0 (3.5.9-6) ...
+Nov 25 02:18:17 in-target: Setting up lsof (4.78.dfsg.1-4) ...
+Nov 25 02:18:17 in-target: Setting up m4 (1.4.11-1) ...
+Nov 25 02:18:17 in-target: Setting up mime-support (3.44-1) ...
+Nov 25 02:18:17 in-target: Setting up mlocate (0.21.1-1) ...
+Nov 25 02:18:17 in-target: Adding group `mlocate' (GID 104) ...
+Nov 24 21:18:17 groupadd[5559]: new group: name=mlocate, GID=104
+Nov 25 02:18:17 in-target: Done.
+Nov 25 02:18:17 in-target: Setting up mutt (1.5.18-6) ...
+Nov 25 02:18:17 in-target: Setting up ncurses-term (5.7+20081213-1) ...
+Nov 25 02:18:17 in-target: Setting up portmap (6.0-9) ...
+Nov 25 02:18:18 debconf: Obsolete command TITLE Configuring portmap called
+Nov 25 02:18:18 in-target: Setting up ucf (3.0016) ...
+Nov 25 02:18:18 debconf: Obsolete command TITLE Configuring ucf called
+Nov 25 02:18:18 in-target: Setting up nfs-common (1:1.1.2-6lenny1) ...
+Nov 25 02:18:19 in-target: 
+Nov 25 02:18:19 in-target: Creating config file /etc/idmapd.conf with new version
+Nov 25 02:18:19 in-target: 
+Nov 25 02:18:19 in-target: Creating config file /etc/default/nfs-common with new version
+Nov 25 02:18:19 in-target: Adding system user `statd' (UID 102) ...
+Nov 25 02:18:19 in-target: Adding new user `statd' (UID 102) with group `nogroup' ...
+Nov 24 21:18:19 useradd[5722]: new user: name=statd, UID=102, GID=65534, home=/var/lib/nfs, shell=/bin/false
+Nov 24 21:18:19 usermod[5727]: change user `statd' password
+Nov 24 21:18:19 chage[5732]: changed password expiry for statd
+Nov 25 02:18:19 in-target: Not creating home directory `/var/lib/nfs'.
+Nov 25 02:18:20 in-target: Setting up openbsd-inetd (0.20080125-2) ...
+Nov 25 02:18:20 in-target: Setting up openssh-client (1:5.1p1-5) ...
+Nov 25 02:18:20 debconf: Obsolete command TITLE Configuring openssh-client called
+Nov 24 21:18:21 groupadd[5824]: new group: name=ssh, GID=105
+Nov 25 02:18:21 in-target: Setting up patch (2.5.9-5) ...
+Nov 25 02:18:21 in-target: Setting up pciutils (1:3.0.0-6) ...
+Nov 25 02:18:21 in-target: Setting up procmail (3.22-16) ...
+Nov 25 02:18:21 in-target: Setting up python2.5-minimal (2.5.2-15) ...
+Nov 25 02:18:21 in-target: Linking and byte-compiling packages for runtime python2.5...
+Nov 25 02:18:21 in-target: Setting up python2.5 (2.5.2-15) ...
+Nov 25 02:18:23 in-target: Setting up python-minimal (2.5.2-3) ...
+Nov 25 02:18:23 in-target: Setting up python (2.5.2-3) ...
+Nov 25 02:18:23 in-target: Setting up python-central (0.6.8) ...
+Nov 25 02:18:23 in-target: Setting up reportbug (3.48) ...
+Nov 25 02:18:23 in-target: Setting up telnet (0.17-36) ...
+Nov 25 02:18:23 in-target: Setting up texinfo (4.11.dfsg.1-4) ...
+Nov 25 02:18:23 in-target: Setting up time (1.7-23) ...
+Nov 25 02:18:24 in-target: Setting up w3m (0.5.2-2+b1) ...
+Nov 25 02:18:24 in-target: Setting up wamerican (6-2.3) ...
+Nov 25 02:18:24 debconf: Obsolete command TITLE Configuring wamerican called
+Nov 25 02:18:24 debconf: Obsolete command TITLE Dictionaries-common: Wordlist dictionary called
+Nov 25 02:18:24 in-target: Setting up whois (4.7.30) ...
+Nov 25 02:18:24 in-target: Setting up libfreetype6 (2.3.7-2+lenny1) ...
+Nov 25 02:18:24 in-target: Setting up libjpeg62 (6b-14) ...
+Nov 25 02:18:24 in-target: Setting up libpng12-0 (1.2.27-2+lenny2) ...
+Nov 25 02:18:24 in-target: Setting up libgd2-noxpm (2.0.36~rc1~dfsg-3+lenny1) ...
+Nov 25 02:18:24 in-target: Setting up libapr1 (1.2.12-5+lenny1) ...
+Nov 25 02:18:24 in-target: Setting up libexpat1 (2.0.1-4+lenny1) ...
+Nov 25 02:18:24 in-target: Setting up mysql-common (5.0.51a-24+lenny2) ...
+Nov 25 02:18:24 in-target: Setting up libmysqlclient15off (5.0.51a-24+lenny2) ...
+Nov 25 02:18:24 in-target: Setting up libpq5 (8.3.8-0lenny1) ...
+Nov 25 02:18:25 in-target: Setting up libaprutil1 (1.2.12+dfsg-8+lenny4) ...
+Nov 25 02:18:25 in-target: Setting up apache2-utils (2.2.9-10+lenny6) ...
+Nov 25 02:18:25 in-target: Setting up apache2-doc (2.2.9-10+lenny6) ...
+Nov 25 02:18:25 in-target: Setting up libperl5.10 (5.10.0-19lenny2) ...
+Nov 25 02:18:25 in-target: Setting up php5-common (5.2.6.dfsg.1-1+lenny3) ...
+Nov 25 02:18:25 in-target: Setting up perl-modules (5.10.0-19lenny2) ...
+Nov 25 02:18:25 in-target: Setting up iamerican (3.1.20.0-4.4) ...
+Nov 25 02:18:25 debconf: Obsolete command TITLE Configuring iamerican called
+Nov 25 02:18:25 debconf: Obsolete command TITLE Dictionaries-common: Ispell dictionary called
+Nov 25 02:18:25 in-target: Setting up ispell (3.1.20.0-4.4) ...
+Nov 25 02:18:26 in-target: Setting up ibritish (3.1.20.0-4.4) ...
+Nov 25 02:18:26 debconf: Obsolete command TITLE Configuring ibritish called
+Nov 25 02:18:26 debconf: Obsolete command TITLE Dictionaries-common: Ispell dictionary called
+Nov 25 02:18:26 in-target: Setting up perl (5.10.0-19lenny2) ...
+Nov 25 02:18:26 in-target: Setting up analog (2:6.0-17~lenny1) ...
+Nov 25 02:18:26 debconf: Obsolete command TITLE Configuring analog called
+Nov 25 02:18:26 in-target: Setting up apache2.2-common (2.2.9-10+lenny6) ...
+Nov 25 02:18:27 in-target: Enabling site default.
+Nov 25 02:18:27 in-target: Enabling module alias.
+Nov 25 02:18:27 in-target: Enabling module autoindex.
+Nov 25 02:18:27 in-target: Enabling module dir.
+Nov 25 02:18:27 in-target: Enabling module env.
+Nov 25 02:18:27 in-target: Enabling module mime.
+Nov 25 02:18:27 in-target: Enabling module negotiation.
+Nov 25 02:18:27 in-target: Enabling module setenvif.
+Nov 25 02:18:27 in-target: Enabling module status.
+Nov 25 02:18:28 in-target: Enabling module auth_basic.
+Nov 25 02:18:28 in-target: Enabling module deflate.
+Nov 25 02:18:28 in-target: Enabling module authz_default.
+Nov 25 02:18:28 in-target: Enabling module authz_user.
+Nov 25 02:18:28 in-target: Enabling module authz_groupfile.
+Nov 25 02:18:28 in-target: Enabling module authn_file.
+Nov 25 02:18:28 in-target: Enabling module authz_host.
+Nov 25 02:18:28 in-target: Setting up apache2-mpm-prefork (2.2.9-10+lenny6) ...
+Nov 25 02:18:28 in-target: Setting up apache2 (2.2.9-10+lenny6) ...
+Nov 25 02:18:28 in-target: Setting up liburi-perl (1.35.dfsg.1-1) ...
+Nov 25 02:18:28 in-target: Setting up libhtml-tagset-perl (3.20-2) ...
+Nov 25 02:18:28 in-target: Setting up libhtml-parser-perl (3.56-1+lenny1) ...
+Nov 25 02:18:28 in-target: Setting up libhtml-tree-perl (3.23-1) ...
+Nov 25 02:18:28 in-target: Setting up libwww-perl (5.813-1) ...
+Nov 25 02:18:29 in-target: Setting up libdevel-symdump-perl (2.08-1) ...
+Nov 25 02:18:29 in-target: Setting up libapache2-mod-perl2 (2.0.4-5) ...
+Nov 25 02:18:29 in-target: Enabling module perl.
+Nov 25 02:18:29 in-target: Run '/etc/init.d/apache2 restart' to activate new configuration!
+Nov 25 02:18:29 in-target: Setting up libapache2-mod-php5 (5.2.6.dfsg.1-1+lenny3) ...
+Nov 25 02:18:29 in-target: 
+Nov 25 02:18:29 in-target: Creating config file /etc/php5/apache2/php.ini with new version
+Nov 25 02:18:29 in-target: Setting up libapache2-mod-python (3.3.1-7) ...
+Nov 25 02:18:30 debconf: Obsolete command TITLE Configuring libapache2-mod-python called
+Nov 25 02:18:31 in-target: Reading package lists...
+Nov 25 02:18:31 in-target: 
+Nov 25 02:18:31 in-target: Building dependency tree...
+Nov 25 02:18:31 in-target: 
+Nov 25 02:18:31 in-target: Reading state information...
+Nov 25 02:18:31 in-target: 
+Nov 25 02:18:31 in-target: Reading extended state information...
+Nov 25 02:18:31 in-target: 
+Nov 25 02:18:31 in-target: Initializing package states...
+Nov 25 02:18:31 in-target: 
+Nov 25 02:18:31 in-target: Writing extended state information...
+Nov 25 02:18:32 in-target: 
+Nov 25 02:18:32 in-target: Reading task descriptions...
+Nov 25 02:18:32 in-target: 
+Nov 25 02:18:32 kernel: [ 2456.020080] ISO 9660 Extensions: Microsoft Joliet Level 3
+Nov 25 02:18:32 kernel: [ 2456.020427] ISO 9660 Extensions: RRIP_1991A
+Nov 25 02:18:32 load-install-cd: umount: cannot umount /target/cdrom/: Invalid argument
+Nov 25 02:18:32 kernel: [ 2456.061136] ISO 9660 Extensions: Microsoft Joliet Level 3
+Nov 25 02:18:32 kernel: [ 2456.061773] ISO 9660 Extensions: RRIP_1991A
+Nov 25 02:18:33 main-menu[1086]: INFO: Falling back to the package description for auto-install
+Nov 25 02:18:33 main-menu[1086]: INFO: Falling back to the package description for ai-choosers
+Nov 25 02:18:33 main-menu[1086]: INFO: Menu item 'grub-installer' selected
+Nov 25 02:18:33 grub-installer: info: architecture: i386/generic
+Nov 25 02:18:33 grub-installer: info: Identified partition label for /dev/hda1: msdos
+Nov 25 02:18:33 grub-installer: dpkg - warning: ignoring request to remove grub-pc which isn't installed.
+Nov 25 02:18:34 in-target: Reading package lists...
+Nov 25 02:18:34 in-target: 
+Nov 25 02:18:34 in-target: Building dependency tree...
+Nov 25 02:18:34 in-target: 
+Nov 25 02:18:34 in-target: Reading state information...
+Nov 25 02:18:34 in-target: 
+Nov 25 02:18:34 in-target: The following extra packages will be installed:
+Nov 25 02:18:34 in-target:   grub-common
+Nov 25 02:18:34 in-target: Suggested packages:
+Nov 25 02:18:34 in-target:   grub-legacy-doc multiboot-doc mdadm
+Nov 25 02:18:34 in-target: The following NEW packages will be installed:
+Nov 25 02:18:34 in-target:   grub grub-common
+Nov 25 02:18:34 kernel: [ 2458.180377] ISO 9660 Extensions: Microsoft Joliet Level 3
+Nov 25 02:18:34 kernel: [ 2458.180377] ISO 9660 Extensions: RRIP_1991A
+Nov 25 02:18:35 in-target: 0 upgraded, 2 newly installed, 0 to remove and 0 not upgraded.
+Nov 25 02:18:35 in-target: Need to get 0B/578kB of archives.
+Nov 25 02:18:35 in-target: After this operation, 1192kB of additional disk space will be used.
+Nov 25 02:18:35 in-target: Selecting previously deselected package grub-common.
+Nov 25 02:18:35 in-target: (Reading database ... 
+Nov 25 02:18:35 in-target: 22000 files and directories currently installed.)
+Nov 25 02:18:35 in-target: Unpacking grub-common (from .../grub-common_1.96+20080724-16_i386.deb) ...
+Nov 25 02:18:35 in-target: Selecting previously deselected package grub.
+Nov 25 02:18:35 in-target: Unpacking grub (from .../grub_0.97-47lenny2_i386.deb) ...
+Nov 25 02:18:35 in-target: Processing triggers for man-db ...
+Nov 25 02:18:36 in-target: Setting up grub-common (1.96+20080724-16) ...
+Nov 25 02:18:36 in-target: Setting up grub (0.97-47lenny2) ...
+Nov 25 02:18:37 kernel: [ 2460.436114] ISO 9660 Extensions: Microsoft Joliet Level 3
+Nov 25 02:18:37 kernel: [ 2460.438133] ISO 9660 Extensions: RRIP_1991A
+Nov 25 02:18:37 load-install-cd: umount: cannot umount /target/cdrom/: Invalid argument
+Nov 25 02:18:37 kernel: [ 2460.484205] ISO 9660 Extensions: Microsoft Joliet Level 3
+Nov 25 02:18:37 kernel: [ 2460.489453] ISO 9660 Extensions: RRIP_1991A
+Nov 25 02:18:37 anna-install: Installing ext2-modules
+Nov 25 02:18:37 anna-install: Installing ext3-modules
+Nov 25 02:18:37 anna-install: Installing reiserfs-modules
+Nov 25 02:18:37 anna-install: Installing xfs-modules
+Nov 25 02:18:37 anna-install: Installing jfs-modules
+Nov 25 02:18:37 anna-install: Installing msdos-modules
+Nov 25 02:18:37 os-prober: unknown udeb msdos-modules
+Nov 25 02:18:37 anna-install: Installing vfat-modules
+Nov 25 02:18:37 os-prober: unknown udeb vfat-modules
+Nov 25 02:18:37 anna-install: Installing ntfs-modules
+Nov 25 02:18:37 anna[6658]: DEBUG: resolver (kernel-image-2.6.26-2-486-di): package doesn't exist (ignored)
+Nov 25 02:18:37 anna[6658]: DEBUG: resolver (nls-core-modules-2.6.26-2-486-di): package doesn't exist (ignored)
+Nov 25 02:18:37 anna[6658]: DEBUG: retrieving ntfs-modules-2.6.26-2-486-di 1.76lenny5
+Nov 25 02:18:37 anna-install: Installing minix-modules
+Nov 25 02:18:37 os-prober: unknown udeb minix-modules
+Nov 25 02:18:37 anna-install: Installing hfs-modules
+Nov 25 02:18:37 os-prober: unknown udeb hfs-modules
+Nov 25 02:18:37 anna-install: Installing hfsplus-modules
+Nov 25 02:18:37 os-prober: unknown udeb hfsplus-modules
+Nov 25 02:18:37 anna-install: Installing qnx4-modules
+Nov 25 02:18:37 anna[6717]: DEBUG: resolver (kernel-image-2.6.26-2-486-di): package doesn't exist (ignored)
+Nov 25 02:18:37 anna[6717]: DEBUG: retrieving qnx4-modules-2.6.26-2-486-di 1.76lenny5
+Nov 25 02:18:37 anna-install: Installing ufs-modules
+Nov 25 02:18:37 anna[6752]: DEBUG: resolver (kernel-image-2.6.26-2-486-di): package doesn't exist (ignored)
+Nov 25 02:18:37 anna[6752]: DEBUG: retrieving ufs-modules-2.6.26-2-486-di 1.76lenny5
+Nov 25 02:18:38 anna-install: Installing fs-core-modules
+Nov 25 02:18:38 os-prober: unknown udeb fs-core-modules
+Nov 25 02:18:38 anna-install: Installing fs-secondary-modules
+Nov 25 02:18:38 os-prober: unknown udeb fs-secondary-modules
+Nov 25 02:18:38 kernel: [ 2461.603233] NTFS driver 2.1.29 [Flags: R/W MODULE].
+Nov 25 02:18:38 kernel: [ 2461.660784] QNX4 filesystem 0.2.3 registered.
+Nov 25 02:18:38 os-prober: File descriptor 3 left open
+Nov 25 02:18:38 os-prober: File descriptor 4 left open
+Nov 25 02:18:38 os-prober: File descriptor 5 left open
+Nov 25 02:18:38 os-prober: File descriptor 6 left open
+Nov 25 02:18:38 os-prober: debug: running /usr/lib/os-probes/50mounted-tests on /dev/hda2
+Nov 25 02:18:38 kernel: [ 2461.856912] attempt to access beyond end of device
+Nov 25 02:18:38 kernel: [ 2461.856929] hda2: rw=0, want=66, limit=2
+Nov 25 02:18:38 kernel: [ 2461.856937] isofs_fill_super: bread failed, dev=hda2, iso_blknum=16, block=32
+Nov 25 02:18:38 kernel: [ 2461.861482] attempt to access beyond end of device
+Nov 25 02:18:38 kernel: [ 2461.861496] hda2: rw=0, want=4, limit=2
+Nov 25 02:18:38 kernel: [ 2461.861502] EXT2-fs: unable to read superblock
+Nov 25 02:18:38 kernel: [ 2461.870249] attempt to access beyond end of device
+Nov 25 02:18:38 kernel: [ 2461.870272] hda2: rw=0, want=4, limit=2
+Nov 25 02:18:38 kernel: [ 2461.870278] EXT3-fs: unable to read superblock
+Nov 25 02:18:38 kernel: [ 2461.874137] attempt to access beyond end of device
+Nov 25 02:18:38 kernel: [ 2461.874151] hda2: rw=0, want=72, limit=2
+Nov 25 02:18:38 kernel: [ 2461.874159] attempt to access beyond end of device
+Nov 25 02:18:38 kernel: [ 2461.874167] hda2: rw=0, want=128, limit=2
+Nov 25 02:18:38 kernel: [ 2461.897033] attempt to access beyond end of device
+Nov 25 02:18:38 kernel: [ 2461.897059] hda2: rw=0, want=18, limit=2
+Nov 25 02:18:38 kernel: [ 2461.897071] ReiserFS: hda2: warning: sh-2006: read_super_block: bread failed (dev hda2, block 8, size 1024)
+Nov 25 02:18:38 kernel: [ 2461.897084] attempt to access beyond end of device
+Nov 25 02:18:38 kernel: [ 2461.897092] hda2: rw=0, want=130, limit=2
+Nov 25 02:18:38 kernel: [ 2461.897100] ReiserFS: hda2: warning: sh-2006: read_super_block: bread failed (dev hda2, block 64, size 1024)
+Nov 25 02:18:38 kernel: [ 2461.925746] attempt to access beyond end of device
+Nov 25 02:18:38 kernel: [ 2461.925746] hda2: rw=0, want=8, limit=2
+Nov 25 02:18:38 kernel: [ 2461.949611] attempt to access beyond end of device
+Nov 25 02:18:38 kernel: [ 2461.949635] hda2: rw=0, want=18, limit=2
+Nov 25 02:18:38 os-prober: debug: running /usr/lib/os-probes/50mounted-tests on /dev/hda5
+Nov 25 02:18:44 grub-installer: info: Installing grub on '(hd0)'
+Nov 25 02:18:44 grub-installer: info: grub-install supports --no-floppy
+Nov 25 02:18:44 grub-installer: info: Running chroot /target grub-install  --no-floppy --recheck "(hd0)"
+Nov 25 02:18:44 grub-installer: You shouldn't call /sbin/grub-install. Please call /usr/sbin/grub-install instead!
+Nov 25 02:18:44 grub-installer: 
+Nov 25 02:18:45 grub-installer: Searching for GRUB installation directory ... found: /boot/grub
+Nov 25 02:18:45 grub-installer: Installation finished. No error reported.
+Nov 25 02:18:45 grub-installer: This is the contents of the device map /boot/grub/device.map.
+Nov 25 02:18:45 grub-installer: Check if this is correct or not. If any of the lines is incorrect,
+Nov 25 02:18:45 grub-installer: fix it and re-run the script `grub-install'.
+Nov 25 02:18:45 grub-installer: 
+Nov 25 02:18:45 grub-installer: (hd0)	/dev/hda
+Nov 25 02:18:45 grub-installer: info: grub-install ran successfully
+Nov 25 02:18:45 grub-installer: Searching for GRUB installation directory ... found: /boot/grub
+Nov 25 02:18:46 grub-installer: Searching for default file ... 
+Nov 25 02:18:46 grub-installer: found: /boot/grub/default
+Nov 25 02:18:46 grub-installer: Testing for an existing GRUB menu.lst file ... 
+Nov 25 02:18:46 grub-installer: 
+Nov 25 02:18:46 grub-installer: 
+Nov 25 02:18:46 grub-installer: Warning: ignoring deprecated -y option.
+Nov 25 02:18:46 grub-installer: 
+Nov 25 02:18:46 grub-installer: Generating /boot/grub/menu.lst
+Nov 25 02:18:46 grub-installer: Searching for splash image ... 
+Nov 25 02:18:46 grub-installer: none found, skipping ...
+Nov 25 02:18:46 grub-installer: Found kernel: /boot/vmlinuz-2.6.26-2-686
+Nov 25 02:18:46 grub-installer: Updating /boot/grub/menu.lst ... 
+Nov 25 02:18:46 grub-installer: done
+Nov 25 02:18:46 grub-installer: 
+Nov 25 02:18:46 grub-installer: Searching for GRUB installation directory ... found: /boot/grub
+Nov 25 02:18:46 grub-installer: Searching for default file ... 
+Nov 25 02:18:46 grub-installer: found: /boot/grub/default
+Nov 25 02:18:46 grub-installer: Testing for an existing GRUB menu.lst file ... 
+Nov 25 02:18:46 grub-installer: found: /boot/grub/menu.lst
+Nov 25 02:18:47 grub-installer: Searching for splash image ... 
+Nov 25 02:18:47 grub-installer: none found, skipping ...
+Nov 25 02:18:47 grub-installer: Found kernel: /boot/vmlinuz-2.6.26-2-686
+Nov 25 02:18:47 grub-installer: Updating /boot/grub/menu.lst ... 
+Nov 25 02:18:47 grub-installer: done
+Nov 25 02:18:47 grub-installer: 
+Nov 25 02:18:47 main-menu[1086]: INFO: Falling back to the package description for auto-install
+Nov 25 02:18:47 main-menu[1086]: INFO: Falling back to the package description for ai-choosers
+Nov 25 02:18:47 main-menu[1086]: INFO: Menu item 'finish-install' selected
+Nov 25 02:18:47 finish-install: info: Running /usr/lib/finish-install.d/01kickseed
+Nov 25 02:18:48 finish-install: info: Running /usr/lib/finish-install.d/05brltty
+Nov 25 02:18:48 finish-install: info: Running /usr/lib/finish-install.d/05crypto
+Nov 25 02:18:48 finish-install: info: Running /usr/lib/finish-install.d/05localechooser
+Nov 25 02:18:48 in-target: Reading package lists...
+Nov 25 02:18:48 in-target: 
+Nov 25 02:18:48 in-target: Building dependency tree...
+Nov 25 02:18:49 in-target: 
+Nov 25 02:18:49 in-target: Reading state information...
+Nov 25 02:18:49 in-target: 
+Nov 25 02:18:49 in-target: console-tools is already the newest version.
+Nov 25 02:18:49 in-target: 0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Nov 25 02:18:49 kernel: [ 2472.680449] ISO 9660 Extensions: Microsoft Joliet Level 3
+Nov 25 02:18:49 kernel: [ 2472.680449] ISO 9660 Extensions: RRIP_1991A
+Nov 25 02:18:49 load-install-cd: umount: cannot umount /target/cdrom/: Invalid argument
+Nov 25 02:18:49 kernel: [ 2472.729425] ISO 9660 Extensions: Microsoft Joliet Level 3
+Nov 25 02:18:49 kernel: [ 2472.729425] ISO 9660 Extensions: RRIP_1991A
+Nov 25 02:18:49 finish-install: info: Running /usr/lib/finish-install.d/05speakup
+Nov 25 02:18:49 finish-install: info: Running /usr/lib/finish-install.d/06user-setup
+Nov 25 02:18:49 user-setup: Shadow passwords are now on.
+Nov 25 02:18:49 user-setup: Adding user `academic' ...
+Nov 25 02:18:49 user-setup: Adding new group `academic' (1000) ...
+Nov 24 21:18:49 groupadd[7686]: new group: name=academic, GID=1000
+Nov 25 02:18:49 user-setup: Adding new user `academic' (1000) with group `academic' ...
+Nov 24 21:18:49 useradd[7690]: new user: name=academic, UID=1000, GID=1000, home=/home/academic, shell=/bin/bash
+Nov 25 02:18:49 user-setup: Creating home directory `/home/academic' ...
+Nov 25 02:18:49 user-setup: Copying files from `/etc/skel' ...
+Nov 24 21:18:49 usermod[7697]: change user `academic' password
+Nov 24 21:18:49 chfn[7702]: changed user `academic' information
+Nov 25 02:18:49 user-setup: Adding user `academic' to group `audio' ...
+Nov 25 02:18:49 user-setup: Adding user academic to group audio
+Nov 24 21:18:49 gpasswd[7717]: add member academic to group audio by root
+Nov 25 02:18:50 user-setup: Done.
+Nov 25 02:18:50 user-setup: Adding user `academic' to group `cdrom' ...
+Nov 25 02:18:50 user-setup: Adding user academic to group cdrom
+Nov 24 21:18:50 gpasswd[7723]: add member academic to group cdrom by root
+Nov 25 02:18:50 user-setup: Done.
+Nov 25 02:18:50 user-setup: Adding user `academic' to group `dialout' ...
+Nov 25 02:18:50 user-setup: Adding user academic to group dialout
+Nov 24 21:18:50 gpasswd[7729]: add member academic to group dialout by root
+Nov 25 02:18:50 user-setup: Done.
+Nov 25 02:18:50 user-setup: Adding user `academic' to group `floppy' ...
+Nov 25 02:18:50 user-setup: Adding user academic to group floppy
+Nov 24 21:18:50 gpasswd[7735]: add member academic to group floppy by root
+Nov 25 02:18:50 user-setup: Done.
+Nov 25 02:18:50 user-setup: Adding user `academic' to group `video' ...
+Nov 25 02:18:50 user-setup: Adding user academic to group video
+Nov 24 21:18:50 gpasswd[7741]: add member academic to group video by root
+Nov 25 02:18:50 user-setup: Done.
+Nov 25 02:18:50 user-setup: Adding user `academic' to group `plugdev' ...
+Nov 25 02:18:50 user-setup: Adding user academic to group plugdev
+Nov 24 21:18:50 gpasswd[7747]: add member academic to group plugdev by root
+Nov 25 02:18:50 user-setup: Done.
+Nov 25 02:18:50 user-setup: adduser: The group `netdev' does not exist.
+Nov 25 02:18:50 user-setup: adduser: The group `powerdev' does not exist.
+Nov 25 02:18:50 finish-install: info: Running /usr/lib/finish-install.d/07atl2
+Nov 25 02:18:50 finish-install: info: Running /usr/lib/finish-install.d/07preseed
+Nov 25 02:18:50 finish-install: info: Running /usr/lib/finish-install.d/10apt-cdrom-setup
+Nov 25 02:18:50 finish-install: Disabling netinst CD in sources.list
+Nov 25 02:18:50 finish-install: Hit http://ftp.us.debian.org lenny Release.gpg
+Nov 25 02:18:50 finish-install: Hit http://ftp.us.debian.org lenny Release
+Nov 25 02:18:50 finish-install: Hit http://security.debian.org lenny/updates Release.gpg
+Nov 25 02:18:50 finish-install: Ign http://ftp.us.debian.org lenny/main Packages/DiffIndex
+Nov 25 02:18:50 finish-install: Ign http://ftp.us.debian.org lenny/main Sources/DiffIndex
+Nov 25 02:18:50 finish-install: Hit http://ftp.us.debian.org lenny/main Packages
+Nov 25 02:18:50 finish-install: Hit http://security.debian.org lenny/updates Release
+Nov 25 02:18:50 finish-install: Hit http://ftp.us.debian.org lenny/main Sources
+Nov 25 02:18:50 finish-install: Ign http://security.debian.org lenny/updates/main Packages/DiffIndex
+Nov 25 02:18:51 finish-install: Ign http://security.debian.org lenny/updates/main Sources/DiffIndex
+Nov 25 02:18:51 finish-install: Hit http://security.debian.org lenny/updates/main Packages
+Nov 25 02:18:51 finish-install: Hit http://security.debian.org lenny/updates/main Sources
+Nov 25 02:18:51 finish-install: Hit http://volatile.debian.org lenny/volatile Release.gpg
+Nov 25 02:18:51 finish-install: Hit http://volatile.debian.org lenny/volatile Release
+Nov 25 02:18:51 finish-install: Ign http://volatile.debian.org lenny/volatile/main Packages/DiffIndex
+Nov 25 02:18:51 finish-install: Ign http://volatile.debian.org lenny/volatile/main Sources/DiffIndex
+Nov 25 02:18:51 finish-install: Hit http://volatile.debian.org lenny/volatile/main Packages
+Nov 25 02:18:51 finish-install: Hit http://volatile.debian.org lenny/volatile/main Sources
+Nov 25 02:18:51 finish-install: Reading package lists...
+Nov 25 02:18:52 finish-install: 
+Nov 25 02:18:52 finish-install: info: Running /usr/lib/finish-install.d/10bind-mount
+Nov 25 02:18:52 finish-install: info: Running /usr/lib/finish-install.d/10clock-setup
+Nov 25 02:18:52 anna-install: Installing os-prober-udeb
+Nov 25 02:18:52 os-prober: File descriptor 3 left open
+Nov 25 02:18:52 os-prober: File descriptor 4 left open
+Nov 25 02:18:52 os-prober: File descriptor 5 left open
+Nov 25 02:18:52 os-prober: File descriptor 6 left open
+Nov 25 02:18:52 os-prober: debug: running /usr/lib/os-probes/50mounted-tests on /dev/hda2
+Nov 25 02:18:52 kernel: [ 2476.226704] attempt to access beyond end of device
+Nov 25 02:18:52 kernel: [ 2476.226720] hda2: rw=0, want=66, limit=2
+Nov 25 02:18:52 kernel: [ 2476.226728] isofs_fill_super: bread failed, dev=hda2, iso_blknum=16, block=32
+Nov 25 02:18:52 kernel: [ 2476.230814] attempt to access beyond end of device
+Nov 25 02:18:52 kernel: [ 2476.230830] hda2: rw=0, want=4, limit=2
+Nov 25 02:18:52 kernel: [ 2476.230846] EXT2-fs: unable to read superblock
+Nov 25 02:18:52 kernel: [ 2476.241053] attempt to access beyond end of device
+Nov 25 02:18:52 kernel: [ 2476.241067] hda2: rw=0, want=4, limit=2
+Nov 25 02:18:52 kernel: [ 2476.241074] EXT3-fs: unable to read superblock
+Nov 25 02:18:52 kernel: [ 2476.244894] attempt to access beyond end of device
+Nov 25 02:18:52 kernel: [ 2476.244908] hda2: rw=0, want=72, limit=2
+Nov 25 02:18:52 kernel: [ 2476.244917] attempt to access beyond end of device
+Nov 25 02:18:52 kernel: [ 2476.244925] hda2: rw=0, want=128, limit=2
+Nov 25 02:18:52 kernel: [ 2476.248032] attempt to access beyond end of device
+Nov 25 02:18:52 kernel: [ 2476.248080] hda2: rw=0, want=18, limit=2
+Nov 25 02:18:52 kernel: [ 2476.248089] ReiserFS: hda2: warning: sh-2006: read_super_block: bread failed (dev hda2, block 8, size 1024)
+Nov 25 02:18:52 kernel: [ 2476.248108] attempt to access beyond end of device
+Nov 25 02:18:52 kernel: [ 2476.248115] hda2: rw=0, want=130, limit=2
+Nov 25 02:18:52 kernel: [ 2476.248123] ReiserFS: hda2: warning: sh-2006: read_super_block: bread failed (dev hda2, block 64, size 1024)
+Nov 25 02:18:52 kernel: [ 2476.252321] attempt to access beyond end of device
+Nov 25 02:18:52 kernel: [ 2476.252335] hda2: rw=0, want=8, limit=2
+Nov 25 02:18:52 kernel: [ 2476.266789] attempt to access beyond end of device
+Nov 25 02:18:52 kernel: [ 2476.266805] hda2: rw=0, want=18, limit=2
+Nov 25 02:18:52 os-prober: debug: running /usr/lib/os-probes/50mounted-tests on /dev/hda5
+Nov 25 02:18:53 anna-install: Installing rtc-modules
+Nov 25 02:18:53 hw-detect: FATAL: Module rtc not found.
+Nov 25 02:18:53 clock-setup: rtc module not loaded
+Nov 25 02:18:53 hw-detect: FATAL: Module rtc_dev not found.
+Nov 25 02:18:53 clock-setup: rtc-dev module not loaded
+Nov 25 02:18:53 net/hw-detect.hotplug: Detected hotpluggable network interface eth0
+Nov 25 02:18:53 net/hw-detect.hotplug: Detected hotpluggable network interface lo
+Nov 25 02:18:56 clock-setup: hwclock from util-linux-ng 2.13.1.1
+Nov 25 02:18:56 clock-setup: Using /dev interface to clock.
+Nov 25 02:18:56 clock-setup: Last drift adjustment done at 1228000000 seconds after 1969
+Nov 25 02:18:56 clock-setup: Last calibration done at 1228000000 seconds after 1969
+Nov 25 02:18:56 clock-setup: Hardware clock is on UTC time
+Nov 25 02:18:56 clock-setup: Assuming hardware clock is kept in UTC time.
+Nov 25 02:18:56 clock-setup: Waiting for clock tick...
+Nov 25 02:18:56 clock-setup: ...got clock tick
+Nov 25 02:18:56 clock-setup: Time read from Hardware Clock: 2009/11/24 21:18:53
+Nov 25 02:18:56 clock-setup: Hw clock time : 2009/11/24 21:18:53 = 1259097533 seconds since 1969
+Nov 25 02:18:56 clock-setup: Time elapsed since reference time has been 0.107806 seconds.
+Nov 25 02:18:56 clock-setup: Delaying further to reach the next full second.
+Nov 25 02:18:56 clock-setup: Setting Hardware Clock to 02:18:56 = 1259115536 seconds since 1969
+Nov 25 02:18:56 clock-setup: ioctl(RTC_SET_TIME) was successful.
+Nov 25 02:18:56 clock-setup: Clock drifted 18002.1 seconds in the past 31115535 seconds in spite of a drift factor of 0.000000 seconds/day.
+Nov 25 02:18:56 clock-setup: Adjusting drift factor by 50.016231 seconds/day
+Nov 25 02:18:57 finish-install: info: Running /usr/lib/finish-install.d/15cdrom-detect
+Nov 25 02:18:57 cdrom-detect: Unmounting and ejecting '/dev/hdc'
+Nov 25 02:18:57 finish-install: info: Running /usr/lib/finish-install.d/20final-message
+Nov 25 02:19:36 finish-install: info: Running /usr/lib/finish-install.d/30hw-detect
+Nov 25 02:19:36 finish-install: info: Running /usr/lib/finish-install.d/50config-target-network
+Nov 25 02:19:36 finish-install: info: Running /usr/lib/finish-install.d/65mdcfg
+Nov 25 02:19:36 finish-install: info: Running /usr/lib/finish-install.d/90base-installer
+Nov 25 02:19:36 finish-install: info: Running /usr/lib/finish-install.d/90cdrom
+Nov 25 02:19:36 finish-install: info: Running /usr/lib/finish-install.d/90console
+Nov 25 02:19:36 finish-install: info: Running /usr/lib/finish-install.d/94save-logs

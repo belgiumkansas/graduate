@@ -1,0 +1,5 @@
+bin/*
+build/*
+doxygen/*
+incl/tinyosc.h
+src/tinyosc.c

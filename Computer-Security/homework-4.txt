@@ -1,0 +1,21 @@
+# Problem 1
+
+1a. 2^(n-1); 1 on the server side
+
+1b. 7 zero bits; 2^(7-1) = 64
+
+# Problem 2
+
+2a. By flooding a site with GET or POST commands too keep the server as busy as possible in order to deny legitimate users from accessing it's content.
+
+2b. It logs you into a IRC channel and allows your client to be controlled by the channel owner to make directed DDoS attaks
+
+2c. limit the number of connections each IP can have. Also filtering based on IP addresses is possible by blacklisting known bots. Also profiling traffic that has the characteristics of being a bot and adding them to a black list or blocking that traffic from reaching the server through a cloud based filtering service.
+
+2d. It was  DDoS attack that was aimed at the websites of banks who withdrew banking accounts of organizations related to wikileaks. Specifically after the december 2010 diplomatic cable leak that was released by wikileaks.
+
+2e. A member of the group "Anonymous" who participated in a DDoS attack on paypall. he was arrested along with 15 other members in relation to the attack that occurred December of 2010
+
+2f. The LOIC hivemind is a voluntary botnet whereas typical botnets are made up of machines and users who are unaware of being a part of the botnet. Even though they both use the same method for taking down a site one is made of voluntary participants and the other is not.
+
+2g. It can be used to draw attention to some societal issue by disrupting a service. Much like a protest disrupts the ability to access a space or service to bring attention.

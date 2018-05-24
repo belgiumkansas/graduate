@@ -1,0 +1,3 @@
+1. because the attacker would not be able to perform length extension on the outer hash. Aka the inner hash does the compression and the outer hash is to authenticate the compression hash.
+
+2. It was shown in section 2.2 that you can easily create programs that have the same MD5 hash but with different execution profiles. This is dangerous to systems that rely on digital signatures because a malicious program could be created with an MD5 hash that matches that of a correct program. Malicious code could easily be inserted into a program with a matching MD5, and could run on the user's machine causing serious issues.

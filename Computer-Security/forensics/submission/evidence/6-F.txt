@@ -1,0 +1,50 @@
+ASCII Contents of Fragment 918832 in forensics_release-w17.raw-996093-8385929
+
+
+............K.R.K.R............4....HTTP:http://bpx.a9.com/ads/getad?p=401&v=1&r=860553.request-method.GET.response-head.HTTP/1.1 200 OK
+Server: Apache-Coyote/1.1
+Content-Type: text/javascript;charset=ISO-8859-1
+Content-Length: 239
+Date: Tue, 24 Nov 2009 03:27:56 GMT
+...........................................................................................................................................................................................................................................................K.R.K.R.......G....f....wyciwyg:wyciwyg://2/http://www.amazon.com/aan/2009-09-09/static/amazon/iframeproxy-1.html#zus&cb67984.charset.UTF-8.charset-source.8....................................................................................................K.R.K.R................+HTTP:http://product-ads-portal.amazon.com/gp/synd/?sa=aps&sq=nerf%20guns&bn=&pt=Search&spt=SASKeywordAllProducts&sn=auto-left-advertising-1&ts=1259033275&h=86B0E2C5D1A7C82AE138709CBDBD9E80A99DDB36.request-method.GET.request-Accept-Encoding.gzip,deflate.request-User-Agent.Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.15) Gecko/2009102815 Ubuntu/9.04 (jaunty) Firefox/3.0.15.response-head.HTTP/1.1 200 OK
+Date: Tue, 24 Nov 2009 03:27:56 GMT
+Server: Server
+x-amz-id-1: 0VP7MPVAGAX1QGJ0K6KA
+P3P: policyref="http://www.amazon.com/w3c/p3p.xml",CP="AMZN "
+x-amz-id-2: W/UlVHUsk6xGf4n2ShIC8KSHYQNoytpdmbHIUxvlI4JW9Nmdw22NZw==
+Vary: Accept-Encoding,User-Agent
+Content-Encoding: gzip
+nnCoection: close
+Content-Type: text/html; charset=ISO-8859-1
+.........................................................................................................................................................................................................................................................K.R.K.R.p.X....b...I...ZHTTP:http://ecx.images-amazon.com/images/I/41FJ4aLc-1L._SL160_AA115_.jpg.request-method.GET.response-head.HTTP/1.1 200 OK
+Date: Tue, 24 Nov 2009 03:27:55 GMT
+Expires: Sun, 18 Nov 2029 12:54:17 GMT
+Last-Modified: Mon, 26 Nov 2007 18:11:15 GMT
+Server: Server
+Cache-Control: max-age=630720000
+Content-Type: image/jpeg
+X-Cache: HIT from cdn-images.amazon.com, MISS from cdn-images.amazon.com
+Content-Length: 2914
+......................................................................K.R.K.R.p.X........I....HTTP:http://ecx.images-amazon.com/images/I/41cbzBIaeZL._SL160_AA115_.jpg.request-method.GET.response-head.HTTP/1.1 200 OK
+Date: Tue, 24 Nov 2009 03:27:59 GMT
+Server: Server
+Content-Length: 5057
+Cache-Control: max-age=630720000
+Last-Modified: Sat, 22 Aug 2009 05:58:01 GMT
+Content-Type: image/jpeg
+X-Cache: HIT from cdn-images.amazon.com, MISS from cdn-images.amazon.com
+X-Cache-Lookup: HIT from cdn-images.amazon.com:8080, MISS from cdn-images.amazon.com:10080
+Expires: Mon, 22 Oct 2029 01:40:38 GMT
+........................................................................................................................................................................................................................................e.... .D....
+......._Bb.@.F(...~.4]..33...5z.H....q..V........n..t......MV.E...M+.....	7,Y..`G.k..sR.=......<.5x@..`
+.....u..m....................................................................................................................................K.R.K.R.................HTTP:http://ad.doubleclick.net/adj/amzn.us.sr.aps;sz=728x90;sn=507846;u=5dc420a61dc54c598ce75dfe1799ceb9;ord=0WVNENPZS3FFRR2ZXSKJ;s=32;s=k140;s=k1;s=k67;s=k323;s=k29;s=m4;s=m1;z=2;tile=2?.request-method.GET.response-head.HTTP/1.1 200 OK
+Server: DCLK-AdSvr
+Content-Type: application/x-javascript
+Content-Length: 152
+Content-Encoding: gzip
+Date: Tue, 24 Nov 2009 03:28:00 GMT
+Cache-Control: private, x-gzip-ok=""
+X-XSS-Protection: 0
+.....................................a9_render_ad({"s":"728x90","tr":true,"nid":42,"p":481,"n":"Ad.com","html":"<!-- -------------- Advertising.com ------ Amazon - Premium - Amazon Search Footer 728x90 - 742474 - (728x90) ------------ -->\r\n<iframe src=\"http://d3dtik4dz1nejo.cloudfront.net/
+
+

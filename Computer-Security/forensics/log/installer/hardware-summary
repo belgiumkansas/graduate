@@ -1,0 +1,208 @@
+umame -a: Linux debian 2.6.26-2-486 #1 Wed Aug 19 05:40:02 UTC 2009 i686 unknown
+lspci -knn: 00:00.0 Host bridge [0600]: Intel Corporation 440FX - 82441FX PMC [Natoma] [8086:1237] (rev 02)
+lspci -knn: 00:01.0 ISA bridge [0601]: Intel Corporation 82371SB PIIX3 ISA [Natoma/Triton II] [8086:7000]
+lspci -knn: 00:01.1 IDE interface [0101]: Intel Corporation 82371AB/EB/MB PIIX4 IDE [8086:7111] (rev 01)
+lspci -knn: 	Kernel driver in use: PIIX_IDE
+lspci -knn: 	Kernel modules: piix
+lspci -knn: 00:02.0 VGA compatible controller [0300]: InnoTek Systemberatung GmbH VirtualBox Graphics Adapter [80ee:beef]
+lspci -knn: 00:03.0 Ethernet controller [0200]: Advanced Micro Devices [AMD] 79c970 [PCnet32 LANCE] [1022:2000] (rev 40)
+lspci -knn: 	Kernel driver in use: pcnet32
+lspci -knn: 	Kernel modules: pcnet32
+lspci -knn: 00:04.0 System peripheral [0880]: InnoTek Systemberatung GmbH VirtualBox Guest Service [80ee:cafe]
+lspci -knn: 00:05.0 Multimedia audio controller [0401]: Intel Corporation 82801AA AC'97 Audio Controller [8086:2415] (rev 01)
+lspci -knn: 00:06.0 USB Controller [0c03]: Apple Computer Inc. KeyLargo/Intrepid USB [106b:003f]
+lspci -knn: 	Kernel driver in use: ohci_hcd
+lspci -knn: 	Kernel modules: ohci-hcd
+lspci -knn: 00:07.0 Bridge [0680]: Intel Corporation 82371AB/EB/MB PIIX4 ACPI [8086:7113] (rev 08)
+lspci -knn: 00:0b.0 USB Controller [0c03]: Intel Corporation 82801FB/FBM/FR/FW/FRW (ICH6 Family) USB2 EHCI Controller [8086:265c]
+lspci -knn: 	Kernel driver in use: ehci_hcd
+lspci -knn: 	Kernel modules: ehci-hcd
+lsmod: Module                  Size  Used by
+lsmod: ufs                    63620  0 
+lsmod: qnx4                    7684  0 
+lsmod: ntfs                  180544  0 
+lsmod: dm_mod                 45384  0 
+lsmod: md_mod                 65940  0 
+lsmod: xfs                   446836  0 
+lsmod: reiserfs              187264  0 
+lsmod: jfs                   148316  0 
+lsmod: ext3                  103688  1 
+lsmod: jbd                    35092  1 ext3
+lsmod: vfat                    8832  0 
+lsmod: fat                    39964  1 vfat
+lsmod: ext2                   52744  0 
+lsmod: mbcache                 6656  2 ext3,ext2
+lsmod: pcnet32                27780  0 
+lsmod: mii                     4864  1 pcnet32
+lsmod: nls_utf8                1664  2 
+lsmod: isofs                  27684  0 
+lsmod: nls_base                6528  6 ntfs,jfs,vfat,fat,nls_utf8,isofs
+lsmod: zlib_inflate           13952  1 isofs
+lsmod: rsrc_nonstatic          9344  0 
+lsmod: pcmcia_core            31760  1 rsrc_nonstatic
+lsmod: ide_generic             2432  0 [permanent]
+lsmod: usb_storage            76352  0 
+lsmod: scsi_mod              129548  1 usb_storage
+lsmod: vga16fb                11276  2 
+lsmod: vgastate                7552  1 vga16fb
+lsmod: fan                     4100  0 
+lsmod: ide_cd_mod             27524  0 
+lsmod: cdrom                  30112  1 ide_cd_mod
+lsmod: ide_disk               10368  3 
+lsmod: parport_pc             22308  0 
+lsmod: parport                30152  1 parport_pc
+lsmod: floppy                 47620  0 
+lsmod: ehci_hcd               28300  0 
+lsmod: ohci_hcd               18436  0 
+lsmod: usbcore               117104  4 usb_storage,ehci_hcd,ohci_hcd
+lsmod: piix                    6404  0 [permanent]
+lsmod: ide_core               94760  4 ide_generic,ide_cd_mod,ide_disk,piix
+lsmod: thermal                15004  0 
+lsmod: processor              27824  1 thermal
+lsmod: thermal_sys            10656  3 fan,thermal,processor
+df: Filesystem           1k-blocks      Used Available Use% Mounted on
+df: tmpfs                   128292       524    127768   0% /dev
+df: /dev/hda1              5874396    684680   4891312  12% /target
+df: /dev/hda1              5874396    684680   4891312  12% /dev/.static/dev
+df: tmpfs                   128292       524    127768   0% /target/dev
+free:               total         used         free       shared      buffers
+free:   Mem:       256584       206792        49792            0         1412
+free:  Swap:       321260            0       321260
+free: Total:       577844       206792       371052
+/proc/cmdline: vga=normal initrd=/install.386/initrd.gz -- quiet  BOOT_IMAGE=/install.386/vmlinuz 
+/proc/cpuinfo: processor	: 0
+/proc/cpuinfo: vendor_id	: GenuineIntel
+/proc/cpuinfo: cpu family	: 6
+/proc/cpuinfo: model		: 23
+/proc/cpuinfo: model name	: Intel(R) Core(TM)2 Duo CPU     P8600  @ 2.40GHz
+/proc/cpuinfo: stepping	: 10
+/proc/cpuinfo: cpu MHz		: 2392.927
+/proc/cpuinfo: cache size	: 0 KB
+/proc/cpuinfo: fdiv_bug	: no
+/proc/cpuinfo: hlt_bug		: no
+/proc/cpuinfo: f00f_bug	: no
+/proc/cpuinfo: coma_bug	: no
+/proc/cpuinfo: fpu		: yes
+/proc/cpuinfo: fpu_exception	: yes
+/proc/cpuinfo: cpuid level	: 5
+/proc/cpuinfo: wp		: yes
+/proc/cpuinfo: flags		: fpu vme de pse tsc msr mce cx8 apic mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 constant_tsc pni monitor
+/proc/cpuinfo: bogomips	: 4854.65
+/proc/cpuinfo: clflush size	: 64
+/proc/cpuinfo: power management:
+/proc/cpuinfo: 
+/proc/ioports: 0000-001f : dma1
+/proc/ioports: 0020-0021 : pic1
+/proc/ioports: 0040-0043 : timer0
+/proc/ioports: 0050-0053 : timer1
+/proc/ioports: 0060-0060 : keyboard
+/proc/ioports: 0064-0064 : keyboard
+/proc/ioports: 0070-0071 : rtc_cmos
+/proc/ioports:   0070-0071 : rtc0
+/proc/ioports: 0080-008f : dma page reg
+/proc/ioports: 00a0-00a1 : pic2
+/proc/ioports: 00c0-00df : dma2
+/proc/ioports: 00f0-00ff : fpu
+/proc/ioports: 0170-0177 : 0000:00:01.1
+/proc/ioports:   0170-0177 : PIIX4
+/proc/ioports: 01f0-01f7 : 0000:00:01.1
+/proc/ioports:   01f0-01f7 : PIIX4
+/proc/ioports: 0376-0376 : 0000:00:01.1
+/proc/ioports:   0376-0376 : PIIX4
+/proc/ioports: 03c0-03df : vga+
+/proc/ioports: 03f2-03f5 : floppy
+/proc/ioports: 03f6-03f6 : 0000:00:01.1
+/proc/ioports:   03f6-03f6 : PIIX4
+/proc/ioports: 03f7-03f7 : floppy DIR
+/proc/ioports: 0cf8-0cff : PCI conf1
+/proc/ioports: 4000-4003 : ACPI PM1a_EVT_BLK
+/proc/ioports: 4004-4005 : ACPI PM1a_CNT_BLK
+/proc/ioports: 4008-400b : ACPI PM_TMR
+/proc/ioports: 4020-4021 : ACPI GPE0_BLK
+/proc/ioports: d000-d00f : 0000:00:01.1
+/proc/ioports:   d000-d00f : PIIX4
+/proc/ioports: d020-d03f : 0000:00:03.0
+/proc/ioports:   d020-d03f : pcnet32_probe_pci
+/proc/ioports: d040-d05f : 0000:00:04.0
+/proc/ioports: d100-d1ff : 0000:00:05.0
+/proc/ioports: d200-d23f : 0000:00:05.0
+/proc/iomem: 00000000-0009fbff : System RAM
+/proc/iomem: 0009fc00-0009ffff : reserved
+/proc/iomem: 000a0000-000bffff : Video RAM area
+/proc/iomem: 000c0000-000c8fff : Video ROM
+/proc/iomem: 000e2000-000e2fff : Adapter ROM
+/proc/iomem: 000f0000-000fffff : System ROM
+/proc/iomem: 00100000-0ffeffff : System RAM
+/proc/iomem:   00100000-002a80a0 : Kernel code
+/proc/iomem:   002a80a1-00361fff : Kernel data
+/proc/iomem:   003b4000-0040dbd7 : Kernel bss
+/proc/iomem: 0fff0000-0fffffff : ACPI Tables
+/proc/iomem: e0000000-e0ffffff : 0000:00:02.0
+/proc/iomem: f0000000-f0000fff : 0000:00:03.0
+/proc/iomem: f0080000-f00fffff : 0000:00:03.0
+/proc/iomem: f0400000-f07fffff : 0000:00:04.0
+/proc/iomem: f0800000-f0803fff : 0000:00:04.0
+/proc/iomem: f0804000-f0804fff : 0000:00:06.0
+/proc/iomem:   f0804000-f0804fff : ohci_hcd
+/proc/iomem: f0805000-f0805fff : 0000:00:0b.0
+/proc/iomem:   f0805000-f0805fff : ehci_hcd
+/proc/iomem: fffc0000-ffffffff : reserved
+/proc/interrupts:            CPU0       
+/proc/interrupts:   0:         97    XT-PIC-XT        timer
+/proc/interrupts:   1:        228    XT-PIC-XT        i8042
+/proc/interrupts:   2:          0    XT-PIC-XT        cascade
+/proc/interrupts:   5:          0    XT-PIC-XT        ohci_hcd:usb1
+/proc/interrupts:   6:          7    XT-PIC-XT        floppy
+/proc/interrupts:   8:          1    XT-PIC-XT        rtc0
+/proc/interrupts:   9:          0    XT-PIC-XT        acpi
+/proc/interrupts:  11:      81813    XT-PIC-XT        ehci_hcd:usb2, eth0
+/proc/interrupts:  12:          3    XT-PIC-XT        i8042
+/proc/interrupts:  14:      43503    XT-PIC-XT        ide0
+/proc/interrupts:  15:       6312    XT-PIC-XT        ide1
+/proc/interrupts: NMI:          0   Non-maskable interrupts
+/proc/interrupts: LOC:     139455   Local timer interrupts
+/proc/interrupts: TRM:          0   Thermal event interrupts
+/proc/interrupts: SPU:          0   Spurious interrupts
+/proc/interrupts: ERR:          0
+/proc/interrupts: MIS:          0
+/proc/meminfo: MemTotal:       256584 kB
+/proc/meminfo: MemFree:         49732 kB
+/proc/meminfo: Buffers:          1412 kB
+/proc/meminfo: Cached:         182024 kB
+/proc/meminfo: SwapCached:          0 kB
+/proc/meminfo: Active:          62628 kB
+/proc/meminfo: Inactive:       124536 kB
+/proc/meminfo: SwapTotal:      321260 kB
+/proc/meminfo: SwapFree:       321260 kB
+/proc/meminfo: Dirty:             284 kB
+/proc/meminfo: Writeback:           0 kB
+/proc/meminfo: AnonPages:        3756 kB
+/proc/meminfo: Mapped:           1948 kB
+/proc/meminfo: Slab:            14672 kB
+/proc/meminfo: SReclaimable:    11896 kB
+/proc/meminfo: SUnreclaim:       2776 kB
+/proc/meminfo: PageTables:        272 kB
+/proc/meminfo: NFS_Unstable:        0 kB
+/proc/meminfo: Bounce:              0 kB
+/proc/meminfo: WritebackTmp:        0 kB
+/proc/meminfo: CommitLimit:    449552 kB
+/proc/meminfo: Committed_AS:     7440 kB
+/proc/meminfo: VmallocTotal:   777924 kB
+/proc/meminfo: VmallocUsed:      4008 kB
+/proc/meminfo: VmallocChunk:   773300 kB
+/proc/meminfo: HugePages_Total:     0
+/proc/meminfo: HugePages_Free:      0
+/proc/meminfo: HugePages_Rsvd:      0
+/proc/meminfo: HugePages_Surp:      0
+/proc/meminfo: Hugepagesize:     4096 kB
+/proc/bus/input/devices: I: Bus=0011 Vendor=0001 Product=0001 Version=ab83
+/proc/bus/input/devices: N: Name="AT Translated Set 2 keyboard"
+/proc/bus/input/devices: P: Phys=isa0060/serio0/input0
+/proc/bus/input/devices: S: Sysfs=/class/input/input0
+/proc/bus/input/devices: U: Uniq=
+/proc/bus/input/devices: H: Handlers=kbd 
+/proc/bus/input/devices: B: EV=120013
+/proc/bus/input/devices: B: KEY=4 2000000 3803078 f800d001 feffffdf ffefffff ffffffff fffffffe
+/proc/bus/input/devices: B: MSC=10
+/proc/bus/input/devices: B: LED=7
+/proc/bus/input/devices: 

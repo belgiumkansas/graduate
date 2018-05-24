@@ -1,0 +1,21 @@
+ASCII Contents of Fragment 16154 in forensics_release-w17.raw-996093-8385929
+
+
+
+...........	e	.	.
+.
+4
+O
+i
+.
+..A....
+..........+.D.s.........;.R........	w
+.
+T
+..0.c.|.........&..."
+,....................................................................................=.http://twitter.com/login..../.http://umich.edu/..<.}.http,.[.http://tech.yahoo.com/blog/hughes/11844.5.k..W.http://www.google.com/search?hl=en&client=firefox-a&rls=com.ubuntu:en-US:unofficial&hs=cm2&q=common+password+list&revid=1693723544&ei=pXwNS7G6NJSqNovEuM0C&sa=X&oi=revisions_inline&resnum=0&ct=broad-revision&cd=1&ved=0CB8Q1QIoADgK.4~..}.http://www.google.com/search?hl=en&client=firefox-a&rls=com.ubuntu:en-US:unofficial&hs=sRN&q=password+list&start=10&sa=N.3<.{.http://news.bbc.co.uk/go/rss/-/2/hi/uk_news/8377827.stm..<.{.http://news.bbc.co.uk/go/rss/-/2/hi/uk_news/8379258.stm.%E....http://news.bbc.co.uk/go/rss/-/2/hi/uk_news/england/8377871.stm..L....http://news.bbc.co.uk/go/rss/-/2/hi/uk_news/england/dorset/8377898.stm..F..
+.http://news.bbc.co.uk/go/rss/-/2/hi/uk_news/magazine/8378262.stm..F..
+.http://news.bbc.co.uk/go/rss/-/2/hi/uk_news/politics/8377492.stm..F..
+.http://news.bbc.co.uk/go/rss/-/2/hi/uk_news/politics/8379070.stm.$J....http://news.bbc.co.uk/go/rss/-/sport2/hi/football/europe/8379251.stm..U..+.http://news.bbc.co.uk/go/rss/-/sport2/hi/football/teams/l/liverpool/8377808.stm..A....http://news.bbc.co.uk/go/rss/-/sport2/hi/tennis/8375347.stm..A....http://news.bbc.co.uk/go/rss/-/sport2/hi/tennis/8379271.stm..G....http://newsforums.bbc.co.uk/nol/thread.jspa?forumID=7263&edition=2.[..7.http://newsforums.bbc.co.uk/nol/thread.jspa?forumID=7272&edition=1&ttl=20091123100307.
+..3.http://nytimes.com/..6.o.http://s7.addthis.com/static/r07/sh09.html#swfp=0..e..K.http://shop.ebay.com/?_from=R40&_trksid=p3907.m38.l1313&_nkw=nerf+gun&_sacat=See-All-Categories....5.http://slashdot.org/..!.G.http://start.ubuntu.com/9.04/...3.http://twitter.com/...._.http://twitter.com/#search?q=Thanksgiving..#.I.http://twitter.com/bethkonrath..-.].http://twitter.com/bethkonrath/following..&.O.http://twitter.com/innocuous_news..0.c.http://twitter.com/innocuous_news/followers....=.http://twitter.com/login..../.http://umich.edu/..<.}.http://wiki.answers.com/Q/What_are_best_nerf_guns_to_getE..=.http:O....http://www.amazon.com/gp/product/handle-buy-box/ref=dp_start-bbf_1_glance..|..{.http://www.amazon.com/s/qid=1259033248/ref=sr_pg_2?ie=UTF8&rs=&keywords=nerf%20guns&rh=i%3Aaps%2Ck%3Anerf%20guns&page=2r^..?.http://www.amazon.com/s/ref=nb_ss?url=search-alias%3Daps&field-keywords=nerf+guns&x=0&y=0c2.i.http://www.bbcworldnews.com/Pages/default.aspx ..3.http://www.cmu.edu/..#.I.http://www.cmu.edu/index.shtml....9.http://www.debian.org/...5.http://www.ebay.com/..8.u.http://www.ehow.com/how_4765156_choose-nerf-gun.htmlH..3.http://www.fsf.org/.......http://www.google.com/search?hl=en&client=firefox-a&rls=com.ubuntu%3Aen-US%3Aunofficial&hs=04h&q=password+list&aq=f&oq=&aqi=g10./~....http://www.google.com/search?hl=en&client=firefox-a&rls=com.ubuntu:en-US:unofficial&hs=TmR&q=best+nerf+guns&start=10&sa=NS.k..W.http://www.google.com/search?hl=en&client=firefox-a&rls=com.ubuntu:en-US:unofficial&hs=cm2&q=common+password+list&revid=1693723544&ei=pXwNS7G6NJSqNovEuM0C&sa=X&oi=revisions_inline&resnum=0&ct=broad-revision&cd=1&ved=0CB8Q1QIoADgK.4.n..].http://www.google.com/search?hl=en&client=firefox-a&rls=com.ubuntu:en-US:unofficial&hs=rl2&q=brute+force+password+list&revid=2010440493&ei=dnwNS-blHJPkMKqrheAC&sa=X&oi=revisions_inline&resnum=1&ct=broad-revision&cd=2&ved=0CCQQ1QIoAQ.1.i..S.http://www.google.com/search?hl=en&client=firefox-a&rls=com.ubuntu:en-US:unofficial&hs=rl2&q=common+password+list&revid=2010440493&ei=dnwNS-blHJPkMKqrheAC&sa=X&oi=revisions_inline&resnum=1&ct=broad-revision&cd=1&ved=0CCMQ1QIoAA.0~..}.http://www.google.com/search?hl=en&client=firefox-a&rls=com.ubuntu:en-US:unofficial&hs=sRN&q=password+list&start=10&sa=N.3z..w.http://www.google.com/search?q=best+nerf+guns&ie=utf-8&oe=utf-8&aq=t&rls=com.ubuntu:en-US:unofficial&client=firefox-aD}..{.http://www.google.com/search?q=common+passwords&ie=utf-8&oe=utf-8&aq=t&rls=com.ubuntu:en-US:unofficial&client=firefox-a.'
+

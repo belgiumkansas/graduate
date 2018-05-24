@@ -1,0 +1,9 @@
+Log of fsck -C -a -t ext3 /lib/init/rw/rootdev 
+Wed Apr 26 16:37:19 2017
+
+fsck 1.41.3 (12-Oct-2008)
+/lib/init/rw/rootdev has gone 1255 days without being checked, check forced.
+/lib/init/rw/rootdev: 29456/373152 files (1.2% non-contiguous), 239404/1492029 blocks
+
+Wed Apr 26 16:40:12 2017
+----------------

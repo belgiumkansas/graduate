@@ -1,0 +1,899 @@
+Nov 24 21:20:05 debian dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 6
+Nov 24 21:20:05 debian dhclient: DHCPOFFER from 10.0.2.2
+Nov 24 21:20:05 debian dhclient: DHCPREQUEST on eth0 to 255.255.255.255 port 67
+Nov 24 21:20:05 debian dhclient: DHCPACK from 10.0.2.2
+Nov 24 21:20:05 debian dhclient: bound to 10.0.2.15 -- renewal in 39226 seconds.
+Nov 24 21:22:00 debian init: Switching to runlevel: 0
+Nov 24 21:22:02 debian rpc.statd[1448]: Caught signal 15, un-registering and exiting.
+Nov 24 22:25:06 debian init: Switching to runlevel: 0
+Nov 24 22:25:09 debian rpc.statd[1481]: Caught signal 15, un-registering and exiting.
+Nov 24 22:26:54 debian dhclient: Internet Systems Consortium DHCP Client V3.1.1
+Nov 24 22:26:54 debian dhclient: Copyright 2004-2008 Internet Systems Consortium.
+Nov 24 22:26:54 debian dhclient: All rights reserved.
+Nov 24 22:26:54 debian dhclient: For info, please visit http://www.isc.org/sw/dhcp/
+Nov 24 22:26:54 debian dhclient: 
+Nov 24 22:26:55 debian dhclient: Listening on LPF/eth1/08:00:27:59:43:17
+Nov 24 22:26:55 debian dhclient: Sending on   LPF/eth1/08:00:27:59:43:17
+Nov 24 22:26:55 debian dhclient: Sending on   Socket/fallback
+Nov 24 22:26:57 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 3
+Nov 24 22:26:57 debian dhclient: DHCPOFFER from 10.0.2.2
+Nov 24 22:26:57 debian dhclient: DHCPREQUEST on eth1 to 255.255.255.255 port 67
+Nov 24 22:26:57 debian dhclient: DHCPACK from 10.0.2.2
+Nov 24 22:26:57 debian dhclient: bound to 10.0.2.15 -- renewal in 41917 seconds.
+Nov 24 22:28:24 debian init: Switching to runlevel: 0
+Nov 24 22:28:26 debian rpc.statd[1462]: Caught signal 15, un-registering and exiting.
+Nov 24 22:29:55 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 16
+Nov 24 22:30:11 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 19
+Nov 24 22:30:30 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 18
+Nov 24 22:30:48 debian dhclient: No DHCPOFFERS received.
+Nov 24 22:30:48 debian dhclient: No working leases in persistent database - sleeping.
+Nov 24 22:32:40 debian dhclient: Internet Systems Consortium DHCP Client V3.1.1
+Nov 24 22:32:40 debian dhclient: Copyright 2004-2008 Internet Systems Consortium.
+Nov 24 22:32:40 debian dhclient: All rights reserved.
+Nov 24 22:32:40 debian dhclient: For info, please visit http://www.isc.org/sw/dhcp/
+Nov 24 22:32:40 debian dhclient: 
+Nov 24 22:32:41 debian dhclient: Listening on LPF/eth1/08:00:27:59:43:17
+Nov 24 22:32:41 debian dhclient: Sending on   LPF/eth1/08:00:27:59:43:17
+Nov 24 22:32:41 debian dhclient: Sending on   Socket/fallback
+Nov 24 22:32:42 debian dhclient: DHCPREQUEST on eth1 to 255.255.255.255 port 67
+Nov 24 22:32:50 debian dhclient: DHCPREQUEST on eth1 to 255.255.255.255 port 67
+Nov 24 22:32:59 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 8
+Nov 24 22:33:07 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 12
+Nov 24 22:33:19 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 11
+Nov 24 22:33:30 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 15
+Nov 24 22:33:45 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 14
+Nov 24 22:33:59 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 1
+Nov 24 22:34:00 debian dhclient: No DHCPOFFERS received.
+Nov 24 22:34:00 debian dhclient: Trying recorded lease 10.0.2.15
+Nov 24 22:34:03 debian dhclient: No working leases in persistent database - sleeping.
+Nov 24 22:36:44 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 7
+Nov 24 22:36:51 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 15
+Nov 24 22:37:06 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 14
+Nov 24 22:37:20 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 11
+Nov 24 22:37:31 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 12
+Nov 24 22:37:38 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 6
+Nov 24 22:37:43 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 2
+Nov 24 22:37:44 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 15
+Nov 24 22:37:45 debian dhclient: No DHCPOFFERS received.
+Nov 24 22:37:45 debian dhclient: No working leases in persistent database - sleeping.
+Nov 24 22:37:59 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 17
+Nov 24 22:38:16 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 7
+Nov 24 22:38:23 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 9
+Nov 24 22:38:32 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 7
+Nov 24 22:38:39 debian dhclient: No DHCPOFFERS received.
+Nov 24 22:38:39 debian dhclient: Trying recorded lease 10.0.2.15
+Nov 24 22:38:42 debian dhclient: No working leases in persistent database - sleeping.
+Nov 24 22:40:45 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 4
+Nov 24 22:40:49 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 7
+Nov 24 22:40:56 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 7
+Nov 24 22:41:03 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 11
+Nov 24 22:41:14 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 18
+Nov 24 22:41:32 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 14
+Nov 24 22:41:46 debian dhclient: No DHCPOFFERS received.
+Nov 24 22:41:46 debian dhclient: No working leases in persistent database - sleeping.
+Nov 24 22:45:20 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 8
+Nov 24 22:45:28 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 21
+Nov 24 22:45:45 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 3
+Nov 24 22:45:48 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 3
+Nov 24 22:45:49 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 18
+Nov 24 22:45:51 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 8
+Nov 24 22:45:59 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 8
+Nov 24 22:46:07 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 12
+Nov 24 22:46:07 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 8
+Nov 24 22:46:15 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 16
+Nov 24 22:46:19 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 2
+Nov 24 22:46:21 debian dhclient: No DHCPOFFERS received.
+Nov 24 22:46:21 debian dhclient: No working leases in persistent database - sleeping.
+Nov 24 22:46:31 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 7
+Nov 24 22:46:38 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 8
+Nov 24 22:46:46 debian dhclient: No DHCPOFFERS received.
+Nov 24 22:46:46 debian dhclient: Trying recorded lease 10.0.2.15
+Nov 24 22:46:49 debian dhclient: No working leases in persistent database - sleeping.
+Nov 24 22:49:35 debian init: Switching to runlevel: 0
+Nov 24 22:49:37 debian rpc.statd[1471]: Caught signal 15, un-registering and exiting.
+Nov 24 23:08:42 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 4
+Nov 24 23:08:46 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 6
+Nov 24 23:08:52 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 11
+Nov 24 23:09:03 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 13
+Nov 24 23:09:16 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 19
+Nov 24 23:09:35 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 8
+Nov 24 23:09:43 debian dhclient: No DHCPOFFERS received.
+Nov 24 23:09:43 debian dhclient: No working leases in persistent database - sleeping.
+Nov 24 23:15:33 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 6
+Nov 24 23:15:39 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 10
+Nov 24 23:15:49 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 13
+Nov 24 23:16:02 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 13
+Nov 24 23:16:15 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 12
+Nov 24 23:16:27 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 7
+Nov 24 23:16:34 debian dhclient: No DHCPOFFERS received.
+Nov 24 23:16:34 debian dhclient: No working leases in persistent database - sleeping.
+Nov 24 23:22:46 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 5
+Nov 24 23:22:51 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 10
+Nov 24 23:23:01 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 19
+Nov 24 23:23:20 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 8
+Nov 24 23:23:28 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 8
+Nov 24 23:23:36 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 11
+Nov 24 23:23:47 debian dhclient: No DHCPOFFERS received.
+Nov 24 23:23:47 debian dhclient: No working leases in persistent database - sleeping.
+Nov 24 23:26:20 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 3
+Nov 24 23:26:23 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 8
+Nov 24 23:26:31 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 16
+Nov 24 23:26:47 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 12
+Nov 24 23:26:54 debian init: Switching to runlevel: 0
+Nov 24 23:26:55 debian rpc.statd[1459]: Caught signal 15, un-registering and exiting.
+Nov 24 23:36:25 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 4
+Nov 24 23:36:29 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 8
+Nov 24 23:36:37 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 10
+Nov 24 23:36:47 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 17
+Nov 24 23:37:04 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 8
+Nov 24 23:37:12 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 9
+Nov 24 23:37:21 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 5
+Nov 24 23:37:26 debian dhclient: No DHCPOFFERS received.
+Nov 24 23:37:26 debian dhclient: No working leases in persistent database - sleeping.
+Nov 24 23:43:36 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 6
+Nov 24 23:43:42 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 10
+Nov 24 23:43:52 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 18
+Nov 24 23:44:10 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 18
+Nov 24 23:44:28 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 9
+Nov 24 23:44:37 debian dhclient: No DHCPOFFERS received.
+Nov 24 23:44:37 debian dhclient: No working leases in persistent database - sleeping.
+Nov 24 23:49:25 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 8
+Nov 24 23:49:33 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 15
+Nov 24 23:49:48 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 12
+Nov 24 23:50:00 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 9
+Nov 24 23:50:09 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 12
+Nov 24 23:50:21 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 5
+Nov 24 23:50:26 debian dhclient: No DHCPOFFERS received.
+Nov 24 23:50:26 debian dhclient: No working leases in persistent database - sleeping.
+Nov 24 23:56:15 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 4
+Nov 24 23:56:19 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 6
+Nov 24 23:56:25 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 7
+Nov 24 23:56:32 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 10
+Nov 24 23:56:42 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 10
+Nov 24 23:56:52 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 8
+Nov 24 23:57:00 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 14
+Nov 24 23:57:14 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 2
+Nov 24 23:57:16 debian dhclient: No DHCPOFFERS received.
+Nov 24 23:57:16 debian dhclient: No working leases in persistent database - sleeping.
+Nov 25 00:04:03 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 3
+Nov 25 00:04:06 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 6
+Nov 25 00:04:12 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 9
+Nov 25 00:04:21 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 12
+Nov 25 00:04:33 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 19
+Nov 25 00:04:52 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 7
+Nov 25 00:04:59 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 5
+Nov 25 00:05:04 debian dhclient: No DHCPOFFERS received.
+Nov 25 00:05:04 debian dhclient: No working leases in persistent database - sleeping.
+Nov 25 00:11:58 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 3
+Nov 25 00:12:01 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 7
+Nov 25 00:12:08 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 13
+Nov 25 00:12:21 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 11
+Nov 25 00:12:32 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 12
+Nov 25 00:12:44 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 11
+Nov 25 00:12:55 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 4
+Nov 25 00:12:59 debian dhclient: No DHCPOFFERS received.
+Nov 25 00:12:59 debian dhclient: No working leases in persistent database - sleeping.
+Nov 25 00:17:09 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 7
+Nov 25 00:17:16 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 7
+Nov 25 00:17:23 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 8
+Nov 25 00:17:31 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 16
+Nov 25 00:17:47 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 20
+Nov 25 00:18:07 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 3
+Nov 25 00:18:10 debian dhclient: No DHCPOFFERS received.
+Nov 25 00:18:10 debian dhclient: No working leases in persistent database - sleeping.
+Nov 25 00:24:15 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 5
+Nov 25 00:24:20 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 5
+Nov 25 00:24:25 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 12
+Nov 25 00:24:37 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 15
+Nov 25 00:24:52 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 18
+Nov 25 00:25:10 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 6
+Nov 25 00:25:16 debian dhclient: No DHCPOFFERS received.
+Nov 25 00:25:16 debian dhclient: No working leases in persistent database - sleeping.
+Nov 25 00:30:27 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 6
+Nov 25 00:30:33 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 10
+Nov 25 00:30:43 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 21
+Nov 25 00:31:04 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 8
+Nov 25 00:31:12 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 9
+Nov 25 00:31:21 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 7
+Nov 25 00:31:28 debian dhclient: No DHCPOFFERS received.
+Nov 25 00:31:28 debian dhclient: No working leases in persistent database - sleeping.
+Nov 25 00:38:05 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 7
+Nov 25 00:38:12 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 8
+Nov 25 00:38:20 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 8
+Nov 25 00:38:28 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 13
+Nov 25 00:38:41 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 19
+Nov 25 00:39:00 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 6
+Nov 25 00:39:06 debian dhclient: No DHCPOFFERS received.
+Nov 25 00:39:06 debian dhclient: No working leases in persistent database - sleeping.
+Nov 25 00:45:30 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 5
+Nov 25 00:45:35 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 9
+Nov 25 00:45:44 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 14
+Nov 25 00:45:58 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 8
+Nov 25 00:46:06 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 9
+Nov 25 00:46:15 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 9
+Nov 25 00:46:24 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 7
+Nov 25 00:46:31 debian dhclient: No DHCPOFFERS received.
+Nov 25 00:46:31 debian dhclient: No working leases in persistent database - sleeping.
+Nov 25 00:53:24 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 5
+Nov 25 00:53:29 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 14
+Nov 25 00:53:43 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 9
+Nov 25 00:53:52 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 18
+Nov 25 00:54:10 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 15
+Nov 25 00:54:25 debian dhclient: No DHCPOFFERS received.
+Nov 25 00:54:25 debian dhclient: No working leases in persistent database - sleeping.
+Nov 25 01:01:31 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 5
+Nov 25 01:01:36 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 11
+Nov 25 01:01:47 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 14
+Nov 25 01:02:01 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 15
+Nov 25 01:02:16 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 16
+Nov 25 01:02:32 debian dhclient: No DHCPOFFERS received.
+Nov 25 01:02:32 debian dhclient: No working leases in persistent database - sleeping.
+Nov 25 01:09:33 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 3
+Nov 25 01:09:36 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 4
+Nov 25 01:09:40 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 7
+Nov 25 01:09:47 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 14
+Nov 25 01:10:01 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 21
+Nov 25 01:10:22 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 11
+Nov 25 01:10:33 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 1
+Nov 25 01:10:34 debian dhclient: No DHCPOFFERS received.
+Nov 25 01:10:34 debian dhclient: No working leases in persistent database - sleeping.
+Nov 25 01:16:23 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 3
+Nov 25 01:16:26 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 7
+Nov 25 01:16:33 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 7
+Nov 25 01:16:40 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 11
+Nov 25 01:16:51 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 12
+Nov 25 01:17:03 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 13
+Nov 25 01:17:16 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 8
+Nov 25 01:17:24 debian dhclient: No DHCPOFFERS received.
+Nov 25 01:17:24 debian dhclient: No working leases in persistent database - sleeping.
+Nov 25 01:22:48 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 7
+Nov 25 01:22:55 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 8
+Nov 25 01:23:03 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 11
+Nov 25 01:23:14 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 17
+Nov 25 01:23:31 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 18
+Nov 25 01:23:49 debian dhclient: No DHCPOFFERS received.
+Nov 25 01:23:49 debian dhclient: No working leases in persistent database - sleeping.
+Nov 25 01:29:33 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 3
+Nov 25 01:29:36 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 4
+Nov 25 01:29:40 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 8
+Nov 25 01:29:48 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 11
+Nov 25 01:29:59 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 21
+Nov 25 01:30:20 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 7
+Nov 25 01:30:27 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 7
+Nov 25 01:30:34 debian dhclient: No DHCPOFFERS received.
+Nov 25 01:30:34 debian dhclient: No working leases in persistent database - sleeping.
+Nov 25 01:36:29 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 7
+Nov 25 01:36:36 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 14
+Nov 25 01:36:50 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 13
+Nov 25 01:37:03 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 13
+Nov 25 01:37:16 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 14
+Nov 25 01:37:30 debian dhclient: No DHCPOFFERS received.
+Nov 25 01:37:30 debian dhclient: No working leases in persistent database - sleeping.
+Nov 25 01:44:00 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 6
+Nov 25 01:44:06 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 15
+Nov 25 01:44:21 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 12
+Nov 25 01:44:33 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 15
+Nov 25 01:44:48 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 11
+Nov 25 01:44:59 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 2
+Nov 25 01:45:01 debian dhclient: No DHCPOFFERS received.
+Nov 25 01:45:01 debian dhclient: No working leases in persistent database - sleeping.
+Nov 25 01:48:16 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 6
+Nov 25 01:48:22 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 15
+Nov 25 01:48:37 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 9
+Nov 25 01:48:46 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 14
+Nov 25 01:49:00 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 13
+Nov 25 01:49:13 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 4
+Nov 25 01:49:17 debian dhclient: No DHCPOFFERS received.
+Nov 25 01:49:17 debian dhclient: No working leases in persistent database - sleeping.
+Nov 25 01:52:38 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 3
+Nov 25 01:52:41 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 4
+Nov 25 01:52:45 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 4
+Nov 25 01:52:49 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 9
+Nov 25 01:52:58 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 9
+Nov 25 01:53:07 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 21
+Nov 25 01:53:28 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 9
+Nov 25 01:53:37 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 2
+Nov 25 01:53:39 debian dhclient: No DHCPOFFERS received.
+Nov 25 01:53:39 debian dhclient: No working leases in persistent database - sleeping.
+Nov 25 01:57:31 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 6
+Nov 25 01:57:37 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 12
+Nov 25 01:57:49 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 13
+Nov 25 01:58:02 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 15
+Nov 25 01:58:17 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 15
+Nov 25 01:58:32 debian dhclient: No DHCPOFFERS received.
+Nov 25 01:58:32 debian dhclient: No working leases in persistent database - sleeping.
+Nov 25 02:01:31 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 8
+Nov 25 02:01:39 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 7
+Nov 25 02:01:46 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 9
+Nov 25 02:01:55 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 16
+Nov 25 02:02:11 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 21
+Nov 25 02:02:32 debian dhclient: No DHCPOFFERS received.
+Nov 25 02:02:32 debian dhclient: No working leases in persistent database - sleeping.
+Nov 25 02:05:05 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 7
+Nov 25 02:05:12 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 13
+Nov 25 02:05:25 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 14
+Nov 25 02:05:39 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 11
+Nov 25 02:05:50 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 10
+Nov 25 02:06:00 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 6
+Nov 25 02:06:06 debian dhclient: No DHCPOFFERS received.
+Nov 25 02:06:06 debian dhclient: No working leases in persistent database - sleeping.
+Nov 25 02:10:29 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 5
+Nov 25 02:10:34 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 5
+Nov 25 02:10:39 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 12
+Nov 25 02:10:51 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 18
+Nov 25 02:11:09 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 12
+Nov 25 02:11:21 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 9
+Nov 25 02:11:30 debian dhclient: No DHCPOFFERS received.
+Nov 25 02:11:30 debian dhclient: No working leases in persistent database - sleeping.
+Nov 25 02:14:20 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 6
+Nov 25 02:14:26 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 8
+Nov 25 02:14:34 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 15
+Nov 25 02:14:49 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 16
+Nov 25 02:15:05 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 12
+Nov 25 02:15:17 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 4
+Nov 25 02:15:21 debian dhclient: No DHCPOFFERS received.
+Nov 25 02:15:21 debian dhclient: No working leases in persistent database - sleeping.
+Nov 25 02:18:41 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 6
+Nov 25 02:18:47 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 7
+Nov 25 02:18:54 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 14
+Nov 25 02:19:08 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 12
+Nov 25 02:19:20 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 8
+Nov 25 02:19:28 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 14
+Nov 25 02:19:42 debian dhclient: No DHCPOFFERS received.
+Nov 25 02:19:42 debian dhclient: No working leases in persistent database - sleeping.
+Nov 25 02:25:19 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 4
+Nov 25 02:25:23 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 7
+Nov 25 02:25:30 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 10
+Nov 25 02:25:40 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 16
+Nov 25 02:25:56 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 14
+Nov 25 02:26:10 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 9
+Nov 25 02:26:19 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 1
+Nov 25 02:26:20 debian dhclient: No DHCPOFFERS received.
+Nov 25 02:26:20 debian dhclient: No working leases in persistent database - sleeping.
+Nov 25 02:33:30 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 5
+Nov 25 02:33:35 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 12
+Nov 25 02:33:47 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 12
+Nov 25 02:33:59 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 20
+Nov 25 02:34:19 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 10
+Nov 25 02:34:29 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 2
+Nov 25 02:34:31 debian dhclient: No DHCPOFFERS received.
+Nov 25 02:34:31 debian dhclient: No working leases in persistent database - sleeping.
+Nov 25 02:40:16 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 5
+Nov 25 02:40:21 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 11
+Nov 25 02:40:32 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 14
+Nov 25 02:40:46 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 20
+Nov 25 02:41:06 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 7
+Nov 25 02:41:13 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 4
+Nov 25 02:41:17 debian dhclient: No DHCPOFFERS received.
+Nov 25 02:41:17 debian dhclient: No working leases in persistent database - sleeping.
+Nov 25 02:45:10 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 4
+Nov 25 02:45:14 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 10
+Nov 25 02:45:24 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 19
+Nov 25 02:45:43 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 17
+Nov 25 02:46:00 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 11
+Nov 25 02:46:11 debian dhclient: No DHCPOFFERS received.
+Nov 25 02:46:11 debian dhclient: No working leases in persistent database - sleeping.
+Nov 25 02:49:20 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 4
+Nov 25 02:49:24 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 10
+Nov 25 02:49:34 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 7
+Nov 25 02:49:41 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 7
+Nov 25 02:49:48 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 7
+Nov 25 02:49:55 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 15
+Nov 25 02:50:10 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 11
+Nov 25 02:50:21 debian dhclient: No DHCPOFFERS received.
+Nov 25 02:50:21 debian dhclient: No working leases in persistent database - sleeping.
+Nov 25 02:54:10 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 4
+Nov 25 02:54:14 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 9
+Nov 25 02:54:23 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 12
+Nov 25 02:54:35 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 12
+Nov 25 02:54:47 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 12
+Nov 25 02:54:59 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 9
+Nov 25 02:55:08 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 3
+Nov 25 02:55:11 debian dhclient: No DHCPOFFERS received.
+Nov 25 02:55:11 debian dhclient: No working leases in persistent database - sleeping.
+Nov 25 02:57:47 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 7
+Nov 25 02:57:54 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 7
+Nov 25 02:58:01 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 9
+Nov 25 02:58:10 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 14
+Nov 25 02:58:24 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 15
+Nov 25 02:58:39 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 9
+Nov 25 02:58:48 debian dhclient: No DHCPOFFERS received.
+Nov 25 02:58:48 debian dhclient: No working leases in persistent database - sleeping.
+Nov 25 03:05:50 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 7
+Nov 25 03:05:57 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 14
+Nov 25 03:06:11 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 14
+Nov 25 03:06:25 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 21
+Nov 25 03:06:46 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 5
+Nov 25 03:06:51 debian dhclient: No DHCPOFFERS received.
+Nov 25 03:06:51 debian dhclient: No working leases in persistent database - sleeping.
+Nov 25 03:12:45 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 5
+Nov 25 03:12:50 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 9
+Nov 25 03:12:59 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 15
+Nov 25 03:13:14 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 17
+Nov 25 03:13:31 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 15
+Nov 25 03:13:46 debian dhclient: No DHCPOFFERS received.
+Nov 25 03:13:46 debian dhclient: No working leases in persistent database - sleeping.
+Nov 25 03:19:27 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 3
+Nov 25 03:19:30 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 6
+Nov 25 03:19:36 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 11
+Nov 25 03:19:47 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 7
+Nov 25 03:19:54 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 9
+Nov 25 03:20:03 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 9
+Nov 25 03:20:12 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 13
+Nov 25 03:20:25 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 3
+Nov 25 03:20:28 debian dhclient: No DHCPOFFERS received.
+Nov 25 03:20:28 debian dhclient: No working leases in persistent database - sleeping.
+Nov 25 03:25:09 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 6
+Nov 25 03:25:15 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 15
+Nov 25 03:25:30 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 19
+Nov 25 03:25:49 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 21
+Nov 25 03:26:10 debian dhclient: No DHCPOFFERS received.
+Nov 25 03:26:10 debian dhclient: No working leases in persistent database - sleeping.
+Nov 25 03:30:03 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 5
+Nov 25 03:30:08 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 14
+Nov 25 03:30:22 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 20
+Nov 25 03:30:42 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 13
+Nov 25 03:30:55 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 9
+Nov 25 03:31:04 debian dhclient: No DHCPOFFERS received.
+Nov 25 03:31:04 debian dhclient: No working leases in persistent database - sleeping.
+Nov 25 03:38:11 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 7
+Nov 25 03:38:18 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 20
+Nov 25 03:38:38 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 13
+Nov 25 03:38:51 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 18
+Nov 25 03:39:09 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 3
+Nov 25 03:39:12 debian dhclient: No DHCPOFFERS received.
+Nov 25 03:39:12 debian dhclient: No working leases in persistent database - sleeping.
+Nov 25 03:43:12 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 5
+Nov 25 03:43:17 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 7
+Nov 25 03:43:24 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 10
+Nov 25 03:43:34 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 12
+Nov 25 03:43:46 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 12
+Nov 25 03:43:58 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 8
+Nov 25 03:44:06 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 7
+Nov 25 03:44:13 debian dhclient: No DHCPOFFERS received.
+Nov 25 03:44:13 debian dhclient: No working leases in persistent database - sleeping.
+Nov 25 03:48:02 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 3
+Nov 25 03:48:05 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 7
+Nov 25 03:48:12 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 16
+Nov 25 03:48:28 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 11
+Nov 25 03:48:39 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 14
+Nov 25 03:48:53 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 10
+Nov 25 03:49:03 debian dhclient: No DHCPOFFERS received.
+Nov 25 03:49:03 debian dhclient: No working leases in persistent database - sleeping.
+Nov 25 03:51:33 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 5
+Nov 25 03:51:38 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 12
+Nov 25 03:51:50 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 21
+Nov 25 03:52:11 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 15
+Nov 25 03:52:26 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 8
+Nov 25 03:52:34 debian dhclient: No DHCPOFFERS received.
+Nov 25 03:52:34 debian dhclient: No working leases in persistent database - sleeping.
+Nov 25 03:56:26 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 3
+Nov 25 03:56:29 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 8
+Nov 25 03:56:37 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 17
+Nov 25 03:56:54 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 8
+Nov 25 03:57:02 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 11
+Nov 25 03:57:13 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 14
+Nov 25 03:57:27 debian dhclient: No DHCPOFFERS received.
+Nov 25 03:57:27 debian dhclient: No working leases in persistent database - sleeping.
+Nov 25 04:03:23 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 3
+Nov 25 04:03:26 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 3
+Nov 25 04:03:29 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 4
+Nov 25 04:03:33 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 7
+Nov 25 04:03:40 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 10
+Nov 25 04:03:50 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 15
+Nov 25 04:04:05 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 7
+Nov 25 04:04:12 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 11
+Nov 25 04:04:23 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 1
+Nov 25 04:04:24 debian dhclient: No DHCPOFFERS received.
+Nov 25 04:04:24 debian dhclient: No working leases in persistent database - sleeping.
+Nov 25 04:09:42 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 8
+Nov 25 04:09:50 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 10
+Nov 25 04:10:00 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 10
+Nov 25 04:10:10 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 10
+Nov 25 04:10:20 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 12
+Nov 25 04:10:32 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 8
+Nov 25 04:10:40 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 3
+Nov 25 04:10:43 debian dhclient: No DHCPOFFERS received.
+Nov 25 04:10:43 debian dhclient: No working leases in persistent database - sleeping.
+Nov 25 04:13:18 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 6
+Nov 25 04:13:24 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 9
+Nov 25 04:13:33 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 12
+Nov 25 04:13:45 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 19
+Nov 25 04:14:04 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 8
+Nov 25 04:14:12 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 7
+Nov 25 04:14:19 debian dhclient: No DHCPOFFERS received.
+Nov 25 04:14:19 debian dhclient: No working leases in persistent database - sleeping.
+Nov 25 04:18:36 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 7
+Nov 25 04:18:43 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 11
+Nov 25 04:18:54 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 16
+Nov 25 04:19:10 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 11
+Nov 25 04:19:21 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 16
+Nov 25 04:19:37 debian dhclient: No DHCPOFFERS received.
+Nov 25 04:19:37 debian dhclient: No working leases in persistent database - sleeping.
+Nov 25 04:26:03 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 6
+Nov 25 04:26:09 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 11
+Nov 25 04:26:20 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 7
+Nov 25 04:26:27 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 8
+Nov 25 04:26:35 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 8
+Nov 25 04:26:43 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 12
+Nov 25 04:26:55 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 9
+Nov 25 04:27:04 debian dhclient: No DHCPOFFERS received.
+Nov 25 04:27:04 debian dhclient: No working leases in persistent database - sleeping.
+Nov 25 04:33:33 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 8
+Nov 25 04:33:41 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 8
+Nov 25 04:33:49 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 9
+Nov 25 04:33:58 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 19
+Nov 25 04:34:17 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 9
+Nov 25 04:34:26 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 8
+Nov 25 04:34:34 debian dhclient: No DHCPOFFERS received.
+Nov 25 04:34:34 debian dhclient: No working leases in persistent database - sleeping.
+Nov 25 04:39:39 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 8
+Nov 25 04:39:47 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 15
+Nov 25 04:40:02 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 13
+Nov 25 04:40:15 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 11
+Nov 25 04:40:26 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 11
+Nov 25 04:40:37 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 3
+Nov 25 04:40:40 debian dhclient: No DHCPOFFERS received.
+Nov 25 04:40:40 debian dhclient: No working leases in persistent database - sleeping.
+Nov 25 04:44:14 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 6
+Nov 25 04:44:20 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 8
+Nov 25 04:44:28 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 9
+Nov 25 04:44:37 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 14
+Nov 25 04:44:51 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 14
+Nov 25 04:45:05 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 10
+Nov 25 04:45:15 debian dhclient: No DHCPOFFERS received.
+Nov 25 04:45:15 debian dhclient: No working leases in persistent database - sleeping.
+Nov 25 04:48:17 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 5
+Nov 25 04:48:22 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 9
+Nov 25 04:48:31 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 12
+Nov 25 04:48:43 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 21
+Nov 25 04:49:04 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 14
+Nov 25 04:49:18 debian dhclient: No DHCPOFFERS received.
+Nov 25 04:49:18 debian dhclient: No working leases in persistent database - sleeping.
+Nov 25 04:54:14 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 3
+Nov 25 04:54:17 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 6
+Nov 25 04:54:23 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 6
+Nov 25 04:54:29 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 6
+Nov 25 04:54:35 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 7
+Nov 25 04:54:42 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 8
+Nov 25 04:54:50 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 21
+Nov 25 04:55:11 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 4
+Nov 25 04:55:15 debian dhclient: No DHCPOFFERS received.
+Nov 25 04:55:15 debian dhclient: No working leases in persistent database - sleeping.
+Nov 25 04:58:25 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 7
+Nov 25 04:58:32 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 21
+Nov 25 04:58:53 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 21
+Nov 25 04:59:14 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 9
+Nov 25 04:59:23 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 3
+Nov 25 04:59:26 debian dhclient: No DHCPOFFERS received.
+Nov 25 04:59:26 debian dhclient: No working leases in persistent database - sleeping.
+Nov 25 05:06:00 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 7
+Nov 25 05:06:07 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 18
+Nov 25 05:06:25 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 7
+Nov 25 05:06:32 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 11
+Nov 25 05:06:43 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 13
+Nov 25 05:06:56 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 5
+Nov 25 05:07:01 debian dhclient: No DHCPOFFERS received.
+Nov 25 05:07:01 debian dhclient: No working leases in persistent database - sleeping.
+Nov 25 05:13:47 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 7
+Nov 25 05:13:54 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 13
+Nov 25 05:14:07 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 7
+Nov 25 05:14:14 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 11
+Nov 25 05:14:25 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 8
+Nov 25 05:14:33 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 8
+Nov 25 05:14:41 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 7
+Nov 25 05:14:48 debian dhclient: No DHCPOFFERS received.
+Nov 25 05:14:48 debian dhclient: No working leases in persistent database - sleeping.
+Nov 25 05:18:59 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 5
+Nov 25 05:19:04 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 6
+Nov 25 05:19:10 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 7
+Nov 25 05:19:17 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 20
+Nov 25 05:19:37 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 9
+Nov 25 05:19:46 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 14
+Nov 25 05:20:00 debian dhclient: No DHCPOFFERS received.
+Nov 25 05:20:00 debian dhclient: No working leases in persistent database - sleeping.
+Nov 25 05:22:30 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 7
+Nov 25 05:22:37 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 12
+Nov 25 05:22:49 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 20
+Nov 25 05:23:09 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 20
+Nov 25 05:23:29 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 2
+Nov 25 05:23:31 debian dhclient: No DHCPOFFERS received.
+Nov 25 05:23:31 debian dhclient: No working leases in persistent database - sleeping.
+Nov 25 05:29:45 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 3
+Nov 25 05:29:48 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 8
+Nov 25 05:29:56 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 9
+Nov 25 05:30:05 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 13
+Nov 25 05:30:18 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 10
+Nov 25 05:30:28 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 12
+Nov 25 05:30:40 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 6
+Nov 25 05:30:46 debian dhclient: No DHCPOFFERS received.
+Nov 25 05:30:46 debian dhclient: No working leases in persistent database - sleeping.
+Nov 25 05:35:02 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 4
+Nov 25 05:35:06 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 11
+Nov 25 05:35:17 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 13
+Nov 25 05:35:30 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 17
+Nov 25 05:35:47 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 16
+Nov 25 05:36:03 debian dhclient: No DHCPOFFERS received.
+Nov 25 05:36:03 debian dhclient: No working leases in persistent database - sleeping.
+Nov 25 05:40:02 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 5
+Nov 25 05:40:07 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 13
+Nov 25 05:40:20 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 19
+Nov 25 05:40:39 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 19
+Nov 25 05:40:58 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 5
+Nov 25 05:41:03 debian dhclient: No DHCPOFFERS received.
+Nov 25 05:41:03 debian dhclient: No working leases in persistent database - sleeping.
+Nov 25 05:48:16 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 4
+Nov 25 05:48:20 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 8
+Nov 25 05:48:28 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 11
+Nov 25 05:48:39 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 18
+Nov 25 05:48:57 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 13
+Nov 25 05:49:10 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 7
+Nov 25 05:49:17 debian dhclient: No DHCPOFFERS received.
+Nov 25 05:49:17 debian dhclient: No working leases in persistent database - sleeping.
+Nov 25 05:55:39 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 3
+Nov 25 05:55:42 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 5
+Nov 25 05:55:47 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 10
+Nov 25 05:55:57 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 15
+Nov 25 05:56:12 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 10
+Nov 25 05:56:22 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 17
+Nov 25 05:56:39 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 1
+Nov 25 05:56:40 debian dhclient: No DHCPOFFERS received.
+Nov 25 05:56:40 debian dhclient: No working leases in persistent database - sleeping.
+Nov 25 06:02:55 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 8
+Nov 25 06:03:03 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 13
+Nov 25 06:03:16 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 13
+Nov 25 06:03:29 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 20
+Nov 25 06:03:49 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 7
+Nov 25 06:03:56 debian dhclient: No DHCPOFFERS received.
+Nov 25 06:03:56 debian dhclient: No working leases in persistent database - sleeping.
+Nov 25 06:08:02 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 8
+Nov 25 06:08:10 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 12
+Nov 25 06:08:22 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 7
+Nov 25 06:08:29 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 12
+Nov 25 06:08:41 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 15
+Nov 25 06:08:56 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 7
+Nov 25 06:09:03 debian dhclient: No DHCPOFFERS received.
+Nov 25 06:09:03 debian dhclient: No working leases in persistent database - sleeping.
+Nov 25 06:13:49 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 7
+Nov 25 06:13:56 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 13
+Nov 25 06:14:09 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 21
+Nov 25 06:14:30 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 18
+Nov 25 06:14:48 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 2
+Nov 25 06:14:50 debian dhclient: No DHCPOFFERS received.
+Nov 25 06:14:50 debian dhclient: No working leases in persistent database - sleeping.
+Nov 25 06:20:04 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 3
+Nov 25 06:20:07 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 3
+Nov 25 06:20:10 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 5
+Nov 25 06:20:15 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 7
+Nov 25 06:20:22 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 14
+Nov 25 06:20:36 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 12
+Nov 25 06:20:48 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 15
+Nov 25 06:21:03 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 2
+Nov 25 06:21:05 debian dhclient: No DHCPOFFERS received.
+Nov 25 06:21:05 debian dhclient: No working leases in persistent database - sleeping.
+Nov 25 06:24:13 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 5
+Nov 25 06:24:18 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 14
+Nov 25 06:24:32 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 17
+Nov 25 06:24:49 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 17
+Nov 25 06:25:06 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 8
+Nov 25 06:25:14 debian dhclient: No DHCPOFFERS received.
+Nov 25 06:25:14 debian dhclient: No working leases in persistent database - sleeping.
+Nov 25 06:31:43 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 3
+Nov 25 06:31:46 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 7
+Nov 25 06:31:53 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 18
+Nov 25 06:32:11 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 13
+Nov 25 06:32:24 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 15
+Nov 25 06:32:39 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 5
+Nov 25 06:32:44 debian dhclient: No DHCPOFFERS received.
+Nov 25 06:32:44 debian dhclient: No working leases in persistent database - sleeping.
+Nov 25 06:36:20 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 7
+Nov 25 06:36:27 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 17
+Nov 25 06:36:44 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 12
+Nov 25 06:36:56 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 12
+Nov 25 06:37:08 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 13
+Nov 25 06:37:21 debian dhclient: No DHCPOFFERS received.
+Nov 25 06:37:21 debian dhclient: No working leases in persistent database - sleeping.
+Nov 25 06:44:10 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 7
+Nov 25 06:44:17 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 7
+Nov 25 06:44:24 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 16
+Nov 25 06:44:40 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 10
+Nov 25 06:44:50 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 9
+Nov 25 06:44:59 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 12
+Nov 25 06:45:11 debian dhclient: No DHCPOFFERS received.
+Nov 25 06:45:11 debian dhclient: No working leases in persistent database - sleeping.
+Nov 25 06:48:42 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 4
+Nov 25 06:48:46 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 11
+Nov 25 06:48:57 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 12
+Nov 25 06:49:09 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 15
+Nov 25 06:49:24 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 19
+Nov 25 06:49:43 debian dhclient: No DHCPOFFERS received.
+Nov 25 06:49:43 debian dhclient: No working leases in persistent database - sleeping.
+Nov 25 06:56:07 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 7
+Nov 25 06:56:14 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 9
+Nov 25 06:56:23 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 10
+Nov 25 06:56:33 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 12
+Nov 25 06:56:45 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 15
+Nov 25 06:57:00 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 8
+Nov 25 06:57:08 debian dhclient: No DHCPOFFERS received.
+Nov 25 06:57:08 debian dhclient: No working leases in persistent database - sleeping.
+Nov 25 07:02:03 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 5
+Nov 25 07:02:08 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 5
+Nov 25 07:02:13 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 14
+Nov 25 07:02:27 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 15
+Nov 25 07:02:42 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 21
+Nov 25 07:03:03 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 1
+Nov 25 07:03:04 debian dhclient: No DHCPOFFERS received.
+Nov 25 07:03:04 debian dhclient: No working leases in persistent database - sleeping.
+Nov 25 07:06:12 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 5
+Nov 25 07:06:17 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 6
+Nov 25 07:06:23 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 11
+Nov 25 07:06:34 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 11
+Nov 25 07:06:45 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 12
+Nov 25 07:06:57 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 16
+Nov 25 07:07:13 debian dhclient: No DHCPOFFERS received.
+Nov 25 07:07:13 debian dhclient: No working leases in persistent database - sleeping.
+Nov 25 07:10:46 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 8
+Nov 25 07:10:54 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 14
+Nov 25 07:11:08 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 8
+Nov 25 07:11:16 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 20
+Nov 25 07:11:36 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 8
+Nov 25 07:11:44 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 3
+Nov 25 07:11:47 debian dhclient: No DHCPOFFERS received.
+Nov 25 07:11:47 debian dhclient: No working leases in persistent database - sleeping.
+Nov 25 07:18:18 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 8
+Nov 25 07:18:26 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 19
+Nov 25 07:18:45 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 18
+Nov 25 07:19:03 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 11
+Nov 25 07:19:14 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 5
+Nov 25 07:19:19 debian dhclient: No DHCPOFFERS received.
+Nov 25 07:19:19 debian dhclient: No working leases in persistent database - sleeping.
+Nov 25 07:21:43 debian init: Switching to runlevel: 0
+Nov 25 07:21:44 debian rpc.statd[1464]: Caught signal 15, un-registering and exiting.
+Nov 25 08:52:39 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 7
+Nov 25 08:52:46 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 12
+Nov 25 08:52:58 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 18
+Nov 25 08:53:16 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 16
+Nov 25 08:53:32 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 7
+Nov 25 08:53:39 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 1
+Nov 25 08:53:40 debian dhclient: No DHCPOFFERS received.
+Nov 25 08:53:40 debian dhclient: No working leases in persistent database - sleeping.
+Nov 25 08:59:52 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 4
+Nov 25 08:59:56 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 11
+Nov 25 09:00:07 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 9
+Nov 25 09:00:16 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 21
+Nov 25 09:00:37 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 11
+Nov 25 09:00:48 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 5
+Nov 25 09:00:53 debian dhclient: No DHCPOFFERS received.
+Nov 25 09:00:53 debian dhclient: No working leases in persistent database - sleeping.
+Nov 25 09:07:31 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 6
+Nov 25 09:07:37 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 15
+Nov 25 09:07:52 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 9
+Nov 25 09:08:01 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 18
+Nov 25 09:08:19 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 13
+Nov 25 09:08:32 debian dhclient: No DHCPOFFERS received.
+Nov 25 09:08:32 debian dhclient: No working leases in persistent database - sleeping.
+Nov 25 09:12:19 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 8
+Nov 25 09:12:27 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 11
+Nov 25 09:12:38 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 11
+Nov 25 09:12:49 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 10
+Nov 25 09:12:59 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 11
+Nov 25 09:13:10 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 10
+Nov 25 09:13:20 debian dhclient: No DHCPOFFERS received.
+Nov 25 09:13:20 debian dhclient: No working leases in persistent database - sleeping.
+Nov 25 09:17:24 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 6
+Nov 25 09:17:30 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 13
+Nov 25 09:17:43 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 20
+Nov 25 09:18:03 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 12
+Nov 25 09:18:15 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 10
+Nov 25 09:18:25 debian dhclient: No DHCPOFFERS received.
+Nov 25 09:18:25 debian dhclient: No working leases in persistent database - sleeping.
+Nov 25 09:21:03 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 4
+Nov 25 09:21:07 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 9
+Nov 25 09:21:16 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 12
+Nov 25 09:21:28 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 10
+Nov 25 09:21:38 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 19
+Nov 25 09:21:57 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 7
+Nov 25 09:22:04 debian dhclient: No DHCPOFFERS received.
+Nov 25 09:22:04 debian dhclient: No working leases in persistent database - sleeping.
+Nov 25 09:26:29 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 4
+Nov 25 09:26:33 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 11
+Nov 25 09:26:44 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 15
+Nov 25 09:26:59 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 15
+Nov 25 09:27:14 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 13
+Nov 25 09:27:27 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 3
+Nov 25 09:27:30 debian dhclient: No DHCPOFFERS received.
+Nov 25 09:27:30 debian dhclient: No working leases in persistent database - sleeping.
+Nov 25 09:32:36 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 7
+Nov 25 09:32:43 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 9
+Nov 25 09:32:52 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 12
+Nov 25 09:33:04 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 20
+Nov 25 09:33:24 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 13
+Nov 25 09:33:37 debian dhclient: No DHCPOFFERS received.
+Nov 25 09:33:37 debian dhclient: No working leases in persistent database - sleeping.
+Nov 25 09:40:58 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 4
+Nov 25 09:41:02 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 5
+Nov 25 09:41:07 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 8
+Nov 25 09:41:15 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 19
+Nov 25 09:41:34 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 10
+Nov 25 09:41:44 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 13
+Nov 25 09:41:57 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 2
+Nov 25 09:41:59 debian dhclient: No DHCPOFFERS received.
+Nov 25 09:41:59 debian dhclient: No working leases in persistent database - sleeping.
+Nov 25 09:48:55 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 3
+Nov 25 09:48:58 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 6
+Nov 25 09:49:04 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 12
+Nov 25 09:49:16 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 12
+Nov 25 09:49:28 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 10
+Nov 25 09:49:38 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 15
+Nov 25 09:49:53 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 3
+Nov 25 09:49:56 debian dhclient: No DHCPOFFERS received.
+Nov 25 09:49:56 debian dhclient: No working leases in persistent database - sleeping.
+Nov 25 09:56:29 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 4
+Nov 25 09:56:33 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 7
+Nov 25 09:56:40 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 10
+Nov 25 09:56:50 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 12
+Nov 25 09:57:02 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 16
+Nov 25 09:57:18 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 12
+Nov 25 09:57:30 debian dhclient: No DHCPOFFERS received.
+Nov 25 09:57:30 debian dhclient: No working leases in persistent database - sleeping.
+Nov 25 10:03:51 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 8
+Nov 25 10:03:59 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 17
+Nov 25 10:04:16 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 20
+Nov 25 10:04:36 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 7
+Nov 25 10:04:43 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 8
+Nov 25 10:04:51 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 1
+Nov 25 10:04:52 debian dhclient: No DHCPOFFERS received.
+Nov 25 10:04:52 debian dhclient: No working leases in persistent database - sleeping.
+Nov 25 10:10:26 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 6
+Nov 25 10:10:32 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 9
+Nov 25 10:10:41 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 8
+Nov 25 10:10:49 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 8
+Nov 25 10:10:57 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 19
+Nov 25 10:11:16 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 11
+Nov 25 10:11:27 debian dhclient: No DHCPOFFERS received.
+Nov 25 10:11:27 debian dhclient: No working leases in persistent database - sleeping.
+Nov 25 10:15:10 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 7
+Nov 25 10:15:17 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 21
+Nov 25 10:15:38 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 7
+Nov 25 10:15:45 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 14
+Nov 25 10:15:59 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 12
+Nov 25 10:16:11 debian dhclient: No DHCPOFFERS received.
+Nov 25 10:16:11 debian dhclient: No working leases in persistent database - sleeping.
+Nov 25 10:20:54 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 8
+Nov 25 10:21:02 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 15
+Nov 25 10:21:17 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 12
+Nov 25 10:21:29 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 15
+Nov 25 10:21:44 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 11
+Nov 25 10:21:55 debian dhclient: No DHCPOFFERS received.
+Nov 25 10:21:55 debian dhclient: No working leases in persistent database - sleeping.
+Nov 25 10:27:21 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 6
+Nov 25 10:27:27 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 15
+Nov 25 10:27:42 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 12
+Nov 25 10:27:54 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 12
+Nov 25 10:28:06 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 16
+Nov 25 10:28:22 debian dhclient: No DHCPOFFERS received.
+Nov 25 10:28:22 debian dhclient: No working leases in persistent database - sleeping.
+Nov 25 10:35:22 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 4
+Nov 25 10:35:26 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 11
+Nov 25 10:35:37 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 7
+Nov 25 10:35:44 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 13
+Nov 25 10:35:57 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 14
+Nov 25 10:36:11 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 12
+Nov 25 10:36:23 debian dhclient: No DHCPOFFERS received.
+Nov 25 10:36:23 debian dhclient: No working leases in persistent database - sleeping.
+Nov 25 10:36:55 debian init: Switching to runlevel: 0
+Nov 25 10:36:55 debian rpc.statd[1461]: Caught signal 15, un-registering and exiting.
+Dec  7 18:34:54 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 8
+Dec  7 18:35:02 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 10
+Dec  7 18:35:12 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 21
+Dec  7 18:35:33 debian dhclient: DHCPDISCOVER on eth1 to 255.255.255.255 port 67 interval 20
+Dec  7 18:35:37 debian init: Switching to runlevel: 0
+Dec  7 18:35:39 debian rpc.statd[1461]: Caught signal 15, un-registering and exiting.
+Apr 26 16:40:14 debian dhclient: Listening on LPF/eth0/22:00:0a:e4:14:bd
+Apr 26 16:40:14 debian dhclient: Sending on   LPF/eth0/22:00:0a:e4:14:bd
+Apr 26 16:40:14 debian dhclient: Sending on   Socket/fallback
+Apr 26 16:40:15 debian dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3
+Apr 26 16:40:15 debian dhclient: DHCPOFFER from 169.254.1.0
+Apr 26 16:40:15 debian dhclient: DHCPREQUEST on eth0 to 255.255.255.255 port 67
+Apr 26 16:40:15 debian dhclient: DHCPACK from 169.254.1.0
+Apr 26 16:40:15 debian dhclient: bound to 10.228.20.189 -- renewal in 35006 seconds.

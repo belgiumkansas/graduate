@@ -1,0 +1,133 @@
+Aptitude 0.4.11.11: log report
+Tue, Nov 24 2009 20:45:42 -0500
+
+IMPORTANT: this log only lists intended actions; actions which fail due to
+dpkg problems may not be completed.
+
+Will install 7 packages, and remove 0 packages.
+926kB of disk space will be used
+===============================================================================
+[UPGRADE] libgnutls26 2.4.2-6+lenny1 -> 2.4.2-6+lenny2
+[UPGRADE] libnewt0.52 0.52.2-11.3 -> 0.52.2-11.3+lenny1
+[UPGRADE] libssl0.9.8 0.9.8g-15+lenny3 -> 0.9.8g-15+lenny5
+[UPGRADE] linux-image-2.6.26-2-686 2.6.26-19 -> 2.6.26-19lenny2
+[UPGRADE] tzdata 2009l-0lenny1 -> 2009l-0lenny1.1
+[UPGRADE] wget 1.11.4-2 -> 1.11.4-2+lenny1
+[UPGRADE] whiptail 0.52.2-11.3 -> 0.52.2-11.3+lenny1
+===============================================================================
+
+Log complete.
+Aptitude 0.4.11.11: log report
+Tue, Nov 24 2009 21:17:46 -0500
+
+IMPORTANT: this log only lists intended actions; actions which fail due to
+dpkg problems may not be completed.
+
+Will install 102 packages, and remove 0 packages.
+143MB of disk space will be used
+===============================================================================
+[INSTALL, DEPENDENCIES] apache2
+[INSTALL, DEPENDENCIES] apache2-utils
+[INSTALL, DEPENDENCIES] apache2.2-common
+[INSTALL, DEPENDENCIES] libapr1
+[INSTALL, DEPENDENCIES] libaprutil1
+[INSTALL, DEPENDENCIES] libdevel-symdump-perl
+[INSTALL, DEPENDENCIES] libexpat1
+[INSTALL, DEPENDENCIES] libfreetype6
+[INSTALL, DEPENDENCIES] libgd2-noxpm
+[INSTALL, DEPENDENCIES] libhtml-parser-perl
+[INSTALL, DEPENDENCIES] libhtml-tagset-perl
+[INSTALL, DEPENDENCIES] libhtml-tree-perl
+[INSTALL, DEPENDENCIES] libjpeg62
+[INSTALL, DEPENDENCIES] libmysqlclient15off
+[INSTALL, DEPENDENCIES] libperl5.10
+[INSTALL, DEPENDENCIES] libpng12-0
+[INSTALL, DEPENDENCIES] libpq5
+[INSTALL, DEPENDENCIES] liburi-perl
+[INSTALL, DEPENDENCIES] libwww-perl
+[INSTALL, DEPENDENCIES] mysql-common
+[INSTALL, DEPENDENCIES] php5-common
+[INSTALL] analog
+[INSTALL] apache2-doc
+[INSTALL] apache2-mpm-prefork
+[INSTALL] at
+[INSTALL] bash-completion
+[INSTALL] bc
+[INSTALL] bind9-host
+[INSTALL] bsd-mailx
+[INSTALL] dc
+[INSTALL] debian-faq
+[INSTALL] dictionaries-common
+[INSTALL] dnsutils
+[INSTALL] doc-debian
+[INSTALL] doc-linux-text
+[INSTALL] exim4
+[INSTALL] exim4-base
+[INSTALL] exim4-config
+[INSTALL] exim4-daemon-light
+[INSTALL] file
+[INSTALL] ftp
+[INSTALL] gettext-base
+[INSTALL] iamerican
+[INSTALL] ibritish
+[INSTALL] ispell
+[INSTALL] less
+[INSTALL] libapache2-mod-perl2
+[INSTALL] libapache2-mod-php5
+[INSTALL] libapache2-mod-python
+[INSTALL] libbind9-40
+[INSTALL] libcap2
+[INSTALL] libdb4.5
+[INSTALL] libdns45
+[INSTALL] libedit2
+[INSTALL] libevent1
+[INSTALL] libgc1c2
+[INSTALL] libgpm2
+[INSTALL] libgssglue1
+[INSTALL] libidn11
+[INSTALL] libisc45
+[INSTALL] libisccc40
+[INSTALL] libisccfg40
+[INSTALL] libkeyutils1
+[INSTALL] libkrb53
+[INSTALL] libldap-2.4-2
+[INSTALL] liblockfile1
+[INSTALL] liblwres40
+[INSTALL] libmagic1
+[INSTALL] libnfsidmap2
+[INSTALL] libpci3
+[INSTALL] libpcre3
+[INSTALL] librpcsecgss3
+[INSTALL] libsqlite3-0
+[INSTALL] libxml2
+[INSTALL] lsof
+[INSTALL] m4
+[INSTALL] mime-support
+[INSTALL] mlocate
+[INSTALL] mutt
+[INSTALL] ncurses-term
+[INSTALL] nfs-common
+[INSTALL] openbsd-inetd
+[INSTALL] openssh-client
+[INSTALL] patch
+[INSTALL] pciutils
+[INSTALL] perl
+[INSTALL] perl-modules
+[INSTALL] portmap
+[INSTALL] procmail
+[INSTALL] python
+[INSTALL] python-central
+[INSTALL] python-minimal
+[INSTALL] python2.5
+[INSTALL] python2.5-minimal
+[INSTALL] reportbug
+[INSTALL] telnet
+[INSTALL] texinfo
+[INSTALL] time
+[INSTALL] ucf
+[INSTALL] w3m
+[INSTALL] wamerican
+[INSTALL] whois
+===============================================================================
+
+Log complete.

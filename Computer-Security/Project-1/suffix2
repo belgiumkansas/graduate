@@ -1,0 +1,6 @@
+"""
+
+if blob == good:
+    print "I come in peace."
+else:
+    print "Prepare to be destroyed!"

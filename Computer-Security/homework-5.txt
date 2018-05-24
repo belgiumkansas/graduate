@@ -1,0 +1,30 @@
+# Problem 1
+
+1a. The eavesdropper doesn't know the private session key so they cannot decrypt the traffic.
+
+1b. By impersonating the site you are trying to reach a man in the middle can create their own private key with you and another with the actual server. But this can easily be thwarted by adding a self signed certificate directly and not accepting and other certificates.
+
+1c. i. leaves site open to man in the middle attacks ii. Provides protection against active and passive attacks so is most secure
+
+
+# Problem 2
+
+2a. Injecting the victims username into the form
+
+2b. send an e-mail to the desired user with a link that will execute the desired code when they click it
+
+2c. 
+
+# Problem 3
+
+3a. This prevents the attacker from guessing what the canary
+
+3b. The attacker can run  the same attack until they find the canary value. 0 is a null value so often it will often stop the stack overflow attack
+
+3c. a function's argument can be exploited, or the frame pointer can be altered and overwritten
+
+# Problem 4
+
+4a. Because you are placing unauthorized code onto someone else's system you are in fact breaking the law
+
+4b. If it could prevent far greater damage or if you have permission. For example if a Stuxnet type worm was attacking a nuclear reactor releasing an "anti" worm that could save the plant would be justified.
