@@ -1,0 +1,12 @@
+<!-- Phidgets IMU launch file -->
+
+<launch>
+
+
+  <node pkg="phidgets_imu" type="phidgets_imu_node" name="imu_node"/>
+
+
+
+
+
+</launch>

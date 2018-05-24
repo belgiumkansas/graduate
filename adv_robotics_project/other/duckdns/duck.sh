@@ -1,0 +1,1 @@
+echo url="https://www.duckdns.org/update?domains=curobotics&token=3fc3eb48-ed0c-45ea-9b52-84da8bfabbb9&ip=" | curl -k -o ~/duckdns/duck.log -K -

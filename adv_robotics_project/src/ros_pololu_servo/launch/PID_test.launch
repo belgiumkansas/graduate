@@ -1,0 +1,23 @@
+
+
+<launch>
+  <node pkg="ros_pololu_servo" name="IR_data_pub" type="IR-data_pub.py" output="screen">
+  </node>
+
+
+
+<node name="first_PID" pkg="pid" type="controller" >
+  <param name="Kp" value="1.0" />
+   <param name="Ki" value="0.0" />
+   <param name="Kd" value="0.1" />
+   <param name="upper_limit" value="100" />
+   <param name="lower_limit" value="-100" />
+   <param name="windup_limit" value=".001" />
+   <param name="diagnostic_period" value="0.25" />
+   <param name="max_loop_frequency" value="100.0" />
+   <param name="min_loop_frequency" value="100.0" />
+ </node>
+
+<node pkg="ros_pololu_servo" name="servo_controller" type="PID_servo_subscriber.py" output="screen">
+</node>
+</launch>

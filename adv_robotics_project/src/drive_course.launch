@@ -1,0 +1,61 @@
+<launch>
+    <!-- start pololu -->
+    <node pkg="ros_pololu_servo" type="ros_pololu_servo_node" name="ros_pololu_servo_node" output="screen">
+      <param name="pololu_motors_yaml" value="$(find sparky2)/launch/sparky-maestro.yaml" />
+      <param name="port_name" value="/dev/ttyACM0" />
+      <param name="baud_rate" value="57600" />
+      <param name="rate_hz" value="20" />
+      <param name="daisy_chain" value="false" />
+    </node>
+
+    <!-- publishes maestro data -->
+    <node pkg="sparky2" name="maestro_pub" type="maestro_pub.py" output="screen"> </node>
+
+    <!-- PID for motor -->
+    <node name="motor_PID" pkg="pid" type="controller" >
+      <param name="Kp" value="3" />
+      <param name="Ki" value="0.1" />
+      <param name="Kd" value="0.5" />
+      <param name="upper_limit" value="100" />
+      <param name="lower_limit" value="-100" />
+      <param name="windup_limit" value=".001" />
+      <param name="diagnostic_period" value="0.25" />
+      <param name="max_loop_frequency" value="100.0" />
+      <param name="min_loop_frequency" value="15.0" />
+      <param name="topic_from_plant" value="/maestro/BEMF_clean" />
+      <param name="setpoint_topic" value="/motor_setpoint" />
+      <param name="topic_from_controller" value="/motor_control_effort" />
+
+     </node>
+
+     <!--PID for steering -->
+     <node name="steering_PID" pkg="pid" type="controller" >
+       <param name="Kp" value="..01" />
+       <param name="Ki" value="0.001" />
+       <param name="Kd" value="0.01" />
+       <param name="upper_limit" value=".7" />
+       <param name="lower_limit" value="-.7" />
+       <param name="windup_limit" value=".001" />
+       <param name="diagnostic_period" value="0.25" />
+       <param name="max_loop_frequency" value="100.0" />
+       <param name="min_loop_frequency" value="10.0" />
+       <param name="topic_from_plant" value="/maestro/IR_diff" />
+       <param name="setpoint_topic" value="/servo_setpoint" />
+       <param name="topic_from_controller" value="/servo_control_effort" />
+      </node>
+
+
+    <!-- artificial set point and PID enable-->
+    <node pkg="sparky2" name="test_setpoint" type="test_setpoint.py" output="screen"> </node>
+
+    <!-- MOTOR PUBLISHER -->
+    <!--controlls motor and sets artificial straight line -->
+    <node pkg="sparky2" name="motor_PID_Subscriber" type="motor_PID_Subscriber.py" output="screen"> </node>
+    <node pkg="sparky2" name="servo_PID_Subscriber" type="servo_PID_Subscriber.py" output="screen"> </node>
+
+
+
+     <!-- STEERING PUBLISHER -->
+
+
+</launch>

@@ -1,0 +1,4 @@
+[submodule "libuvc_camera/libuvc"]
+	path = libuvc_camera/libuvc
+	url = https://github.com/hipersayanX/libuvc.git
+	branch = uvc_stop_streaming-patch

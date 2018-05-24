@@ -1,0 +1,80 @@
+# Pololu based motors
+
+ESC:
+  pololu_id: 18
+  motor_id: 0
+  init: 1001
+  min: 1000
+  max: 1500
+  reverse: false
+  calibration:
+    min_pulse: 1000
+    min_angle: -45
+    max_pulse: 2000
+    max_angle: 45
+
+Servo:
+  pololu_id: 18
+  motor_id: 1
+  init: 1500
+  min: 1100
+  max: 1900
+  reverse: true
+  calibration:
+    min_pulse: 1100
+    min_angle: -45
+    max_pulse: 1900
+    max_angle: 45
+
+
+IR-L:
+  pololu_id: 18
+  motor_id: 11
+  init: 1
+  min: 0
+  max: 1900
+  reverse: false
+  calibration:
+    min_pulse: 1000
+    min_angle: -45
+    max_pulse: 2000
+    max_angle: 45
+
+IR-R:
+  pololu_id: 18
+  motor_id: 10
+  init: 1
+  min: 0
+  max: 1900
+  reverse: false
+  calibration:
+    min_pulse: 1000
+    min_angle: -45
+    max_pulse: 2000
+    max_angle: 45
+
+BEMF:
+  pololu_id: 18
+  motor_id: 9
+  init: 1
+  min: 0
+  max: 1900
+  reverse: false
+  calibration:
+    min_pulse: 1000
+    min_angle: -45
+    max_pulse: 2000
+    max_angle: 45
+
+trigger:
+  pololu_id: 18
+  motor_id: 8
+  init: 1
+  min: 0
+  max: 1900
+  reverse: false
+  calibration:
+    min_pulse: 1000
+    min_angle: -45
+    max_pulse: 2000
+    max_angle: 45

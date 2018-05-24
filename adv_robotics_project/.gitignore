@@ -1,0 +1,5 @@
+build/*
+devel/*
+install/*
+install_scipts/OpenCV/*
+install/*
