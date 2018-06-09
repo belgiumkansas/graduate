@@ -12,11 +12,9 @@ CFLAGS= -O3 -msse3 $(INCLUDE_DIRS) $(CDEFS)
 LIBS=-lpthread
 
 PRODUCT=sharpen_grid
-PRODUCT=sharpen
 
 HFILES=
 CFILES= sharpen_grid.c
-CFILES= sharpen.c
 
 SRCS= ${HFILES} ${CFILES}
 OBJS= ${CFILES:.c=.o}

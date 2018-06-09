@@ -7,10 +7,10 @@
 #include <sched.h>
 
 
-#define IMG_HEIGHT (3000)
-#define IMG_WIDTH (4000)
-#define NUM_ROW_THREADS (6)
-#define NUM_COL_THREADS (8)
+#define IMG_HEIGHT (372)
+#define IMG_WIDTH (580)
+#define NUM_ROW_THREADS (3)
+#define NUM_COL_THREADS (4)
 #define IMG_H_SLICE (IMG_HEIGHT/NUM_ROW_THREADS)
 #define IMG_W_SLICE (IMG_WIDTH/NUM_COL_THREADS)
 
@@ -121,7 +121,7 @@ int main(int argc, char *argv[])
     unsigned int thread_idx;
     FLOAT temp;
     int runs=0;
-    
+
     if(argc < 3)
     {
        printf("Usage: sharpen input_file.ppm output_file.ppm\n");
@@ -158,7 +158,7 @@ int main(int argc, char *argv[])
 
     header[21]='\0';
 
-    //printf("header = %s\n", header); 
+    //printf("header = %s\n", header);
 
     // Read RGB data
     for(i=0; i<IMG_HEIGHT; i++)
@@ -197,19 +197,19 @@ int main(int argc, char *argv[])
 
         //printf("idx=%d, jdx=%d\n", idx, jdx);
 
-        threadarg[thread_idx].i=idx;      
-        threadarg[thread_idx].h=IMG_H_SLICE-1;        
-        threadarg[thread_idx].j=jdx;        
+        threadarg[thread_idx].i=idx;
+        threadarg[thread_idx].h=IMG_H_SLICE-1;
+        threadarg[thread_idx].j=jdx;
         threadarg[thread_idx].w=IMG_W_SLICE-1;
 
-        //printf("create thread_idx=%d\n", thread_idx);    
+        //printf("create thread_idx=%d\n", thread_idx);
         pthread_create(&threads[thread_idx], (void *)0, sharpen_thread, (void *)&threadarg[thread_idx]);
 
     }
 
     for(thread_idx=0; thread_idx<(NUM_ROW_THREADS*NUM_COL_THREADS); thread_idx++)
     {
-            //printf("join thread_idx=%d\n", thread_idx);    
+            //printf("join thread_idx=%d\n", thread_idx);
             if((pthread_join(threads[thread_idx], (void **)0)) < 0)
                 perror("pthread_join");
     }
@@ -235,5 +235,5 @@ int main(int argc, char *argv[])
 
     printf("sink file %s written\n", argv[2]);
     close(fdout);
- 
+
 }
