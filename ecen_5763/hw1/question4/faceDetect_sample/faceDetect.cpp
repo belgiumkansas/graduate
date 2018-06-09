@@ -246,6 +246,6 @@ void detectAndDraw( Mat& img,
             circle( img, center, radius, color, 3, 8, 0 );
         }
     }
-    cv::imwrite("siewart.jpg", img);
+    cv::imwrite("face_detect.jpg", img);
     cv::imshow( "result", img );
 }

@@ -18,6 +18,7 @@ using namespace std;
 #define VRES_ROWS (360)
 #define HRES_COLS (640)
 
+
 #define ESC_KEY (27)
 
 // Buffer for highest resolution visualization possible
@@ -32,18 +33,10 @@ int main(int argc, char **argv)
 
     printf("hres=%d, vres=%d\n", hres, vres);
 
-    // interactive computer vision loop 
-    namedWindow("Profile Visualization", CV_WINDOW_AUTOSIZE);
+    // interactive computer vision loop
+    namedWindow("Solution Visualization", CV_WINDOW_AUTOSIZE);
 
-    // read in default image
-    if(vres == 360)
-        basicimage = imread("Cactus360p.jpg", CV_LOAD_IMAGE_COLOR);
-    else if(vres == 720)
-        basicimage = imread("Cactus720p.jpg", CV_LOAD_IMAGE_COLOR);
-    else if(vres == 1080)
-        basicimage = imread("Cactus1080p.jpg", CV_LOAD_IMAGE_COLOR);
-    else if(vres == 1440)
-        basicimage = imread("Cactus1440p.jpg", CV_LOAD_IMAGE_COLOR);
+    basicimage = imread("Cactus360p.jpg", CV_LOAD_IMAGE_COLOR);
 
     if(!basicimage.data)  // Check for invalid input
     {
@@ -51,22 +44,19 @@ int main(int argc, char **argv)
         exit(-1);
     }
 
-    // Create an IplImage mapping onto the basicimage Mat object
-    //
-    IplImage basicimageImg = basicimage;
+    // create solution with mat array
+    resize(basicimage, basicimage, Size(320, 180));
+    Mat output;
+    int border = 4;
+    copyMakeBorder(basicimage, output, border, border, border, border, BORDER_CONSTANT, Scalar(0, 255, 255));
+    line(output, Point(160, 0), Point(160, 180), Scalar(0, 255, 255));
+    line(output, Point(0, 90), Point(320 ,90), Scalar(0, 255, 255));
+    imwrite("mat_cactus.jpg", output);
 
-
-    // Interactive LOOP
-    //
+    // view loop mat image
     while(1)
     {
-        frameCnt++;
-
-        // Write a zero value into the image buffer
-        //
-        basicimageImg.imageData[frameCnt] = (unsigned char)0;
-
-        imshow("Profile Visualization", basicimage);  
+        imshow("Solution Visualization", output);
 
         // set pace on shared memory sampling in msecs
         char c = cvWaitKey(10);
@@ -75,9 +65,6 @@ int main(int argc, char **argv)
         {
             exit(1);
         }
-
     }
- 
-    return 1;
 
 }
