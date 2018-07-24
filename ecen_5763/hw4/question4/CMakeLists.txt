@@ -1,0 +1,5 @@
+cmake_minimum_required (VERSION 2.6)
+project (skeletal_thinning)
+find_package( OpenCV REQUIRED )
+add_executable(skeletal_thinning skeletal_thinning.cpp)
+target_link_libraries(skeletal_thinning ${OpenCV_LIBS} )

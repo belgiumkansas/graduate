@@ -1,0 +1,5 @@
+cmake_minimum_required (VERSION 2.6)
+project (top_skeletal)
+find_package( OpenCV REQUIRED )
+add_executable(top_skeletal top_skeletal.cpp)
+target_link_libraries(top_skeletal ${OpenCV_LIBS} )
