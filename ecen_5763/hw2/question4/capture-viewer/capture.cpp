@@ -267,7 +267,7 @@ static void process_image(const void *p, int size)
         }
 
         imshow(disp_window_name, dispimg);
-        waitKey(10);
+        //waitKey(10);
 
         //dump_ppm(bigbuffer, ((size*6)/4), framecnt, &frame_time);
 #else
@@ -284,7 +284,7 @@ static void process_image(const void *p, int size)
         }
 
         imshow(disp_window_name, dispimg);
-        waitKey(10);
+        //waitKey(10);
 
         //dump_pgm(bigbuffer, (size/2), framecnt, &frame_time);
 #endif
@@ -778,7 +778,7 @@ static void init_device(void)
         //fmt.fmt.pix.pixelformat = V4L2_PIX_FMT_YUYV;
 
         //fmt.fmt.pix.pixelformat = V4L2_PIX_FMT_UYVY;
-        fmt.fmt.pix.pixelformat = V4L2_PIX_FMT_VYUY;
+         fmt.fmt.pix.pixelformat = V4L2_PIX_FMT_VYUY;
 
         // Would be nice if camera supported
         //fmt.fmt.pix.pixelformat = V4L2_PIX_FMT_GREY;

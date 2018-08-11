@@ -1,0 +1,5 @@
+cmake_minimum_required (VERSION 2.6)
+project (descriptor_extractor_matcher)
+find_package( OpenCV REQUIRED )
+add_executable(descriptor_extractor_matcher descriptor_extractor_matcher.cpp)
+target_link_libraries(descriptor_extractor_matcher ${OpenCV_LIBS} )

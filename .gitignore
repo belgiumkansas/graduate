@@ -1,0 +1,11 @@
+*.pdf
+*.tar.gz
+*.avi
+*.o
+*.swp
+*.mp4
+build/
+devel/
+bin/
+logs/
+.catkin_tools/

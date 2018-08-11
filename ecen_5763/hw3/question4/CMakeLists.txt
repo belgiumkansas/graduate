@@ -1,0 +1,5 @@
+cmake_minimum_required (VERSION 2.6)
+project (grey_PGM)
+find_package( OpenCV REQUIRED )
+add_executable(grey_PGM grey_PGM.cpp)
+target_link_libraries(grey_PGM ${OpenCV_LIBS} )

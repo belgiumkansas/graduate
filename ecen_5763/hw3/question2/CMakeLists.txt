@@ -1,0 +1,5 @@
+cmake_minimum_required (VERSION 2.6)
+project (median_filter)
+find_package( OpenCV REQUIRED )
+add_executable(median_filter median_filter.cpp)
+target_link_libraries( median_filter ${OpenCV_LIBS} )

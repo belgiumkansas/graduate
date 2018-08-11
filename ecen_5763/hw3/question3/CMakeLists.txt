@@ -1,0 +1,5 @@
+cmake_minimum_required (VERSION 2.6)
+project (frame_difference)
+find_package( OpenCV REQUIRED )
+add_executable(frame_difference frame_difference.cpp)
+target_link_libraries(frame_difference ${OpenCV_LIBS} )

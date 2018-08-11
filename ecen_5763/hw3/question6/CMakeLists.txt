@@ -1,0 +1,5 @@
+cmake_minimum_required (VERSION 2.6)
+project (Q6_function)
+find_package( OpenCV REQUIRED )
+add_executable(Q6_function Q6_function.cpp)
+target_link_libraries(Q6_function ${OpenCV_LIBS} )
