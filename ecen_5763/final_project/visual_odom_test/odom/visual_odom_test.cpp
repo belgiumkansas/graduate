@@ -1,5 +1,13 @@
 
 
+#include <time.h>
+#include <iostream>
+#include <string>
+#include <stdio.h>
+#include <stdlib.h>
+#include <phidget22.h>
+
+
 #include "opencv2/core.hpp"
 #include "opencv2/video/tracking.hpp"
 #include "opencv2/imgproc/imgproc.hpp"
@@ -8,51 +16,16 @@
 #include "opencv2/calib3d/calib3d.hpp"
 
 
-
-#include <time.h>
-#include <iostream>
-#include <string>
-
+#include "odom_funcs.hpp"
 
 using namespace std;
 using namespace cv;
 
 #define MIN_NUM_FEATURES 500
+#define FRAME_HEIGHT 480
+#define FAME_WIDTH 640
 
 
-
-void featureTracking(Mat img_1, Mat img_2,
-                     vector<Point2f>& points1, vector<Point2f>& points2,
-                     vector<uchar>& status)
-{
-  vector<float> err;
-  Size winSize = Size(21,21);
-  TermCriteria termcrit=TermCriteria(TermCriteria::COUNT+TermCriteria::EPS, 30, 0.01);
-
-
-  // get rid of failed tracking points
-  calcOpticalFlowPyrLK(img_1, img_2, points1, points2, status, err, winSize, 3, termcrit, 0, 0.001);
-  int indexCorrection = 0;
-  for( int i=0; i<status.size(); i++){
-    Point2f pt = points2.at(i- indexCorrection);
-   	if ((status.at(i) == 0)||(pt.x<0)||(pt.y<0)){
-      if((pt.x<0)||(pt.y<0)){
-   		  	status.at(i) = 0;
-   		}
-   		points1.erase (points1.begin() + (i - indexCorrection));
-   		points2.erase (points2.begin() + (i - indexCorrection));
-   		indexCorrection++;
-   	}
-  }
-}
-
-void freatureDetection(Mat img, vector<Point2f>& points){
-  vector<KeyPoint> keypoints;
-  int fast_threshold = 20;
-  bool nonmaxSuppression = true;
-  FAST(img, keypoints, fast_threshold, nonmaxSuppression);
-  KeyPoint::convert(keypoints, points);
-}
 
 
 
@@ -62,6 +35,26 @@ int main(int argc, char** argv){
     cout << "Usage: VideoToUse" << endl;
     return -1;
   }
+  // initalize phidget
+  PhidgetReturnCode prc;
+  PhidgetDigitalInputHandle ch;
+
+  prc = PhidgetDigitalInput_create(&ch);
+  if (prc != EPHIDGET_OK) {
+  	cout << "Runtime Error -> Creating DigitalInput:" << endl;
+  	return 1;
+  }
+
+  prc = Phidget_setDeviceSerialNumber((PhidgetHandle)ch, 297689);
+  if (prc != EPHIDGET_OK) {
+  	//fprintf(stderr, "Runtime Error -> Setting DeviceSerialNumber: \n\t");
+  	//fprintf(stderr, "Code: 0x%x\n", error);
+  	return 1;
+  }
+  Phidget_openWaitForAttachment((PhidgetHandle)ch, 5000);
+  cout << "phidget attached" << endl;
+
+
 
   double scale = 0.0;
 
@@ -74,10 +67,8 @@ int main(int argc, char** argv){
   Mat R_f, t_f;
 
   VideoCapture cap(argv[1]);
-  cap.set(CV_CAP_PROP_FRAME_WIDTH,320);
-  cap.set(CV_CAP_PROP_FRAME_HEIGHT,240);
-  cap.set(CV_CAP_PROP_FPS, 60);
-
+  cap.set(CV_CAP_PROP_FRAME_WIDTH, FAME_WIDTH);
+  cap.set(CV_CAP_PROP_FRAME_HEIGHT, FRAME_HEIGHT);
 
   Mat prev_img, curr_img;
   cap >> prev_img;
@@ -85,20 +76,35 @@ int main(int argc, char** argv){
   cout << curr_img.rows << curr_img.cols << endl;
   Mat grey_prev, grey_curr;
   cvtColor(prev_img, grey_prev, COLOR_BGR2GRAY);
-  cvtColor(curr_img, grey_curr, COLOR_BGR2GRAY);
+  cvtColor(prev_img, grey_prev, COLOR_BGR2GRAY);
 
   vector<Point2f> prev_points, curr_points;
-  freatureDetection(grey_prev, prev_points);
-  vector<uchar> status;
-  featureTracking(grey_prev, grey_curr, prev_points, curr_points, status);
+  freatureDetect(grey_prev, prev_points);
+  //vector<uchar> status;
+  //featureTracking(grey_prev, grey_curr, prev_points, curr_points, status);
+
+  vector<KeyPoint> keypoints1;
+  int fast_threshold = 20;
+  bool nonmaxSuppression = true;
+  FAST(grey_curr, keypoints1, fast_threshold, nonmaxSuppression);
+  vector<Point2f> points_test ;
+  KeyPoint::convert(keypoints1, points_test);
+  cout << "point convert" << points_test.size() << endl;
 
   // some calibration stuff
-  double focal = 20.67;
-  cv::Point2d pp(0, 0);
+  double focal = 604;
+  cv::Point2d pp(228, 330);
   Mat E, R, t, mask;
-  E = findEssentialMat(curr_points, prev_points, focal, pp, RANSAC, 0.999, 1.0, mask);
-  recoverPose(E, curr_points, prev_points, R, t, focal, pp, mask);
 
+  cout << keypoints1[4].pt << endl;
+  cout << points_test[4] << endl;
+  E = findEssentialMat(points_test, points_test, focal, pp, RANSAC, .99, 3.0, mask);
+  //decomposeEssentialMat(E)
+  recoverPose(E, points_test, points_test, R, t, focal, pp, mask);
+
+  //cout << "mask array:" << endl << mask << endl;
+
+  /*
   R_f = R.clone();
   t_f = t.clone();
 
@@ -184,6 +190,6 @@ int main(int argc, char** argv){
 
   cvDestroyWindow("source image");
   cvDestroyWindow("Trajectory");
-
+*/
 
 }

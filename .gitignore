@@ -9,3 +9,5 @@ devel/
 bin/
 logs/
 .catkin_tools/
+
+libphidget22-1.0.0.20180712/

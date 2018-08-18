@@ -3,6 +3,9 @@ cmake_minimum_required(VERSION 3.1.0)
 
 project(RealSenseImShowExample)
 
+find_package( OpenCV REQUIRED )
+
+
 # Save the command line compile commands in the build output
 set(CMAKE_EXPORT_COMPILE_COMMANDS 1)
 
@@ -17,4 +20,4 @@ elseif(COMPILER_SUPPORTS_CXX0X)
 endif()
 
 add_executable(rs-imshow rs-imshow.cpp)
-target_link_libraries(rs-imshow ${DEPENDENCIES})
+target_link_libraries(rs-imshow realsense2 ${OpenCV_LIBS})
